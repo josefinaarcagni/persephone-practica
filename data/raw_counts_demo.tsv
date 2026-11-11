@@ -1,0 +1,16 @@
+Feature ID	Taxon	CSM5MCXD	CSM5MCY2	CSM67U9J	CSM67UAW	CSM67UB9
+ASV_1	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Bacteroidaceae; g__Bacteroides; s__Bacteroides_pectinophilus	18	15	20	366	1
+ASV_2	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Blautia; s__Blautia_torques	303	145	150	618	14060
+ASV_3	k__Bacteria; p__Firmicutes; c__Erysipelotrichia; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Clostridium; s__Clostridium_innocuum	7327	4468	9273	14964	1350
+ASV_4	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Clostridium; s__Clostridium_leptum	2549	762	897	4202	1145
+ASV_5	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Clostridium; s__Clostridium_methylpentosum	335	92	182	424	384
+ASV_6	k__Bacteria; p__Firmicutes; c__Erysipelotrichia; o__Erysipelotrichales; f__Erysipelotrichaceae; g__Erysipelotrichaceae; s__Erysipelotrichaceae_bacterium	15764	247	21848	2445	528
+ASV_7	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiales Family; g__Eubacterium; s__Eubacterium_brachy	6	0	4	12	0
+ASV_8	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiales Family; g__Eubacterium; s__Eubacterium_saphenum	5	0	3	0	0
+ASV_9	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Eubacterium; s__Eubacterium_siraeum	116	21713	75	12941	191
+ASV_10	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiales Family; g__Eubacterium; s__Eubacterium_sulci	0	1	0	143	0
+ASV_11	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Ruminococcaceae; g__Ruminococcus; s__Ruminococcus_lactaris	203	6	104	55	2
+ASV_12	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Clostridiaceae; g__Tyzzerella; s__Tyzzerella_nexilis	175	156	97	536	43
+ASV_13	k__Bacteria; p__Bacteroidetes; c__Bacteroidia; o__Bacteroidales; f__Prevotellaceae; g__Prevotella; s__	804	828	980	1101	531
+ASV_14	k__Bacteria; p__Firmicutes; c__Clostridia; o__Clostridiales; f__Lachnospiraceae; g__Lachnospiraceae_NK4A136_group; s__uncultured_bacterium	536	552	653	734	354
+ASV_15	k__Bacteria; p__Proteobacteria; c__Gammaproteobacteria; o__Enterobacterales; f__Enterobacteriaceae; g__Candidatus_Fakeibacter; s__Candidatus_Fakeibacter_intestinalis	268	276	327	367	177

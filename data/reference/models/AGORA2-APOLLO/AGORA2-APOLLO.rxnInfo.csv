@@ -1,0 +1,2616 @@
+rxnID,rxnName,rxnSubs
+12DGR180t,"1,2 diacylglycerol transport (extracellular to cytoplasm, n-C18:0)","Transport, extracellular"
+12DGR180ti,"1,2 diacylglycerol transport (extracellular to cytoplasm, n-C18:0)","Transport, extracellular"
+12PPDSDH,S Propane 1 2 diol dehydratase,Propanoate metabolism
+12PPDt,"S-Propane-1,2-diol facilitated transport","Transport, extracellular"
+13PPDHr,"1,3-propanediol dehydrogenase, reversible",Glycerophospholipid metabolism
+23DHMPO,"(R)-2,3-Dihydroxy-3-methylpentanoate:NADP+ oxidoreductase","Valine, leucine, and isoleucine metabolism"
+23PDE2,"2,3-Cyclic UMP 3-nucleotidohydrolase",Nucleotide interconversion
+23PDE4,"2,3-Cyclic CMP 3-nucleotidohydrolase",Nucleotide interconversion
+23PDE7,"2,3-Cyclic AMP 3-nucleotidohydrolase",Nucleotide interconversion
+23PDE9,"2,3-Cyclic GMP 3-nucleotidohydrolase",Nucleotide interconversion
+26DAPLLAT,"L,L-diaminopimelate aminotransferase",Lysine metabolism
+26DAPLLATi,26DAPLLATi,
+26DAPt2r,"meso-2,6-Diaminoheptanedioate transport via proton symport, reversible","Transport, extracellular"
+2AHBUTI,(S)-2-Aceto-2-hydroxybutanoate isomerase,"Valine, leucine, and isoleucine metabolism"
+2DH3DGLCA,2-dehydro-3-deoxyglucarate aldolase (EC 4.1.2.20),Ascorbate and aldarate metabolism
+2DMMQ8abc,2-Demethylmenaquinone 8 uptake via ABC transporter,"Transport, extracellular"
+2HMCOXT,4-oxalocrotonate tautomerase,Benzoate degradation
+2INSD,2-Inosose dehydratase,Inositol phosphate metabolism
+2MBCOATA,2-methylbutanoyl-CoA[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+2MEBCOADH,(S)-2-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine S-(2-methylbutanoyl)transferase,"Valine, leucine, and isoleucine metabolism"
+2OBUTt2r,"2-Oxobutanoate transport via proton symport, reversible","Transport, extracellular"
+2OMMBOX,oxidoreductase,Ubiquinone and other terpenoid-quinone biosynthesis
+2OMPHH,2-octaprenyl-6-methoxyphenol hydroxylase,Ubiquinone and other terpenoid-quinone biosynthesis
+2S6HCC,2 succinyl 6 hydroxy 2 4 cyclohexadiene 1 carboxylate synthase,Ubiquinone and other terpenoid-quinone biosynthesis
+36DAHXI,"(3S)-3,6-Diaminohexanoate 5,6-aminomutase",Lysine metabolism
+3BTCOAI,Vinylacetyl-CoA delta3-delta2-isomerase,Butanoate metabolism
+3CARLPDH,3-Carboxy-1-hydroxypropyl-ThPP:lipoamide,Citric acid cycle
+3DGUR,3-Dehydro-L-gulonate:NAD+ 2-oxidoreductase,Pentose and glucuronate interconversions
+3HAD100,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C10:0),Fatty acid synthesis
+3HAD10M12,10-methyl-3-hydroxy-dodecanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD11M12,11-methyl-3-hydroxy-dodecanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD120,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:0),Fatty acid synthesis
+3HAD121,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C12:1),Fatty acid synthesis
+3HAD12M14,12-methyl-3-hydroxy-tetra-decanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD13M14,13-methyl-3-hydroxy-tetra-decanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD140,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:0),Fatty acid synthesis
+3HAD141,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C14:1),Fatty acid synthesis
+3HAD14M16,14-methyl-3-hydroxy-hexa-decanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD15M16,15-methyl-3-hydroxy-hexa-decanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD160,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:0),Fatty acid synthesis
+3HAD161,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C16:1),Fatty acid synthesis
+3HAD180,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:0),Fatty acid synthesis
+3HAD181,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C18:1),Fatty acid synthesis
+3HAD40,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C4:0),Fatty acid synthesis
+3HAD4M6,4-methyl-3-hydroxy-hexanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD5M6,5-methyl-3-hydroxy-hexanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD60,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C6:0),Fatty acid synthesis
+3HAD6M8,6-methyl-3-hydroxy-octanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD7M8,7-methyl-3-hydroxy-octanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD80,3-hydroxyacyl-[acyl-carrier-protein] dehydratase (n-C8:0),Fatty acid synthesis
+3HAD8M10,8-methyl-3-hydroxy-decanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HAD9M10,9-methyl-3-hydroxy-decanoyl-ACP hydro-lyase,Fatty acid synthesis
+3HBCD,3-hydroxybutyryl-CoA dehydratase,Butanoate metabolism
+3HBCOAE,(S)-3-Hydroxybutanoyl-coa[c] 3-epimerase,Butanoate metabolism
+3HBCOAOX,(R)-3-Hydroxybutanoyl-CoA:NADP+ oxidoreductase,Glyoxylate and dicarboxylate metabolism
+3HPCOAHL,3-Hydroxypropionyl-CoA hydro-lyase,Carbon fixation pathways in prokaryotes
+3MEBCOADH,3-methylbutanoyl-CoA:enzyme N6-(dihydrolipoyl)lysine,"Valine, leucine, and isoleucine metabolism"
+3MOBS,3-methyl-2-oxobutanoate synthase,"Valine, leucine, and isoleucine metabolism"
+3MOPt2r,3-Methyl-2-oxopentanoate transport via proton symport reversible,"Transport, extracellular"
+3OADPCOAT,3-oxoadipate CoA-transferase,Benzoate degradation
+3OAR100,3-oxoacyl-[acyl-carrier-protein] reductase (n-C10:0),Fatty acid synthesis
+3OAR10M11,10-methyl-3-oxo-undecanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR10M12,10-methyl-3-oxo-dodecanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR11M12,11-methyl-3-oxo-dodecanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR120,3-oxoacyl-[acyl-carrier-protein] reductase (n-C12:0),Fatty acid synthesis
+3OAR12M13,12-methyl-3-oxo-tridecanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR12M14,12-methyl-3-oxo-tetra-decanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR13M14,13-methyl-3-oxo-tetra-decanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR140,3-oxoacyl-[acyl-carrier-protein] reductase (n-C14:0),Fatty acid synthesis
+3OAR14M15,14-methyl-3-oxo-pentadecanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR14M16,14-methyl-3-oxo-hexa-decanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR15M16,15-methyl-3-oxo-hexa-decanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR160,3-oxoacyl-[acyl-carrier-protein] reductase (n-C16:0),Fatty acid synthesis
+3OAR180,3-oxoacyl-[acyl-carrier-protein] reductase (n-C18:0),Fatty acid synthesis
+3OAR40,3-oxoacyl-[acyl-carrier-protein] reductase (n-C4:0),Fatty acid synthesis
+3OAR4M5,4-methyl-3-oxo-pentanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR4M6,4-methyl-3-oxo-hexanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR5M6,5-methyl-3-oxo-hexanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR60,3-oxoacyl-[acyl-carrier-protein] reductase (n-C6:0),Fatty acid synthesis
+3OAR6M7,6-methyl-3-oxo-heptanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR6M8,6-methyl-3-oxo-octanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR7M8,7-methyl-3-oxo-octanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR80,3-oxoacyl-[acyl-carrier-protein] reductase (n-C8:0),Fatty acid synthesis
+3OAR8M10,8-methyl-3-oxo-decanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR8M9,8-methyl-3-oxo-nonanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAR9M10,9-methyl-3-oxo-decanoyl-ACPNADP+ oxidoreductase,Fatty acid synthesis
+3OAS100,3-oxoacyl-[acyl-carrier-protein] synthase (n-C10:0),Fatty acid synthesis
+3OAS10M11,10-methyl-undecanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS10M12,10-methyl-dodecanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS11M12,11-methyl-dodecanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS120,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:0),Fatty acid synthesis
+3OAS121,3-oxoacyl-[acyl-carrier-protein] synthase (n-C12:1),Fatty acid synthesis
+3OAS12M13,12-methyl-tridecanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS12M14,12-methyl-tetra-decanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS13M14,13-methyl-tetra-decanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS140,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:0),Fatty acid synthesis
+3OAS141,3-oxoacyl-[acyl-carrier-protein] synthase (n-C14:1),Fatty acid synthesis
+3OAS160,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:0),Fatty acid synthesis
+3OAS161,3-oxoacyl-[acyl-carrier-protein] synthase (n-C16:1),Fatty acid synthesis
+3OAS180,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:0),Fatty acid synthesis
+3OAS181,3-oxoacyl-[acyl-carrier-protein] synthase (n-C18:1),Fatty acid synthesis
+3OAS2M3,2-methylpropionyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS3M4,3-methylbutanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS4M3O6,4-methyl-3-oxo-hexanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS4M5,4-methyl-pentanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS4M6,4-methyl-hexanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS5M6,5-methyl-hexanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS60,3-oxoacyl-[acyl-carrier-protein] synthase (n-C6:0),Fatty acid synthesis
+3OAS6M7,6-methyl-heptanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS6M8,6-methyl-octanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS7M8,7-methyl-octanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS80,3-oxoacyl-[acyl-carrier-protein] synthase (n-C8:0),Fatty acid synthesis
+3OAS8M10,8-methyl-decanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS8M9,8-methyl-nonanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+3OAS9M10,9-methyl-decanoyl-ACPmalonyl-[acyl-carrier-protein] C-acyltransferase (decarboxylating),Fatty acid synthesis
+4ABZt2,4-aminobenzoic acid transport via proton symport,"Transport, extracellular"
+4HBHYOX,"4-hydroxybenzoate,NADH:oxygen oxidoreductase (3-hydroxylating)",Benzoate degradation
+4HBNOX,4-Hydroxybutanoate:NAD+ oxidoreductase,Butanoate metabolism
+4HBZOR,4-hydroxybenzoate oxidoreductase,Benzoate degradation
+4HBZt2,4-Hydroxybenzoate transport via proton symport,"Transport, extracellular"
+4HPROI,trans-4-Hydroxy-L-proline 2-epimerase,Arginine and proline metabolism
+4HPRO_LTt,trans-4-hydroxy-L-proline transport,"Transport, extracellular"
+4HTHRS,4-Hydroxy-L-threonine synthase,Vitamin B6 metabolism
+4NTPPH2,4-Nitrophenyl phosphate phosphohydrolase,Aminobenzoate degradation
+5AIZCDC,5aizc decarboxylase,Purine catabolism
+5AOPt2,5-Aminolevulinate Transport in via Proton Symport,"Transport, extracellular"
+5APTLPO,5-Aminopentanoate:lipoate oxidoreductase (cyclizing),Arginine and proline metabolism
+5CM2HMUDI,5 carboxymethyl 2 hydroxymuconate delta isomerase,Tyrosine metabolism
+5DGCLURI,5-deoxy-glucuronate isomerase (EC 5.3.1.-),Inositol phosphate metabolism
+5DGLCNR,5-dehydro-D-gluconate reductase,Pentose phosphate pathway
+5DOAN,5-deoxyadenosine nuclosidase,Arginine and proline metabolism
+5GLUP5T1,(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase,Glutathione metabolism
+5GLUP5T2,(5-Glutamyl)-peptide:amino-acid 5-glutamyltransferase,Glutathione metabolism
+5MTHCYST,Methyltransferase,Methionine and cysteine metabolism
+5MTHGLUS,5-methyltetrahydropteroyltri-l-glutamate synthesis,Others
+6P3HXI,6-phospho-3-hexuloisomerase,Methane metabolism
+6PGALSZ2i,6-phospho-beta-galactosidase,Galactose metabolism
+6PHBG,6-phospho-beta-glucosidase,Glycolysis/gluconeogenesis
+6PHBG2,Salicin 6 phosphate glucohydrolase,Glycolysis/gluconeogenesis
+A5PISO,arabinose-5-phosphate isomerase,Pentose and glucuronate interconversions
+AACGLYDH,"aldehyde dehydrogenase (aminoacetaldehyde, nad[c])",Pyruvate metabolism
+AACOAT,Acetoacetyl Coenzyme A:Acetate Coa-Transferase,Propanoate metabolism
+AACPS1,acyl-[acyl-carrier-protein] synthetase (n-C14:0),Fatty acid synthesis
+AACPS2,acyl-[acyl-carrier-protein] synthetase  (n-C14:1),Fatty acid synthesis
+AACPS4,acyl-[acyl-carrier-protein] synthetase  (n-C16:1),Fatty acid synthesis
+AACPS6,acyl-[acyl-carrier-protein] synthetase  (n-C18:0),Fatty acid synthesis
+AACPS7,acyl-[acyl-carrier-protein] synthetase  (n-C12:0),Fatty acid synthesis
+AACPS8,acyl-[acyl-carrier-protein] synthetase  (n-C10:0),Fatty acid synthesis
+AB6P3HXLL,D-arabino-3-Hexulose 6-phosphate formaldehyde-lyase,Methane metabolism
+AB6PGH,Arbutin 6-phosphate glucohydrolase,Glycolysis/gluconeogenesis
+AB6PGH2,Arbutin 6-phosphate glucohydrolase,Glycolysis/gluconeogenesis
+ABTA,4-aminobutyrate transaminase,Glutamate metabolism
+ABTAr,4-aminobutyrate transaminase,Glutamate metabolism
+ABTOXy,L-arabinitol:NADP oxidoreductase,Pentose and glucuronate interconversions
+ABUTD,Aminobutyraldehyde Dehydrogenase,Beta-alanine metabolism
+ABUTR,4-Aminobutyraldehyde:nad[c]+ oxidoreductase,Beta-alanine metabolism
+ABUTt2r,"Transport of 4-Aminobutyrate  via Proton Symport, Reversible","Transport, extracellular"
+ACACCTr,"Acetyl-CoA:acetoacetyl-CoA transferase, reversible",Butanoate metabolism
+ACACT1,ACACT1,
+ACACT1r,Acetyl Coenzyme A C-Acetyltransferase,Tryptophan metabolism
+ACACT2r,acetyl-CoA C-acyltransferase (butanoyl-CoA) (r),Fatty acid oxidation
+ACACT3r,acetyl-CoA C-acyltransferase (hexanoyl-CoA) (r),Fatty acid oxidation
+ACACT4r,acetyl-CoA C-acyltransferase (octanoyl-CoA) (r),Fatty acid oxidation
+ACACT5r,acetyl-CoA C-acyltransferase (decanoyl-CoA) (r),Fatty acid oxidation
+ACACT6r,acetyl-CoA C-acyltransferase (dodecanoyl-CoA) (r),Fatty acid oxidation
+ACACT7r,acetyl-CoA C-acyltransferase (tetradecanoyl-CoA) (r),Fatty acid oxidation
+ACACt2,Acetoacetate Transport via Proton Symport,"Transport, extracellular"
+ACALD,acetaldehyde dehydrogenase (acetylating),Pyruvate metabolism
+ACALDt,Acetaldehyde Reversible Transport,"Transport, extracellular"
+ACBIPGT,Adenosyl cobinamide phosphate guanyltransferase,Vitamin B12 metabolism
+ACCOAC,Acetyl Coenzyme A Carboxylase,Fatty acid oxidation
+ACCOAC2,Acetyl-CoA carbolylase,Fatty acid oxidation
+ACCOACL,Acetyl-CoA:carbon-dioxide ligase (ADP-forming),Pyruvate metabolism
+ACCOAL,Acetate Coenzyme A Ligase (ADP-Forming),Propanoate metabolism
+ACCOAL2,Acetate:CoA ligase (ADP-forming),Glycolysis/gluconeogenesis
+ACCOAT,acetyl-CoA: 4-hydroxybutanoate CoA transferase,Butanoate metabolism
+ACEDIPIT,"Acetyl-L,L-diaminopimelate aminotransferase",Lysine metabolism
+ACGALt2r,N-acetylgalactosamine reversible transport via proton symport,"Transport, extracellular"
+ACGAM2E,N-Acetylglucosamine 2-Epimerase,Aminosugar metabolism
+ACGAM6PSi,N-Acetylglucosamine-6-Phosphate Synthase,Aminosugar metabolism
+ACGAMK,N-Acetylglucosamine Kinase,Aminosugar metabolism
+ACGAMPM,Phosphoacetylglucosamine Mutase,Aminosugar metabolism
+ACGAMT,UDP-N-acetylglucosamine:undecaprenylphosphate N-acetylglucosamine -1-phosphate transferase,Cell wall biosynthesis
+ACGAMt2,ACGAMt2,
+ACGApts,N-Acetyl-D-glucosamine transport via PEP:Pyr PTS,"Transport, extracellular"
+ACGK,acetylglutamate kinase,Arginine and proline metabolism
+ACGS,N-acetylglutamate synthase,Urea cycle
+ACHBPL,(S)-2-Aceto-2-hydroxybutanoate pyruvate-lyase (carboxylating),"Valine, leucine, and isoleucine metabolism"
+ACHBS,2-aceto-2-hydroxybutanoate synthase,Pyruvate metabolism
+ACITL,ATP-Citrate Lyase,Citric acid cycle
+ACKr,acetate kinase,Pyruvate metabolism
+ACLDC,acetolactate decarboxylase,Butanoate metabolism
+ACLS_a,pyruvatethiamin diphosphate acetaldehydetransferase,"Valine, leucine, and isoleucine metabolism"
+ACLS_b,2-Acetolactate pyruvate-lyase (carboxylating),"Valine, leucine, and isoleucine metabolism"
+ACM6PH,N-acetylmuramate 6-phosphate hydrolase,Cell wall biosynthesis
+ACMAMUT,UDP-N-acetyl-D-mannosaminuronic acid transferase,Cell wall biosynthesis
+ACMANAtr,N-acetyl-D-mannosamine proton symport,"Transport, extracellular"
+ACNAMS,N-acetylneuraminate synthase,Aminosugar metabolism
+ACNAMabc,N-acetylneuraminic acid uptake via ABC transporter,"Transport, extracellular"
+ACNML,N-Acetylneuraminate lyase,Aminosugar metabolism
+ACOAAGPAT140,myristoyl-1-acylglycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+ACOAAGPAT160,palmitoyl-1-acylglycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+ACOAAGPAT180,stearoyl-1-acylglycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+ACOAAGPATAI15,anteisopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+ACOAAGPATAI17,anteisoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+ACOAAGPATI14,isotetradecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+ACOAAGPATI15,isopentadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+ACOAAGPATI16,isohexadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+ACOAAGPATI17,isoheptadecanoyl-1-acylglycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+ACOAD1,acyl-CoA dehydrogenase (butanoyl-CoA),Butanoate metabolism
+ACOAD1i,acyl-CoA dehydrogenase (butanoyl-CoA),Butanoate metabolism
+ACOAD2,acyl-CoA dehydrogenase (hexanoyl-CoA),Butanoate metabolism
+ACOAD20,"(S)-2-methylbutanoyl-CoA:oxygen 2,3-oxidoreductase","Valine, leucine, and isoleucine metabolism"
+ACOAD3rev,"acyl-CoA dehydrogenase (octanoyl-CoA), reversed",Fatty acid synthesis
+ACOAD4rev,"acyl-CoA dehydrogenase (decanoyl-CoA), reversed",Fatty acid synthesis
+ACOAD5rev,"acyl-CoA dehydrogenase (dodecanoyl-CoA), reversed",Fatty acid synthesis
+ACOAD6rev,"acyl-CoA dehydrogenase (tetradecanoyl-CoA), reversed",Fatty acid synthesis
+ACOAD7i,"acyl-CoA dehydrogenase (hexadecanoyl-CoA), irreversible",Fatty acid synthesis
+ACOADH2,acyl-CoA dehydrogenase (Isobutiryl-CoA),"Valine, leucine, and isoleucine metabolism"
+ACOATA,Acetyl Coenzyme A Acp Transacylase,Fatty acid oxidation
+ACOCT,N-acetylornithine carbamoyltransferase,Arginine and proline metabolism
+ACODAr,"Acetylornithine deacetylase, reversible",Urea cycle
+ACONMT,Trans-aconitate methyltransferase,Arginine and proline metabolism
+ACONTa,"aconitase (half-reaction A, Citrate hydro-lyase)",Citric acid cycle
+ACONTb,"aconitase (half-reaction B, Isocitrate hydro-lyase)",Citric acid cycle
+ACOTA,acetylornithine transaminase,Arginine and proline metabolism
+ACPS1,acyl-carrier protein synthase,CoA synthesis
+ACPS2,acyl carrier protein synthase,CoA synthesis
+ACPpds,[acyl-carrier-protein] phosphodiesterase,CoA synthesis
+ACS,Acetyl Coenzyme A Synthetase,Glycolysis/gluconeogenesis
+ACTNDH,acetoin dehydrogenase complex,Butanoate metabolism
+ACTPO,acetyl-phosphate ammonia:thioredoxin disulfide;?Ñ?è oxidoreductase(glycine-forming);?Ñ?è,Stickland reaction
+ACYP,Acylphosphatase,Glycolysis/gluconeogenesis
+ACYP_2,acylphosphatase (2),Pyruvate metabolism
+ACt2r,Acetate Reversible Transport via Proton Symport,"Transport, extracellular"
+ACtr,acetate transporter,"Transport, extracellular"
+ADA,Adenosine Deaminase,Purine catabolism
+ADAD,deoxycytidine kinase,Nucleotide interconversion
+ADCL,4-aminobenzoate synthase,Folate metabolism
+ADCOBASr,adenosylcobinamide amidohydrolase,Vitamin B12 metabolism
+ADCPS1,adenosylcobinamide-phosphate synthase,Vitamin B12 metabolism
+ADCPS2,adenosylcobinamide-phosphate synthase,Vitamin B12 metabolism
+ADCS,4-amino-4-deoxychorismate synthase,Folate metabolism
+ADCYRS,adenosylcobyric acid synthase (glutamine-hydrolysing),Vitamin B12 metabolism
+ADCi,Acetoacetate decarboxylase,Butanoate metabolism
+ADD,adenine deaminase,Nucleotide interconversion
+ADEt,"Adenine Reversible Transport, Cytosol","Transport, extracellular"
+ADEt2,adenine transport in via proton symport,"Transport, extracellular"
+ADEt2r,"adenine transport in via proton symport, reversible","Transport, extracellular"
+ADK1,Adenylate Kinase,Nucleotide interconversion
+ADK10,adenylate kinase (dTTP),Nucleotide interconversion
+ADK11,adenylate kinase (dUTP),Nucleotide interconversion
+ADK2,adenylate kinase (Inorganic triphosphate),Nucleotide interconversion
+ADK3,Adentylate Kinase (GTP),Nucleotide interconversion
+ADK5,adenylate kinase (CTP),Nucleotide interconversion
+ADK7,adenylate kinase (dATP),Nucleotide interconversion
+ADK8,adenylate kinase (dCTP),Nucleotide interconversion
+ADK9,adenylate kinase (dGTP),Nucleotide interconversion
+ADKd,Adenylate Kinase (D Form),Nucleotide interconversion
+ADMDC,Adenosylmethionine Decarboxylase,Arginine and proline metabolism
+ADNCNT3tc,Adenosine Transport Cnt3,"Transport, extracellular"
+ADNCYC,Adenylate Cyclase,Nucleotide interconversion
+ADNK1,Adenosine Kinase,Nucleotide interconversion
+ADNK3,Adenosine Kinase,Purine synthesis
+ADNK4,Adenosine Kinase,Purine synthesis
+ADNUC,adenosine hydrolase,Purine catabolism
+ADNt,Adenosine Faciliated Transport in Cytosol,"Transport, extracellular"
+ADNt2,adenosine transport in via proton symport,"Transport, extracellular"
+ADOCBIK,Adenosyl cobinamide kinase,Vitamin B12 metabolism
+ADOCBIK2,Adenosyl cobinamide kinase (GTP),Vitamin B12 metabolism
+ADOCBLS,Adenosylcobalamin 5-phosphate synthase,Vitamin B12 metabolism
+ADOCBLabc,Adenosylcobalamin transport via ABC system,"Transport, extracellular"
+ADP1P,ADP:D-fructose-6-phosphate 1-phosphotransferase,Fructose and mannose metabolism
+ADPRDP,ADPribose Diphosphatase,Nucleotide interconversion
+ADPRIBte,Transport of Adenosine-5-Diphosphate-Ribose,"Transport, extracellular"
+ADPT,Adenine Phosphoribosyltransferase,Nucleotide salvage pathway
+ADPTr,"adenine phosphoribosyltransferase, reversible",Nucleotide salvage pathway
+ADSK,Adenylyl-Sulfate Kinase,Nucleotide interconversion
+ADSL1r,adenylsuccinate lyase,Purine synthesis
+ADSL2r,adenylosuccinate lyase,Purine synthesis
+ADSS,Adenylosuccinate Synthase,Nucleotide interconversion
+AEPPT,2 aminoethylphosphonate pyruvate transaminase,Phosphonate and phosphinate metabolism
+AGDC,N-Acetylglucosamine-6-Phosphate Deacetylase,Aminosugar metabolism
+AGDC2,N-acetylgalactosamine-6-phosphate amidohydrolase,Aminosugar metabolism
+AGDC_r,N-acetylglucosamine-6-phosphate deacetylase (reversible),Aminosugar metabolism
+AGM3PA,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tripeptide amidase,Cell wall biosynthesis
+AGM4PA,N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide amidase,Cell wall biosynthesis
+AGM4PH,"N-Acetyl-D-glucosamine(anhydrous)N-Acetylmuramyl-tetrapeptide beta -1,4-N-acetylglucosaminidase",Cell wall biosynthesis
+AGMD,Agmantine deiminase,Arginine and proline metabolism
+AGMHE,ADP-D-glycero-D-manno-heptose epimerase,Lipopolysaccharide biosynthesis
+AGMT,agmatinase,Arginine and proline metabolism
+AGPAT120,1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C12:0),Glycerophospholipid metabolism
+AGPAT140,1-tetradecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:0),Glycerophospholipid metabolism
+AGPAT141,1-tetradec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C14:1),Glycerophospholipid metabolism
+AGPAT160,1-hexadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:0),Glycerophospholipid metabolism
+AGPAT161,1-hexadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C16:1),Glycerophospholipid metabolism
+AGPAT180,1-octadecanoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:0),Glycerophospholipid metabolism
+AGPAT181,1-octadec-7-enoyl-sn-glycerol 3-phosphate O-acyltransferase (n-C18:1),Glycerophospholipid metabolism
+AGPGT,GTP:alpha-D-glucose-1-phosphate guanylyltransferase,Nucleotide sugar metabolism
+AGPR,N-acetyl-g-glutamyl-phosphate reductase,Urea cycle
+AGTi,Alanine glyoxylate aminotransferase (irreversible),Alanine and aspartate metabolism
+AHC,Adenosylhomocysteinase,Methionine and cysteine metabolism
+AHCYSMETMT,S-Adenosyl-L-methionine:L-methionine S-methyltransferase,Methionine and cysteine metabolism
+AHCYSNS,S-adenosylhomocysteine nucleosidase,Glycerophospholipid metabolism
+AHCYSNS_r,S-adenosylhomocysteine nucleosidase reversible,Methionine and cysteine metabolism
+AHCYSts,"Transport of S-adenosyl-L-homocysteine, secretion","Transport, extracellular"
+AHEXASE3,Hexosaminidase,Aminosugar metabolism
+AHMMPS,4-amino-5-hydroxymethyl-2-methylpyrimidine synthetase,Thiamine metabolism
+AHSERL2,O-acetylhomoserine (thiol)-lyase,Methionine and cysteine metabolism
+AHSERL3,O-Acetyl-L-homoserine acetate-lyase,Methionine and cysteine metabolism
+AICAMPRT,1-(5-Phosphoribosyl)-5-amino-4-imidazolecarboxamide:pyrophosphate phosphoribosyltransferase,Purine synthesis
+AICART,Phosphoribosylaminoimidazolecarboxamide Formyltransferase,Purine synthesis
+AICART2,phosphoribosylaminoimidazolecarboxamide formyltransferase 2,Purine synthesis
+AIHDUDPMG,anteisoheptadecanoyl-UDP-glucosyltransferase (monoglucosyl),Glycerophospholipid metabolism
+AIHDUPDG,anteisoheptadecanoyl-UDP-glucosyltransferase (diglucosyl),Glycerophospholipid metabolism
+AIHPDCOATA,14-methyl-hexa-decanoyl-ACP[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+AIPDCOATA,12-methyl-tetra-decanoyl-ACP[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+AIPDUDPG,anteisopentadecanoyl-UDP-glucosyltransferase (diglucosyl),Glycerophospholipid metabolism
+AIPDUDPMG,anteisopentadecanoyl-UDP-glucosyltransferase (monoglucosyl),Glycerophospholipid metabolism
+AIRC4,Phosphoribosylaminoimidazole carboxylase,Purine synthesis
+AKGS,2-Oxogluterate synthase,Pyruvate metabolism
+AKP1,alkaline phosphatase (Dihydroneopterin),Folate metabolism
+ALAALA,D-alanine--D-alanine ligase (EC 6.3.2.4),Alanine and aspartate metabolism
+ALAALAabc,D-alanyl-D-alanine (DalaDala) transport via ABC system,"Transport, extracellular"
+ALAASP1c,Hydrolysis of L-alanyl-L-aspartate,Peptide metabolism
+ALAASPabc,L-alanyl-L-aspartate transport via ABC system,"Transport, extracellular"
+ALACI,(S)-2-Acetolactate isomerase,"Valine, leucine, and isoleucine metabolism"
+ALAD_R,Alanine dehydrogenase (EC 1.4.1.1),Alanine and aspartate metabolism
+ALAGLN1c,Hydrolysis of L-alanyl-L-glutamine,Peptide metabolism
+ALAGLNabc,L-alanyl-L-glutamine transport via ABC system,"Transport, extracellular"
+ALAGLU1c,Hydrolysis of L-alanyl-L-glutamate,Peptide metabolism
+ALAGLUabc,L-alanyl-L-glutamate transport via ABC system,"Transport, extracellular"
+ALAGLY1c,Hydrolysis of L-alanylglycine,Peptide metabolism
+ALAGLYabc,L-alanylglycine transport via ABC system,"Transport, extracellular"
+ALAHIS1c,Hydrolysis of L-alanyl-L-histidine,Peptide metabolism
+ALAHISabc,L-alanyl-L-histidine transport via ABC system,"Transport, extracellular"
+ALALEU1c,Hydrolysis of L-alanyl-L-leucine,Peptide metabolism
+ALALEUabc,L-alanyl-L-leucine transport via ABC system,"Transport, extracellular"
+ALAPGPL,D-alanine-polyphosphoribitol ligase,Cell wall biosynthesis
+ALAR,Alanine Racemase,Alanine and aspartate metabolism
+ALAS,5-aminolevulinate synthase,"Glycine, serine, alanine, and threonine metabolism"
+ALATA_D,D-alanine transaminase,Glutamate metabolism
+ALATA_D3,D-alanine aminotransferase,Alanine and aspartate metabolism
+ALATA_L,L-Alanine Transaminase,Glutamate metabolism
+ALATHR1c,Hydrolysis of L-alanyl-L-threonine,Peptide metabolism
+ALATHRabc,L-alanyl-L-threonine transport via ABC system,"Transport, extracellular"
+ALAt2,L-alanine transport in via proton symport,"Transport, extracellular"
+ALAt2r,L-Alanine Reversible Transport via Proton Symport,"Transport, extracellular"
+ALAt4r,Alanine-Sodium symporter,"Transport, extracellular"
+ALCD19,alcohol dehydrogenase (glycerol),Pyruvate metabolism
+ALCD20y,Isopropanol dehydrogenase,Pyruvate metabolism
+ALCD22_D,Alcohol Dehydrogenase (D-Lactaldehyde),Pyruvate metabolism
+ALCD2x,alcohol dehydrogenase (ethanol),Glycolysis/gluconeogenesis
+ALCD4,alcohol dehydrogenase (butanol),Pyruvate metabolism
+ALCDPPAL,alcohol dehydrogenase Propanal,Pyruvate metabolism
+ALDD2x,"Aldehyde Dehydrogenase (Acetaldehyde, NAD)",Glycolysis/gluconeogenesis
+ALDD2y,"Aldehyde Dehydrogenase (Acetaldehyde, NADP)",Glycolysis/gluconeogenesis
+ALKP,Alkaline Phosphatase,Glycerophospholipid metabolism
+ALLTN,allantoinase,Purine catabolism
+ALLTNRS,"R06605 (unclear reaction, KEGG)",Purine catabolism
+ALLTNt2r,Allatoin transport in via proton symport,"Transport, extracellular"
+ALPHNH,allophanate hydrolase,Arginine and proline metabolism
+ALR2,Aldose Reductase (Methylglyoxal),Pyruvate metabolism
+ALTRH,altronate hydrolase,Pentose and glucuronate interconversions
+AM3PA,anhydrous-N-Acetylmuramyl-tripeptide amidase,Cell wall biosynthesis
+AM4PA,anhydrous-N-Acetylmuramyl-tetrapeptide amidase,Cell wall biosynthesis
+AMALT1,Amylomaltase (maltotriose),Starch and sucrose metabolism
+AMALT2,Amylomaltase (maltotetraose),Starch and sucrose metabolism
+AMALT3,Amylomaltase (maltopentaose),Starch and sucrose metabolism
+AMALT4,Amylomaltase (maltohexaose),Starch and sucrose metabolism
+AMAMTi,"3-Aminopropanoate:2-oxoglutarate aminotransferase, irreversible",Beta-alanine metabolism
+AMANAPEr,N-acetylmannosamine 6-phosphate epimerase,Aminosugar metabolism
+AMANK,N-Acetyl-D-Mannosamine Kinase,Aminosugar metabolism
+AMAOTr,adenosylmethionine-8-amino-7-oxononanoate transaminase,Biotin metabolism
+AMETDNAMT,S-Adenosyl-L-methionine DNA cytosine-5--methyltransferase,Methionine and cysteine metabolism
+AMETRNAMT,S-Adenosyl-L-methionine:tRNA (uracil-5-)-methyltransferase,tRNA Charging
+AMETt,"Transport of S-Adenosyl-L-Methionine, Paracellular Transport","Transport, extracellular"
+AMETt2,S-adenosyl-L-methionine transport in via proton symport,"Transport, extracellular"
+AMID,amidase,Arginine and proline metabolism
+AMID2,amidase,Arginine and proline metabolism
+AMID4,amidase,Arginine and proline metabolism
+AMID5,amidase,Arginine and proline metabolism
+AMMQLT8,S-adenosylmethione:2-demthylmenaquinole methyltransferase (menaquinone 8),Ubiquinone and other terpenoid-quinone biosynthesis
+AMMQT7rev,"S-adenosylmethione:2-demthylmenaquinone methyltransferase (menaquinone 7), reversed",Ubiquinone and other terpenoid-quinone biosynthesis
+AMMQT8r,S-adenosylmethione:2-demthylmenaquinone methyltransferase (menaquinone 8),Ubiquinone and other terpenoid-quinone biosynthesis
+AMPDA,Adenosine Monophosphate Deaminase,Nucleotide interconversion
+AMPMS2,4-amino-2-methyl-5-phosphomethylpyrimidine synthetase,Thiamine metabolism
+AMPN,AMP nucleosidase,Nucleotide interconversion
+AMPSO3OX,"AMP,sulfite:(FAD) oxidoreductase",Sulfur metabolism
+AMPSO3OX2,"AMP,sulfite:glutathione-disulfide oxidoreductase",Sulfur metabolism
+AMPSO3OXi,AMPSO3OXi,
+AMPTASECG,Alanyl Aminopeptidase (Cys-Gly),Glutathione metabolism
+AMPTASEGC,Gly-Cys aminopeptidase,Peptide metabolism
+AMPt2,"AMP transport in via proton symport, irreversible","Transport, extracellular"
+AMY1e,"Alpha-Amylase, Extracellular (Strch1 -> Strch2)",Starch and sucrose metabolism
+ANHMK,"1,6-anhydrous-N-Acetylmuramate kinase",Cell wall biosynthesis
+ANPRT,anthranilate phosphoribosyltransferase,Tryptophan metabolism
+ANS,anthranilate synthase,Tryptophan metabolism
+ANS2,anthranilate synthase 2,Tryptophan metabolism
+AOXHEXCYCL,6-Amino-2-oxohexanoate cyclation,Lysine metabolism
+AOXSr,8-amino-7-oxononanoate synthase,Biotin metabolism
+AP4AH,Ap4A hydrolase,Nucleotide interconversion
+AP4AH1,"Ap4A Hydrolase, Asymmetrically",Nucleotide interconversion
+AP5AH,Ap5A hydrolase,Purine catabolism
+APAT,apolipoprotein N acyl transferase,Glycerophospholipid metabolism
+APATr,B-alanine-pyruvate aminotransferase,Beta-alanine metabolism
+APRAUR,5-amino-6-(5-phosphoribosylamino)uracil reductase,Vitamin B2 metabolism
+ARABASE3e,arabinotriose arabinosidase,Plant polysaccharide degradation
+ARABI,arabinose isomerase,Pentose phosphate pathway
+ARAI,L-arabinose isomerase,Pentose and glucuronate interconversions
+ARBTpts,arbutin transport via PEP:Pyr PTS,"Transport, extracellular"
+ARB_Dabc,L-arabinose transport via ABC system,"Transport, extracellular"
+ARBabc,L-arabinose transport via ABC system,"Transport, extracellular"
+ARGDA,Arginine deiminase,Arginine and proline metabolism
+ARGDC,arginine decarboxylase,Arginine and proline metabolism
+ARGDr,arginine deiminase,Arginine and proline metabolism
+ARGN,Arginase,Urea cycle
+ARGSL,Argininosuccinate Lyase,Alanine and aspartate metabolism
+ARGSS,Argininosuccinate Synthase,Alanine and aspartate metabolism
+ARGabc,L-arginine transport via ABC system,"Transport, extracellular"
+ARGt2,L arginine transport in via proton symport,"Transport, extracellular"
+ARSENBabc,arsenobetaine transport in via ABC system,"Transport, extracellular"
+ARSENBt2,arsenobetaine transport in via proton symport,"Transport, extracellular"
+ASAD,aspartate-semialdehyde dehydrogenase,"Glycine, serine, alanine, and threonine metabolism"
+ASCBPL,L-ascorbate 6-phosphate lactonase,Ascorbate and aldarate metabolism
+ASNS1,Asparagine Synthase (Glutamine-Hydrolysing),Alanine and aspartate metabolism
+ASNS2,asparagine synthetase,Alanine and aspartate metabolism
+ASNt2r,L-asparagine reversible transport via proton symport,"Transport, extracellular"
+ASO3t,arsenite transport via diffusion,"Transport, extracellular"
+ASO4t,Arsenate transport via permease,"Transport, extracellular"
+ASP1DC,Aspartate 1-Decarboxylase,Beta-alanine metabolism
+ASP4DC,L-aspartate 4-carboxy-lyase (L-alanine-forming),Alanine and aspartate metabolism
+ASPCT,aspartate carbamoyltransferase,Pyrimidine synthesis
+ASPK,aspartate kinase,"Glycine, serine, alanine, and threonine metabolism"
+ASPKi,"aspartate kinase, irreversible","Glycine, serine, alanine, and threonine metabolism"
+ASPO1,L-aspartate oxidase,NAD metabolism
+ASPO2,L-aspartate oxidase,NAD metabolism
+ASPO5,L-aspartate oxidase,NAD metabolism
+ASPO6,L-aspartate oxidase,NAD metabolism
+ASPT,L-aspartase,Alanine and aspartate metabolism
+ASPTA,Aspartate Transaminase,Alanine and aspartate metabolism
+ASPt2_3,L-asparate transport via proton symport (3 H),"Transport, extracellular"
+ASPt2r,L-aspartate reversible transport via proton symport,"Transport, extracellular"
+ASR,arsenate reductase,Respiration
+ATPHs,ATP amine hydrolysis (spontaneous),Nucleotide interconversion
+ATPPRT,ATP phosphoribosyltransferase,Histidine metabolism
+ATPS4,ATP synthase (four protons for one ATP),Respiration
+BACCLi,"biotin-[acetyl-CoA-carboxylase] ligase, irreversible",Biotin metabolism
+BAIA2,"NAD(P)-dependent 3-alpha-hydroxysteryl-CoA dehydrogenase, chenodeoxycholate 7-alpha/beta dehydroxylation pathway",Bile acid metabolism
+BAICDH2,"NAD(H)-dependent delta4-cholenoyl-CoA oxidoreductase, chenodeoxycholate 7-alpha/beta dehydroxylation pathway",Bile acid metabolism
+BAICDH5,"NADP(H)-dependent delta4-cholenoyl-CoA oxidoreductase, chenodeoxycholate 7-alpha/beta dehydroxylation pathway",Bile acid metabolism
+BAIEI2,"Bile acid 7-alpha dehydratase (EC 4.2.1.106), chenodeoxycholate 7-alpha/beta dehydroxylation pathway",Bile acid metabolism
+BAIF2,"Bile acid CoA-transferase (EC 2.8.3.25), chenodeoxycholate 7-alpha/beta dehydroxylation pathway",Bile acid metabolism
+BAIX2,"NAD(H)-dependent delta6-hydroxysteroid reductase, chenodeoxycholate & ursodeoxycholate 7-alpha/beta dehydroxylation pathway",Bile acid metabolism
+BAIY2,"NAD(H)-dependent delta4-hydroxysteroid reductase, chenodeoxycholate & ursodeoxycholate 7-alpha/beta dehydroxylation pathway",Bile acid metabolism
+BAIZ2,"NAD(H)-dependent 3-alpha-hydroxysteroid reductase , chenodeoxycholate & ursodeoxycholate 7-alpha/beta dehydroxylation pathway",Bile acid metabolism
+BAMPPALDOX,Beta-Aminopropion Aldehyde:NAD+ Oxidoreductase,Beta-alanine metabolism
+BCOAACT,butyrate---acetoacetate CoA-transferase,Butanoate metabolism
+BGLA,"1,4-beta-D-Glucan glucohydrolase",Starch and sucrose metabolism
+BGLA1,6-phospho-beta-glucosidase,Glycolysis/gluconeogenesis
+BHBtp,Transport of (R)-3-hydroxybutanoate [extraorganism-cytosol](passive),"Transport, extracellular"
+BHMT,Betaine-Homocysteine S-Methyltransferase,"Glycine, serine, alanine, and threonine metabolism"
+BIACt1,"Bile acid transport, cholate","Transport, extracellular"
+BIACt2,"Bile acid transport, chenodeoxycholate","Transport, extracellular"
+BPNT,"3, 5-Bisphosphate Nucleotidase",Nucleotide interconversion
+BTALDH,Butanal:NAD+ oxidoreductase,Butanoate metabolism
+BTCOAACCOAT,Butyryl-CoA:acetate CoA-transferase,Butanoate metabolism
+BTCOADH,Conversion of crotonoyl-CoA to butyryl-CoA by Bcd-Etf complex,Butanoate metabolism
+BTDD_RR,R R butanediol dehydrogenase,Butanoate metabolism
+BTNCL,biotin-carboxyl-carrier-protein:carbon-dioxide ligase (ADP-forming),Biotin metabolism
+BTNCLi,BTNCLi,
+BTNPL,Holocarboxylase Synthestase (Biotin Protein Ligase),Biotin metabolism
+BTNabc,Biotin transport via ABC system,"Transport, extracellular"
+BTNt2,Biotin Reversible Transport via Proton Symport,"Transport, extracellular"
+BTS4,Biotin synthase,Biotin metabolism
+BUP2,Beta-Ureidopropionase (D-3-Amino-Isobutanoate Forming),Pyrimidine catabolism
+BUTCTr,"Acetyl-CoA:butyrate-CoA transferase, reversible",Butanoate metabolism
+BUTKr,"Butyrate kinase, reversible",Butanoate metabolism
+BUTSO3abc,butanesulfonate transport via ABC system,"Transport, extracellular"
+BUTt2r,"Butyrate Transport via Proton Symport, Reversible","Transport, extracellular"
+BZAMAH,Acylamide aminohydrolase,Aminobenzoate degradation
+BZAMt2r,Benzamide transport via proton symport,"Transport, extracellular"
+BZte,beta-glucuronidase reaction product export Benzoate,"Transport, extracellular"
+C180SN,C180SN,
+CA2abc,calcium transport via ABC system,"Transport, extracellular"
+CADVt,Lysine/Cadaverine antiporter,"Transport, extracellular"
+CAt4i,"Calcium transport via proton antiport, irreversible","Transport, extracellular"
+CAt6,calcium / sodium antiporter,"Transport, extracellular"
+CBIAT,Cobinamide adenyltransferase,Vitamin B12 metabolism
+CBL1abc,Cob(1)alamin transport via ABC system,"Transport, extracellular"
+CBL2D,NADH cobIIalamin oxidoreductase,Vitamin B12 metabolism
+CBL2abc,Cob(II)alamin transport via ABC system,"Transport, extracellular"
+CBLAT,cob(I)alamin adenosyltransferase,Vitamin B12 metabolism
+CBMK,Carbamate kinase,Arginine and proline metabolism
+CBMKr,Carbamate kinase,Arginine and proline metabolism
+CBPS,Carbamoyl-Phosphate Synthase (Glutamine-Hydrolysing),Pyrimidine synthesis
+CBl1te,Cobalamin secretion,"Transport, extracellular"
+CCOuq,Cytochrome Cbb3 oxidase (Ubiquinol),Oxidative phosphorylation
+CD2abc1,cadmium transport out via ABC system,"Transport, extracellular"
+CD2t6,"cadmium transport out via antiport, irreversible","Transport, extracellular"
+CD2t6r,"cadmium transport out via antiport, reversible","Transport, extracellular"
+CDAPPA180,CDP-Diacylglycerol pyrophostatase (n-C18:0),Glycerophospholipid metabolism
+CDCA3aHSDHe,"3-alpha hydroxysteroid dehydrogenase, NAD+ dependent, chenodeoxycholate specific",Bile acid metabolism
+CDCA7aHSDHe,"7-alpha hydroxysteroid dehydrogenase, NAD+ dependent, chenodeoxycholate specific",Bile acid metabolism
+CDOSKT,3-deoxy-D-manno-octulosonic acid transferase,Lipopolysaccharide biosynthesis
+CDPGHL,"CDPglucose 4,6-hydro-lyase",Aminosugar metabolism
+CDPGLYCGPT,CDP-glycerol polyglycerophosphate glycerophosphotransferase,Cell wall biosynthesis
+CDPGLYCPGH,CDPglycerol phosphoglycerohydrolase,Cell wall biosynthesis
+CDPMEK,4-(cytidine 5-diphospho)-2-C-methyl-D-erythritol kinase,Terpenoid backbone biosynthesis
+CELBpts,cellobiose transport via PEPPyr PTS,"Transport, extracellular"
+CELLBabc,Cellobiose transport via ATP transporter,"Transport, extracellular"
+CEPA,cellobiose phosphorylase,Starch and sucrose metabolism
+CGLYabc,L-cysteinylglycine transport via ABC system,"Transport, extracellular"
+CGLYt,L-cysteinylglycine transport via proton symport,"Transport, extracellular"
+CGLYt3_2_,Cys-Gly Transport in via Proton Symport,"Transport, extracellular"
+CHCOAL,6-carboxyhexanoate-CoA ligase,Glycerophospholipid metabolism
+CHLabc,choline transport via ABC system,"Transport, extracellular"
+CHLt2r,"choline transport via proton symport, reversible","Transport, extracellular"
+CHOLD,choline dehydrogenase,"Glycine, serine, alanine, and threonine metabolism"
+CHOLSH,Choline sulfate sulfohydrolase,"Glycine, serine, alanine, and threonine metabolism"
+CHOLabc,Choline ABC transport,"Transport, extracellular"
+CHORM,chorismate mutase,Phenylalanine metabolism
+CHORS,chorismate synthase,Phenylalanine metabolism
+CHORt,chorismate transport in/out via proton symport,"Transport, extracellular"
+CHRPL,Chorismate pyruvate lyase,Ubiquinone and other terpenoid-quinone biosynthesis
+CHSTEROLup,Cholesterol uptake (extracellular),"Transport, extracellular"
+CHTBSabc,Chitobiose transport via ABC system,"Transport, extracellular"
+CITCAt,citrate-ca2[c]:H+ symporter,"Transport, extracellular"
+CITCAti,CITCAti,
+CITCAtipp,CITCAtipp,
+CITL,Citrate Lyase,Citric acid cycle
+CITLr,Citrate lyase (reversible),Citric acid cycle
+CITt11,Citrate transport in via Mn complex,"Transport, extracellular"
+CITt13,Citrate transport in via Co complex,"Transport, extracellular"
+CITt15,Citrate transport in via Zn complex,"Transport, extracellular"
+CITt15ipp,CITt15ipp,
+CITt2,CITt2,
+CLFORtex2,CLFORtex2,"Transport, extracellular"
+CLOHtex2,Chloride Transport via Hydroxide Antiport (2:1),"Transport, extracellular"
+CLPNH180,cardiolipin hydrolase periplasm n C18 0,Glycerophospholipid metabolism
+CLPNS140,myristoyl-cardiolipin synthase,Glycerophospholipid metabolism
+CLPNS160,palmitoyl-cardiolipin synthase,Glycerophospholipid metabolism
+CLPNS180,stearoyl-cardiolipin synthase,Glycerophospholipid metabolism
+CLPNSAI15,anteisopentadecanoyl-cardiolipin synthase,Glycerophospholipid metabolism
+CLPNSAI17,anteisoheptadecanoyl-cardiolipin synthase,Glycerophospholipid metabolism
+CLPNSI14,isotetradecanoyl-cardiolipin synthase,Glycerophospholipid metabolism
+CLPNSI15,isopentadecanoyl-cardiolipin synthase,Glycerophospholipid metabolism
+CLPNSI16,isohexadecanoyl-cardiolipin synthase,Glycerophospholipid metabolism
+CLPNSI17,isoheptadecanoyl-cardiolipin synthase,Glycerophospholipid metabolism
+CLt4r,Chloride/proton antiport,"Transport, extracellular"
+CLtex,Chloride diffusion extracellular to periplasm,"Transport, periplasmatic"
+CMLDC,4-carboxymuconolactone decarboxylase,Benzoate degradation
+CMPDAi,"dCMP deaminase (CMP), irreversible",Pyrimidine catabolism
+CMPN,CMP nucleosidase,Nucleotide interconversion
+CMPSAS,CMP Sialic Acid Synthase,Aminosugar metabolism
+CMPt2,CMP transport via proton symport,"Transport, extracellular"
+CMPt2i,CMP transport via proton symport irreversible,"Transport, extracellular"
+CO2t,CO2 Transporter via Diffusion,"Transport, extracellular"
+COAti,CoA transporter,"Transport, extracellular"
+COBALTt5,cobalt transport in/out via permease (no H+),"Transport, extracellular"
+COBCOMOX,Coenzyme B:coenzyme M:methanophenazine oxidoreductase,Methane metabolism
+CODH_ACS,CODH/Acetyl-CoA synthase (Wood-Ljundahl),Wood-Ljungdahl Pathway
+CPC2MT,precorrin-2 C20-methyltransferase,Vitamin B12 metabolism
+CPC3MT,precorrin-3B C17-methyltransferase,Vitamin B12 metabolism
+CPC4MT,precorrin-4 C11-methyltransferase,Vitamin B12 metabolism
+CPC5MT1,"Precorrin-5 C1-methyltransferase, step 1",Vitamin B12 metabolism
+CPC5MT2,"Precorrin-5 C1-methyltransferase, step 2",Vitamin B12 metabolism
+CPC6MT,"precorrin-6Y C5,15-methyltransferase (decarboxylating)",Vitamin B12 metabolism
+CPC6R,precorrin-6A reductase,Vitamin B12 metabolism
+CPC8MM,precorrin-8X methylmutase,Vitamin B12 metabolism
+CPPPGO,Coproporphyrinogen Oxidase (O2 Required),Heme synthesis
+CPPPGO2,Oxygen Independent coproporphyrinogen-III oxidase,Vitamin B12 metabolism
+CRNabc,L-carnitine transport via ABC system,"Transport, extracellular"
+CRO4t3,chromate transport out via proton antiport,"Transport, extracellular"
+CRTNIH,Creatinine iminohydrolase,Arginine and proline metabolism
+CS,citrate synthase,Citric acid cycle
+CSND,Cytosine Deaminase,Pyrimidine catabolism
+CSNt2,cytosine transport in via proton symport,"Transport, extracellular"
+CSNt6,cytosine transport inout via proton symporter,"Transport, extracellular"
+CTBTabc,Crotono-betaine ABC transport,"Transport, extracellular"
+CTPS1,CTP Synthase (NH3),Nucleotide interconversion
+CTPS2,CTP Synthase (Glutamine),Pyrimidine synthesis
+CYOBDOX,cytochrome-bd oxidase (2 protons translocated),Respiration
+CYOBDR,cytochrome-bd reductase (ubiquinol: 2 protons),Respiration
+CYRDAAT,"cob(I)yrinic acid a,c-diamide adenosyltransferase",Vitamin B12 metabolism
+CYRDAS,"Cob(II)yrinate a,c-diamide synthase (glutamine-hydrolysing)",Vitamin B12 metabolism
+CYSDS,Cysteine Desulfhydrase,Methionine and cysteine metabolism
+CYSS,cysteine synthase,Methionine and cysteine metabolism
+CYSS3r,cysteine synthase (Thiosulfate),Methionine and cysteine metabolism
+CYSTA,Cysteine Transaminase,Methionine and cysteine metabolism
+CYSTGL,Cystathionine G-Lyase,Methionine and cysteine metabolism
+CYSTL,cystathionine b-lyase,Methionine and cysteine metabolism
+CYSTS,Cystathionine Beta-Synthase,Methionine and cysteine metabolism
+CYSabc,L-cysteine transport via ABC system,"Transport, extracellular"
+CYSt2r,L-cysteine reversible transport via proton symport,"Transport, extracellular"
+CYTBD,cytochrome oxidase bd (ubiquinol-8: 2 protons),Respiration
+CYTBD2,cytochrome oxidase bd (menaquinol-8: 2 protons),Respiration
+CYTCR_BD,cytochrome-bd oxidase (2 protons translocated),Respiration
+CYTCR_BO,cytochrome-bo reductase (ubiquinol: 2 protons),Respiration
+CYTD,Cytidine Deaminase,Pyrimidine catabolism
+CYTDK1,ATPcytidine 5-Phosphotransferase,Nucleotide interconversion
+CYTDK2,cytidine kinase (GTP),Nucleotide interconversion
+CYTDK3,ITPcytidine 5-phosphotransferase,Nucleotide interconversion
+CYTDK4,UTPcytidine 5-phosphotransferase,Nucleotide interconversion
+CYTDt,Cytidine Faciliated Transport in Cytosol,"Transport, extracellular"
+CYTDt2,cytidine transport in via proton symport,"Transport, extracellular"
+CYTDt2r,"Cytidine Transport in via Proton Symport, Reversible","Transport, extracellular"
+CYTDt4,Cytidine Transport in via Sodium Symport,"Transport, extracellular"
+CYTDt5le,Cytidine Transport (1:2 Na/Cytd Symport),"Transport, extracellular"
+CYTK1,Cytidylate Kinase (CMP),Nucleotide interconversion
+CYTK11,"Cytidylate Kinase (dCMP, dGTP)",Nucleotide interconversion
+CYTK14,"Cytidylate Kinase (dCMP, UTP)",Nucleotide interconversion
+CYTK2,Cytidylate Kinase (dCMP),Nucleotide interconversion
+CYTK4,Cytidylate Kinase (dCMP) (GTP),Nucleotide interconversion
+CYTK5,Cytidylate Kinase (dCMP),Nucleotide interconversion
+Coabc,Cobalt transport via ABC system,"Transport, extracellular"
+Cuabc,Copper transport via ABC system,"Transport, extracellular"
+Cut1,Copper export via ATPase,"Transport, extracellular"
+D5KGK,2-Deoxy-5-Keto-D-gluconate kinase,Inositol phosphate metabolism
+DADA,Deoxyadenosine Deaminase,Nucleotide interconversion
+DADNK,Deoxyadenosine Kinase,Nucleotide interconversion
+DADNt2,deoxyadenosine transport in via proton symport,"Transport, extracellular"
+DADNt2r,deoxyadenosine transport in via proton symport reversible,"Transport, extracellular"
+DAGK120,diacylglycerol kinase (n-C12:0),Glycerophospholipid metabolism
+DAGK140,diacylglycerol kinase (n-C14:0),Glycerophospholipid metabolism
+DAGK141,diacylglycerol kinase (n-C14:1),Glycerophospholipid metabolism
+DAGK160,diacylglycerol kinase (n-C16:0),Glycerophospholipid metabolism
+DAGK161,diacylglycerol kinase (n-C16:1),Glycerophospholipid metabolism
+DAGK180,diacylglycerol kinase (n-C18:0),Glycerophospholipid metabolism
+DAGK181,diacylglycerol kinase (n-C18:1),Glycerophospholipid metabolism
+DALAt2r,D-Alanine Transport via Proton Symport,"Transport, extracellular"
+DAPDA,"N-acetyl-L,L-diaminopimelate deacetylase",Lysine metabolism
+DAPDAi,DAPDAi,
+DAPDC,diaminopimelate decarboxylase,Lysine metabolism
+DAPDH,diaminopimelate dehydrogenase,Lysine metabolism
+DAPE,diaminopimelate epimerase,Lysine metabolism
+DAPMDH,Meso-diaminopimelate D-dehydrogenase,Folate metabolism
+DAPabc,M-diaminopimelic acid ABC transport,"Transport, extracellular"
+DASYN120,CDP-diacylglycerol synthetase (n-C12:0),Glycerophospholipid metabolism
+DASYN140,CDP-diacylglycerol synthetase (n-C14:0),Glycerophospholipid metabolism
+DASYN141,CDP-diacylglycerol synthetase (n-C14:1),Glycerophospholipid metabolism
+DASYN160,CDP-diacylglycerol synthetase (n-C16:0),Glycerophospholipid metabolism
+DASYN161,CDP-diacylglycerol synthetase (n-C16:1),Glycerophospholipid metabolism
+DASYN180,CDP-diacylglycerol synthetase (n-C18:0),Glycerophospholipid metabolism
+DASYN181,CDP-diacylglycerol synthetase (n-C18:1),Glycerophospholipid metabolism
+DASYNAI15,anteisopentadecanoyl-phosphatidate cytidylyltransferase,Glycerophospholipid metabolism
+DASYNAI17,anteisoheptadecanoyl-phosphatidate cytidylyltransferase,Glycerophospholipid metabolism
+DASYNI14,isotetradecanoyl-phosphatidate cytidylyltransferase,Glycerophospholipid metabolism
+DASYNI15,isopentadecanoyl-phosphatidate cytidylyltransferase,Glycerophospholipid metabolism
+DASYNI16,isohexadecanoyl-phosphatidate cytidylyltransferase,Glycerophospholipid metabolism
+DASYNI17,isoheptadecanoyl-phosphatidate cytidylyltransferase,Glycerophospholipid metabolism
+DATPti,Dinucleoside transport (dATP) irreversible,"Transport, extracellular"
+DB4PS,"3,4-Dihydroxy-2-butanone-4-phosphate synthase",Vitamin B2 metabolism
+DBTS,dethiobiotin synthase,Biotin metabolism
+DCAT,Deoxycholate exporter,"Transport, extracellular"
+DCMPDA,DCMP Deaminase,Pyrimidine catabolism
+DCMPDAi,dCMP deaminase irreversible,Pyrimidine catabolism
+DCTPD,dCTP deaminase,Nucleotide interconversion
+DCTPD2,dCTP deaminase,Nucleotide interconversion
+DCYTD,Deoxycytidine Deaminase,Pyrimidine catabolism
+DCYTt2r,deoxycytidine transport in via proton symport reversible,"Transport, extracellular"
+DDCAt,Fatty acid (dodecanoate) transport via facilitated irreversible diffusion,"Transport, extracellular"
+DDGALK,2-dehydro-3-deoxygalactonokinase,Galactose metabolism
+DDGLCNt2r,"2-dehydro-3-deoxy-D-gluconate transport via proton symport, reversible","Transport, extracellular"
+DDGLK,2-dehydro-3-deoxygluconokinase,Pentose and glucuronate interconversions
+DDPA,3-deoxy-D-arabino-heptulosonate 7-phosphate synthetase,Phenylalanine metabolism
+DDPGA,2-dehydro-3-deoxy-phosphogluconate aldolase,Arginine and proline metabolism
+DEXTRINASE,Maltodextrin glucosidase (dextrin),Starch and sucrose metabolism
+DEXTRINabc,Dextrin uptake via ABC transporter,"Transport, extracellular"
+DGC3D2,2-deoxy-D-gluconate 3-dehydrogenase,Pentose and glucuronate interconversions
+DGCHOLte,Bile Acid Intracellular Transport,"Transport, extracellular"
+DGK1,Deoxyguanylate Kinase (dGMP:ATP),Nucleotide interconversion
+DGLU6Pt2,D-Glucose 6-phosphate transport via proton symport,"Transport, extracellular"
+DGSNt2,deoxyguanosine transport in via proton symport,"Transport, extracellular"
+DGTPt,Dinucleoside transport (dGTP),"Transport, extracellular"
+DHAD1,"dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylbutanoate)","Valine, leucine, and isoleucine metabolism"
+DHAD2,"Dihydroxy-acid dehydratase (2,3-dihydroxy-3-methylpentanoate)","Valine, leucine, and isoleucine metabolism"
+DHAK,dihydroxyacetone kinase,Glycerophospholipid metabolism
+DHAPT,Dihydroxyacetone phosphotransferase,Pyruvate metabolism
+DHDPRy,dihydrodipicolinate reductase (NADPH),Lysine metabolism
+DHDPS,dihydrodipicolinate synthase,Lysine metabolism
+DHFOR2,dihydrofolate reductase,Folate metabolism
+DHFR,Dihydrofolate Reductase,Folate metabolism
+DHFS,dihydrofolate synthase,Folate metabolism
+DHNAOT,"1,4-dihydroxy-2-naphthoate octaprenyltransferase",Ubiquinone and other terpenoid-quinone biosynthesis
+DHNAOT4,"1,4-dihydroxy-2-naphthoate octaprenyltransferase",Ubiquinone and other terpenoid-quinone biosynthesis
+DHNAOT7,"1,4-dihydroxy-2-naphthoate polyprenyltransferase",Ubiquinone and other terpenoid-quinone biosynthesis
+DHNAS,"1,4-dihydroxy-2-naphthoyl-CoA synthase",Ubiquinone and other terpenoid-quinone biosynthesis
+DHNPA,dihydroneopterin aldolase,Folate metabolism
+DHORD2,dihydoorotic acid dehydrogenase (quinone8),Pyrimidine synthesis
+DHORD5,dihydroorotic acid (menaquinone-8),Pyrimidine synthesis
+DHORD6,dihydoorotic acid dehydrogenase NAD,Pyrimidine synthesis
+DHORDfum,Fumarate dependent DHORD,Pyrimidine synthesis
+DHORTS,Dihydroorotase,Pyrimidine synthesis
+DHPM1,"Dihydropyrimidinase (5, 6-Dihydrouracil)",Pyrimidine catabolism
+DHPM2,Dihydropyrimidinase (Dihydrothymine),Pyrimidine catabolism
+DHPPDA,diaminohydroxyphosphoribosylaminopyrimidine deaminase,Vitamin B2 metabolism
+DHPS,dihydropteroate synthase,Folate metabolism
+DHQS,3-dehydroquinate synthase,Phenylalanine metabolism
+DHQTi,"3-dehydroquinate dehydratase, irreversible",Phenylalanine metabolism
+DHSKDH,3-Dehydroshikimate hydro-lyase,Phenylalanine metabolism
+DKDID,"D-2,3-Diketo 4-deoxy-epi-inositol dehydratase",Inositol phosphate metabolism
+DKDID2,"D-2,3-Dikety 4-deoxy-epi-inisitol dehydratase",Inositol phosphate metabolism
+DMATT,Dimethylallyltranstransferase,Cholesterol metabolism
+DMGLYMT,"S-adenosyl-L-methionine:N,N-dimethylglycine N-methyltransferase","Glycine, serine, alanine, and threonine metabolism"
+DMLARGAH,"NG,NG-Dimethyl-L-arginine dimethylamidohydrolase",Others
+DMPPS,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (dmpp),Terpenoid backbone biosynthesis
+DMPPS2r,"4-hydroxy-3-methylbut-2-enyl diphosphate reductase (NADP), reversible",Terpenoid backbone biosynthesis
+DMQMT,3-Dimethylubiquinonol 3-methyltransferase,Ubiquinone and other terpenoid-quinone biosynthesis
+DMQMT2,3-demethylubiquinone-9 3-o-methyltransferase,Ubiquinone and other terpenoid-quinone biosynthesis
+DMSOR1,Dimethyl sulfoxide reductase (Menaquinol 8),Respiration
+DMSOR2,Dimethyl sulfoxide reductase (Demethylmenaquinol 8),Respiration
+DMSORmq,Dimethyl sulfoxide reductase (Menaquinol),Respiration
+DM_2HYMEPH,Sink needed to allow 2-(Hydroxymethyl)phenol to leave system,Exchange/demand reaction
+DM_2obut_c,Demand rection for 2-oxobutanoate,Exchange/demand reaction
+DM_4HBA,Sink needed to allow 4-hydroxy-benzoate to leave system,Exchange/demand reaction
+DM_5DRIB,Sink needed to allow 5-deoxyribose to leave system,Exchange/demand reaction
+DM_5MTR,Sink needed to allow 5-Methylthio-D-ribose to leave system,Exchange/demand reaction
+DM_AMOB,Sink needed to allow S-Adenosyl-4-methylthio-2-oxobutanoate to leave the system,Exchange/demand reaction
+DM_HQN,Sink needed to allow Hydroquinone to leave system,Exchange/demand reaction
+DM_NA1,Sink needed to allow sodium to leave system,Exchange/demand reaction
+DM_atp_c_,"Demand for ATP, Cytosolic",Exchange/demand reaction
+DM_btn,Demand for biotin,Exchange/demand reaction
+DM_dad_5,Demand for 5-deoxyadenosine,Exchange/demand reaction
+DM_dhptd(c),"Demand reaction for 4,5-dihydroxy-2,3-pentanedione",Exchange/demand reaction
+DM_hcys_L_c,Demand for homocysteine,Exchange/demand reaction
+DM_kdo2lipid4L(c),demand reaction for KDO(2)-lipid IV(A) with laurate,Exchange/demand reaction
+DM_q8h2_c,Demand rection for Ubiquinol-8,Exchange/demand reaction
+DM_teich_45_BS(c),"demand reaction for teichuronic acid (GlcA + GalNac, 45 repeating unit)",Exchange/demand reaction
+DOGDH,2-deoxy-D-gluconate 3-dehydrogenase,Pentose and glucuronate interconversions
+DOGULNR,"2,3 dioxo-L-gulonate reductase",Pentose and glucuronate interconversions
+DPCOAK,Dephospho Coenzyme A Kinase,CoA synthesis
+DPCOAt,dpcoa[c] transporter,"Transport, extracellular"
+DPMVDc,"Diphosphomevalonate Decarboxylase, Cytosol",Squalene and cholesterol synthesis
+DPRr,2 dehydropantoate 2 reductase,CoA synthesis
+DRBK,Deoxyribokinase,Pentose phosphate pathway
+DRIBI,D ribose aldose ketose isomerase,Pentose and glucuronate interconversions
+DRIBabc,Deoxyribose transport via ABC system,"Transport, extracellular"
+DRPAr,2-Deoxy-D-ribose-5-phosphate acetaldehyde-lyase,Pentose phosphate pathway
+DSERt2r,d_Serine transport via proton symport,"Transport, extracellular"
+DTMPK,DTMP Kinase,Nucleotide interconversion
+DTMPt,dtmp[c] transport in/out via proton symport,"Transport, extracellular"
+DTTPti,dTTP irreversible uniport,"Transport, extracellular"
+DURAD,Dihydrouracil Dehydrogenase (NADP),Pyrimidine catabolism
+DURAD2,Dihydrothymin Dehydrogenase (NADP),Pyrimidine catabolism
+DURADi,DURADi,
+DURIK1,Deoxyuridine Kinase (ATP:Deoxyuridine),Nucleotide interconversion
+DURIPP,Deoxyuridine Phosphorylase,Nucleotide interconversion
+DURIt,Transport of Deoxyuridine via_Diffusion,"Transport, extracellular"
+DURIt2,deoxyuridine transport in via proton symport,"Transport, extracellular"
+DUTPDP,DUTP Diphosphatase,Pyrimidine catabolism
+DXPRIi,1-deoxy-D-xylulose reductoisomerase,Terpenoid backbone biosynthesis
+DXPRIr,"1-deoxy-D-xylulose reductoisomerase, reversible",Terpenoid backbone biosynthesis
+DXPS,1-deoxy-D-xylulose 5-phosphate synthase,Terpenoid backbone biosynthesis
+DXYLK,1-Deoxy-D-xylulose kinase,Terpenoid backbone biosynthesis
+D_GLY3PRi,glyceraldehyde-3-phosphate dehydrogenase (NADP+) irreversible,Glycolysis/gluconeogenesis
+D_LACD,D-Lactate dehydrogenase irreversible,Pyruvate metabolism
+D_LACt2,D-Lactate Transport via Proton Symport,"Transport, extracellular"
+E4PD,Erythrose 4-phosphate dehydrogenase,Vitamin B6 metabolism
+EAR100x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C10:0),Fatty acid synthesis
+EAR10M11x,10-methyl-trans-undec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR10M12,10mtddec2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR10M12x,10-methyl-trans-dodec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR11M12,11mtddec2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR11M12x,11-methyl-trans-dodec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR120x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C12:0),Fatty acid synthesis
+EAR121x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C12:1),Fatty acid synthesis
+EAR12M13x,12-methyl-trans-tridec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR12M14,12mtmrs2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR12M14x,12-methyl-trans-tetra-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR13M14,13mtmrs2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR13M14x,13-methyl-trans-tetra-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR140x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C14:0),Fatty acid synthesis
+EAR141x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C14:1),Fatty acid synthesis
+EAR14M15x,14-methyl-trans-pentadec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR14M16,14mtpalm2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR14M16x,14-methyl-trans-hexa-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR15M16,15mtpalm2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR15M16x,15-methyl-trans-hexa-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR160x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C16:0),Fatty acid synthesis
+EAR161x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C16:1),Fatty acid synthesis
+EAR180x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:0),Fatty acid synthesis
+EAR181x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C18:1),Fatty acid synthesis
+EAR40x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C4:0),Fatty acid synthesis
+EAR4M5x,4-methyl-trans-pent-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR4M6,4mthex2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR4M6x,4-methyl-trans-hex-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR5M6,5mthex2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR5M6x,5-methyl-trans-hex-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR60x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C6:0),Fatty acid synthesis
+EAR6M7x,6-methyl-trans-hept-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR6M8,6mtoct2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR6M8x,6-methyl-trans-oct-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR7M8,7mtoct2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR7M8x,7-methyl-trans-oct-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR80x,enoyl-[acyl-carrier-protein] reductase (NADH) (n-C8:0),Fatty acid synthesis
+EAR8M10,8mtdec2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR8M10x,8-methyl-trans-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR8M9x,8-methyl-trans-non-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+EAR9M10,9mtdec2eACP[c][e]:nad[c]P+ oxidoreductase (A-specific,Fatty acid synthesis
+EAR9M10x,9-methyl-trans-dec-2-enoyl-ACPNAD+ oxidoreductase (A-specific),Fatty acid synthesis
+ECOAH1,3-hydroxyacyl-CoA dehydratase (3-hydroxybutanoyl-CoA),Fatty acid synthesis
+ECOAH12,3-hydroxyacyl-CoA dehydratase (3-hydroxyisobutyryl-CoA),Fatty acid synthesis
+ECOAH1R,3-hydroxyacyl-CoA ((R)-3-hydroxybutanoyl-CoA),Fatty acid synthesis
+ECOAH2,3-hydroxyacyl-CoA dehydratase (3-hydroxyhexanoyl-CoA),Fatty acid synthesis
+ECOAH3,3-hydroxyacyl-CoA dehydratase (3-hydroxyoctanoyl-CoA),Fatty acid synthesis
+ECOAH4,3-hydroxyacyl-CoA dehydratase (3-hydroxydecanoyl-CoA),Fatty acid synthesis
+ECOAH5,3-hydroxyacyl-CoA dehydratase (3-hydroxydodecanoyl-CoA),Fatty acid synthesis
+ECOAH6,3-hydroxyacyl-CoA dehydratase (3-hydroxytetradecanoyl-CoA),Fatty acid synthesis
+ECOAH7,3-hydroxyacyl-CoA dehydratase (3-hydroxyhexadecanoyl-CoA),Fatty acid synthesis
+ECOAH9,2-Methylprop-2-enoyl-CoA (2-Methylbut-2-enoyl-CoA),Fatty acid synthesis
+EDA,2-dehydro-3-deoxy-phosphogluconate aldolase,Pentose phosphate pathway
+EDA_R,2-dehydro-3-deoxy-D-gluconate-6-phosphate,Pentose phosphate pathway
+EDD,6-phosphogluconate dehydratase,Pentose phosphate pathway
+EDTXS1,Endotoxin Synthesis (lauroyl transferase),Lipopolysaccharide biosynthesis
+EDTXS2,Endotoxin Synthesis (myristoyl transferase),Lipopolysaccharide biosynthesis
+EHGLAT,L-Erythro-4-Hydroxyglutamate:2-Oxoglutarate Aminotransferase,Arginine and proline metabolism
+ENO,Enolase,Glycolysis/gluconeogenesis
+ETHAAL,Ethanolamine ammonia-lyase,Cell wall biosynthesis
+ETHSO3abc,ethanesulfonate transport via ABC system,"Transport, extracellular"
+ETOHt2r,ethanol reversible transport via proton symport,"Transport, extracellular"
+ETOHt3,ethanol transport out via proton antiport,"Transport, extracellular"
+EX_12dgr180(e),"1,2-Diacyl-sn-glycerol (dioctadecanoyl, n-C18:0) exchange",Exchange/demand reaction
+EX_12ppd_S(e),"(S)-Propane-1,2-diol exchange",Exchange/demand reaction
+EX_15dap(e),"1,5-Diaminopentane exchange",Exchange/demand reaction
+EX_26dap_M(e),"meso-2,6-Diaminoheptanedioate exchange",Exchange/demand reaction
+EX_2ddglcn(e),2-Dehydro-3-deoxy-D-gluconate exchange,Exchange/demand reaction
+EX_2dmmq8(e),2-Demethylmenaquinone 8 exchange,Exchange/demand reaction
+EX_2obut(e),2-Oxobutanoate exchange,Exchange/demand reaction
+EX_3dhcdchol(e),3-Dehydrochenodeoxycholate exchange,Exchange/demand reaction
+EX_3mop(e),Exchange of 3-methyl-2-oxopentanoate,Exchange/demand reaction
+EX_4abut(e),4-Aminobutanoate exchange,Exchange/demand reaction
+EX_4abz(e),4 Aminobenzoate exchange,Exchange/demand reaction
+EX_4hbz(e),4-Hydroxybenzoate exchange,Exchange/demand reaction
+EX_4hpro_LT(e),exchange reaction for hydroxy proline,Exchange/demand reaction
+EX_5aop(e),5-Amino-4-oxopentanoate exchange,Exchange/demand reaction
+EX_7dhcdchol(e),7-Dehydrochenodeoxycholate exchange,Exchange/demand reaction
+EX_C02528(e),chenodeoxycholate exchange,Exchange/demand reaction
+EX_HC02191(e),lithocholate exchange,Exchange/demand reaction
+EX_Lcyst(e),L-cysteate exchange,Exchange/demand reaction
+EX_Nbfortyr(e),"N,N-bisformyl-dityrosine exchange",Exchange/demand reaction
+EX_Ser_Thr(e),protein-linked serine or threonine residue (O-glycosylation site) exchange,Exchange/demand reaction
+EX_T_antigen(e),T antigen (core 1) exchange,Exchange/demand reaction
+EX_Tn_antigen(e),Tn_antigen (mucin O-glycan) exchange,Exchange/demand reaction
+EX_ac(e),Acetate exchange,Exchange/demand reaction
+EX_acac(e),Acetoacetate exchange,Exchange/demand reaction
+EX_acald(e),Acetaldehyde exchange,Exchange/demand reaction
+EX_acgal(e),N-acetylgalactosamine exchange,Exchange/demand reaction
+EX_acgam(e),N-Acetyl-D-glucosamine exchange,Exchange/demand reaction
+EX_acmana(e),Exchange of N-acetyl-D-mannosamine,Exchange/demand reaction
+EX_acnam(e),N-Acetylneuraminate exchange,Exchange/demand reaction
+EX_ade(e),Adenine exchange,Exchange/demand reaction
+EX_adn(e),exchange reaction for Adenosine,Exchange/demand reaction
+EX_adocbl(e),Adenosylcobalamin exchange,Exchange/demand reaction
+EX_adprib(e),ADPribose exchange,Exchange/demand reaction
+EX_ahcys(e),Exchange of S-adenosyl-L-homocysteine,Exchange/demand reaction
+EX_akg(e),2-Oxoglutarate exchange,Exchange/demand reaction
+EX_ala_D(e),D-Alanine exchange,Exchange/demand reaction
+EX_ala_L(e),exchange reaction for L-alanine,Exchange/demand reaction
+EX_alaala(e),exchange reaction for alanylalanine,Exchange/demand reaction
+EX_alaasp(e),L-alanyl-L-aspartate exchange,Exchange/demand reaction
+EX_alagln(e),L-alanyl-L-glutamine exchange,Exchange/demand reaction
+EX_alaglu(e),L-alanyl-L-glutamate exchange,Exchange/demand reaction
+EX_alagly(e),L-alanylglycine exchange,Exchange/demand reaction
+EX_alahis(e),L-alanyl-L-histidine exchange,Exchange/demand reaction
+EX_alaleu(e),L-alanyl-L-leucine exchange,Exchange/demand reaction
+EX_alathr(e),L-alanyl-L-threonine exchange,Exchange/demand reaction
+EX_alltn(e),Allantoin exchange,Exchange/demand reaction
+EX_amet(e),S-Adenosyl-L-methionine exchange,Exchange/demand reaction
+EX_amp(e),AMP exchange,Exchange/demand reaction
+EX_arab_D(e),D-Arabinose exchange,Exchange/demand reaction
+EX_arab_L(e),L-Arabinose exchange,Exchange/demand reaction
+EX_arabttr(e),Arabinotriose exchange,Exchange/demand reaction
+EX_arbt(e),Arbutin exchange,Exchange/demand reaction
+EX_arg_L(e),L-Arginine exchange,Exchange/demand reaction
+EX_arsenb(e),Arsenobetaine exchange,Exchange/demand reaction
+EX_asn_L(e),exchange reaction for L-asparagine,Exchange/demand reaction
+EX_aso3(e),arsenite exchange,Exchange/demand reaction
+EX_aso4(e),Arsenate exchange,Exchange/demand reaction
+EX_asp_L(e),L-Aspartate exchange,Exchange/demand reaction
+EX_atp(e),ATP exchange,Exchange/demand reaction
+EX_bhb(e),(R)-3-Hydroxybutanoate transport via H+ symport,Exchange/demand reaction
+EX_biomass(e),EX Biomass c0,Exchange/demand reaction
+EX_btn(e),Biotin exchange,Exchange/demand reaction
+EX_but(e),Butyrate (n-C4:0) exchange,Exchange/demand reaction
+EX_butso3(e),butanesulfonate exchange,Exchange/demand reaction
+EX_bz(e),Benzoate exchange,Exchange/demand reaction
+EX_bzam(e),Benzamide exchange,Exchange/demand reaction
+EX_ca2(e),Calcium exchange,Exchange/demand reaction
+EX_cbl1(e),Cob(I)alamin exchange,Exchange/demand reaction
+EX_cbl2(e),Cob(II)alamin exchange,Exchange/demand reaction
+EX_cd2(e),Cadmium exchange,Exchange/demand reaction
+EX_cdp(e),CDP(3-) exchange,Exchange/demand reaction
+EX_cellb(e),Cellobiose exchange,Exchange/demand reaction
+EX_cgly(e),Cys-Gly exchange,Exchange/demand reaction
+EX_chol(e),exchange reaction for Choline,Exchange/demand reaction
+EX_cholate(e),exchange reaction for cholate,Exchange/demand reaction
+EX_chols(e),Choline sulfate exchange,Exchange/demand reaction
+EX_chor(e),Chorismate exchange,Exchange/demand reaction
+EX_chsterol(e),exchange reaction for cholesterol,Exchange/demand reaction
+EX_chtbs(e),Chitobiose exchange,Exchange/demand reaction
+EX_cit(e),Citrate exchange,Exchange/demand reaction
+EX_cl(e),exchange reaction for Chloride,Exchange/demand reaction
+EX_cmp(e),CMP exchange,Exchange/demand reaction
+EX_co2(e),CO2 exchange,Exchange/demand reaction
+EX_coa(e),exchange reaction for coa,Exchange/demand reaction
+EX_cobalt2(e),Co2+ exchange,Exchange/demand reaction
+EX_core2(e),Core2 (mucin O-glycan) exchange,Exchange/demand reaction
+EX_core3(e),Core3 (mucin O-glycan) exchange,Exchange/demand reaction
+EX_core4(e),Core4 (mucin O-glycan) exchange,Exchange/demand reaction
+EX_core5(e),Core 5 exchange,Exchange/demand reaction
+EX_core6(e),Core6 (mucin O-glycan) exchange,Exchange/demand reaction
+EX_core7(e),Core 7 exchange,Exchange/demand reaction
+EX_core8(e),Core 8 exchange,Exchange/demand reaction
+EX_crn(e),exchange reaction for L-Carnitine,Exchange/demand reaction
+EX_cro4(e),Chromate exchange,Exchange/demand reaction
+EX_csn(e),Cytosine exchange,Exchange/demand reaction
+EX_ctbt(e),Crotonobetaine exchange,Exchange/demand reaction
+EX_ctp(e),Exchange of CTP(4-),Exchange/demand reaction
+EX_cu2(e),Cu2+ exchange,Exchange/demand reaction
+EX_cys_L(e),exchange reaction for L-cysteine,Exchange/demand reaction
+EX_cytd(e),exchange reaction for Cytidine,Exchange/demand reaction
+EX_dad_2(e),exchange reaction for 2-deoxyadenosine,Exchange/demand reaction
+EX_datp(e),dATP(4-) exchange,Exchange/demand reaction
+EX_dchac(e),exchange reaction for deoxycholic acid,Exchange/demand reaction
+EX_dcyt(e),exchange reaction for Deoxycytidine,Exchange/demand reaction
+EX_ddca(e),laurate exchange,Exchange/demand reaction
+EX_dextrin(e),Dextrin exchange,Exchange/demand reaction
+EX_dgchol(e),Chenodeoxyglycocholate exchange,Exchange/demand reaction
+EX_dgsn(e),exchange reaction for Deoxyguanosine,Exchange/demand reaction
+EX_dgtp(e),Exchange of dGTP,Exchange/demand reaction
+EX_dhnacoa(e),"Exchange of 1,4-Dihydroxy-2-naphthoyl-CoA",Exchange/demand reaction
+EX_dpcoa(e),exchange reaction for dpcoa,Exchange/demand reaction
+EX_drib(e),Deoxyribose exchange,Exchange/demand reaction
+EX_dsT_antigen(e),disialyl-T antigen exchange,Exchange/demand reaction
+EX_dtdp(e),"({[(2R,3S,5R)-3-hydroxy-5-(5-methyl-2,4-dioxo-1,2,3,4-tetrahydropyrimidin-1-yl)oxolan-2-yl]methyl phosphonato}oxy)phosphonate ex... <Preview truncated at 128 characters>",Exchange/demand reaction
+EX_dtmp(e),Exchange of dTMP(2-),Exchange/demand reaction
+EX_dttp(e),Exchange of dTTP(4-),Exchange/demand reaction
+EX_duri(e),exchange reaction for Deoxyuridine,Exchange/demand reaction
+EX_ethso3(e),ethanesulfonate exchange,Exchange/demand reaction
+EX_etoh(e),Ethanol exchange,Exchange/demand reaction
+EX_f1a(e),F1alpha (mucin O-glycan) exchange,Exchange/demand reaction
+EX_fe2(e),Exchange of Iron (Fe2+),Exchange/demand reaction
+EX_fe3(e),Fe3+ exchange,Exchange/demand reaction
+EX_fecrm(e),Ferrichrome exchange,Exchange/demand reaction
+EX_fol(e),exchange reaction for Folate,Exchange/demand reaction
+EX_for(e),Formate exchange,Exchange/demand reaction
+EX_fru(e),exchange reaction for D-Fructose,Exchange/demand reaction
+EX_fuc_L(e),L-Fucose exchange,Exchange/demand reaction
+EX_fum(e),exchange reaction for fumarate,Exchange/demand reaction
+EX_g1p(e),Exchange of alpha-D-glucose 1-phosphate(2-),Exchange/demand reaction
+EX_g6p(e),D-Glucose 6-phosphate exchange,Exchange/demand reaction
+EX_gal(e),exchange reaction for D-Galactose,Exchange/demand reaction
+EX_galt(e),Galactitol exchange,Exchange/demand reaction
+EX_galur(e),D-Galacturonate exchange,Exchange/demand reaction
+EX_gam(e),exchange reaction for D-Glucosamine,Exchange/demand reaction
+EX_gbbtn(e),gamma-butyrobetaine exchange,Exchange/demand reaction
+EX_gcald(e),Glycolaldehyde exchange,Exchange/demand reaction
+EX_glc_D(e),D-Glucose exchange,Exchange/demand reaction
+EX_glcn(e),D-Gluconate exchange,Exchange/demand reaction
+EX_glcur(e),D-glucuronate exchange,Exchange/demand reaction
+EX_gln_L(e),exchange reaction for L-glutamine,Exchange/demand reaction
+EX_glu_D(e),D-Glutamate exchange,Exchange/demand reaction
+EX_glu_L(e),L-Glutamate exchange,Exchange/demand reaction
+EX_gly(e),exchange reaction for Glycine,Exchange/demand reaction
+EX_glyasn(e),Glycyl-L-asparagine exchange,Exchange/demand reaction
+EX_glyasp(e),Glycyl-L-aspartate exchange,Exchange/demand reaction
+EX_glyb(e),Glycine betaine exchange,Exchange/demand reaction
+EX_glyc(e),Glycerol exchange,Exchange/demand reaction
+EX_glyc3p(e),Exchange of Glycerophosphoric Acid,Exchange/demand reaction
+EX_glycys(e),Gly-Cys exchange reaction,Exchange/demand reaction
+EX_glygln(e),Glycyl-L-glutamine exchange,Exchange/demand reaction
+EX_glyglu(e),Glycyl-L-glutamate exchange,Exchange/demand reaction
+EX_glyleu(e),Glycylleucine exchange,Exchange/demand reaction
+EX_glymet(e),Glycyl-L-methionine exchange,Exchange/demand reaction
+EX_glyphe(e),exchange reaction for glycylphenylalaine,Exchange/demand reaction
+EX_glypro(e),Glycylproline exchange,Exchange/demand reaction
+EX_glytyr(e),Glycyl-L-tyrosine exchange,Exchange/demand reaction
+EX_gncore1(e),gncore1 (mucin O-glycan) exchange,Exchange/demand reaction
+EX_gncore2(e),"GlcNAc-alpha-1,4-Core 2 exchange",Exchange/demand reaction
+EX_gsn(e),exchange reaction for Guanosine,Exchange/demand reaction
+EX_gthox(e),Oxidized glutathione exchange,Exchange/demand reaction
+EX_gthrd(e),Reduced glutathione exchange,Exchange/demand reaction
+EX_gtp(e),GTP exchange,Exchange/demand reaction
+EX_gua(e),Guanine exchange,Exchange/demand reaction
+EX_h(e),exchange reaction for proton,Exchange/demand reaction
+EX_h2(e),H2 exchange,Exchange/demand reaction
+EX_h2o(e),H2O exchange,Exchange/demand reaction
+EX_h2s(e),Hydrogen sulfide exchange,Exchange/demand reaction
+EX_hco3(e),Bicarbonate exchange,Exchange/demand reaction
+EX_hdca(e),Hexadecanoate (n-C16:0) exchange,Exchange/demand reaction
+EX_hdcea(e),exchange reaction for Hexadecenoate (n-C16:1),Exchange/demand reaction
+EX_hexs(e),Hexanesulfonate exchange,Exchange/demand reaction
+EX_hg2(e),Hg2+ exchange,Exchange/demand reaction
+EX_his_L(e),exchange reaction for L-histidine,Exchange/demand reaction
+EX_hxan(e),Hypoxanthine exchange,Exchange/demand reaction
+EX_ile_L(e),L-Isoleucine exchange,Exchange/demand reaction
+EX_indole(e),Indole exchange,Exchange/demand reaction
+EX_ins(e),Inosine exchange,Exchange/demand reaction
+EX_inulin(e),Inulin exchange,Exchange/demand reaction
+EX_isetac(e),Isethionic acid exchange,Exchange/demand reaction
+EX_isobut(e),Isobutyrate exchange,Exchange/demand reaction
+EX_isocapr(e),Isocaproate exchange,Exchange/demand reaction
+EX_isoval(e),Isovalerate exchange,Exchange/demand reaction
+EX_k(e),K+ exchange,Exchange/demand reaction
+EX_kesto(e),Kestose exchange,Exchange/demand reaction
+EX_kestopt(e),Kestopentaose exchange,Exchange/demand reaction
+EX_kestottr(e),Kestotetraose exchange,Exchange/demand reaction
+EX_lac_D(e),D-lactate exchange,Exchange/demand reaction
+EX_lac_L(e),L-Lactate exchange,Exchange/demand reaction
+EX_lanost(e),Lanosterol exchange,Exchange/demand reaction
+EX_lcts(e),Lactose exchange,Exchange/demand reaction
+EX_leu_L(e),L-Leucine exchange,Exchange/demand reaction
+EX_lys_L(e),L-Lysine exchange,Exchange/demand reaction
+EX_lyx_L(e),L-Lyxose exchange,Exchange/demand reaction
+EX_mal_L(e),Exchange of L-malate,Exchange/demand reaction
+EX_malt(e),Maltose exchange,Exchange/demand reaction
+EX_malthx(e),Maltohexaose exchange,Exchange/demand reaction
+EX_malttr(e),Maltotriose exchange,Exchange/demand reaction
+EX_man(e),exchange reaction for D-Mannose,Exchange/demand reaction
+EX_mantr(e),Mannotriose exchange,Exchange/demand reaction
+EX_melib(e),Melibiose exchange,Exchange/demand reaction
+EX_meoh(e),methanol exchange,Exchange/demand reaction
+EX_met_D(e),D-Methionine exchange,Exchange/demand reaction
+EX_met_L(e),L-Methionine exchange,Exchange/demand reaction
+EX_metala(e),L-methionyl-L-alanine exchange,Exchange/demand reaction
+EX_metsox_R_L(e),L-methionine-R-sulfoxide exchange,Exchange/demand reaction
+EX_metsox_S_L(e),L-Methionine S-oxide exchange,Exchange/demand reaction
+EX_mg2(e),Mg exchange,Exchange/demand reaction
+EX_mmet(e),S-Methyl-L-methionine exchange,Exchange/demand reaction
+EX_mn2(e),Mn2+ exchange,Exchange/demand reaction
+EX_mnl(e),D-Mannitol exchange,Exchange/demand reaction
+EX_mobd(e),Molybdate exchange,Exchange/demand reaction
+EX_mops(e),3-(n-Morpholino)Propanesulfonic Acid exchange,Exchange/demand reaction
+EX_mqn7(e),Menaquinone 7 exchange,Exchange/demand reaction
+EX_mqn8(e),Menaquinone 8 exchange,Exchange/demand reaction
+EX_mso3(e),methanesulfonate exchange,Exchange/demand reaction
+EX_na1(e),exchange reaction for Sodium,Exchange/demand reaction
+EX_nac(e),Nicotinate exchange,Exchange/demand reaction
+EX_nadp(e),Nicotinamide adenine dinucleotide phosphate exchange,Exchange/demand reaction
+EX_ncam(e),Nicotinamide exchange,Exchange/demand reaction
+EX_nh4(e),Ammonia exchange,Exchange/demand reaction
+EX_ni2(e),Ni2+ exchange,Exchange/demand reaction
+EX_nmn(e),NMN exchange,Exchange/demand reaction
+EX_no2(e),Nitrite exchange,Exchange/demand reaction
+EX_no3(e),Nitrate exchange,Exchange/demand reaction
+EX_o2(e),exchange reaction for oxugen,Exchange/demand reaction
+EX_ocdca(e),echange reaction for octadecanoate (n-C18:0),Exchange/demand reaction
+EX_ocdcea(e),octadecenoate (n-C18:1) exchange,Exchange/demand reaction
+EX_orn(e),Ornithine exchange,Exchange/demand reaction
+EX_orot(e),Exchange of orotate,Exchange/demand reaction
+EX_pap(e),"Adenosine 3,5-diphosphate exchange",Exchange/demand reaction
+EX_pb(e),Lead exchange,Exchange/demand reaction
+EX_pect(e),exchange reaction for pectins,Exchange/demand reaction
+EX_phe_L(e),exchange reaction for L-phenylalanine,Exchange/demand reaction
+EX_pheme(e),exchange reaction for heme,Exchange/demand reaction
+EX_pi(e),Phosphate exchange,Exchange/demand reaction
+EX_pime(e),Pimelate exchange,Exchange/demand reaction
+EX_pnto_R(e),(R)-Pantothenate exchange,Exchange/demand reaction
+EX_ppa(e),Propionate exchange,Exchange/demand reaction
+EX_ppi(e),exchange reaction for ppi,Exchange/demand reaction
+EX_pppi(e),triphosphate(5-) exchange,Exchange/demand reaction
+EX_pppn(e),Phenylpropanoate exchange,Exchange/demand reaction
+EX_ppt(e),Phosphonate exchange,Exchange/demand reaction
+EX_pro_L(e),L-Proline exchange,Exchange/demand reaction
+EX_prpp(e),Exchange of 5-O-phosphonato-alpha-D-ribofuranosyl diphosphate(5-),Exchange/demand reaction
+EX_ptrc(e),"Exchange of 1,4-butanediammonium",Exchange/demand reaction
+EX_pydam(e),exchange reaction for Pyridoxamine,Exchange/demand reaction
+EX_pydx(e),exchange reaction for Pyridoxal,Exchange/demand reaction
+EX_pydx5p(e),Exchange of pyridoxal 5-phosphate(2-),Exchange/demand reaction
+EX_pydxn(e),exchange reaction for Pyridoxine,Exchange/demand reaction
+EX_pyr(e),Pyruvate exchange,Exchange/demand reaction
+EX_q8(e),Ubiquinone-8 exchange,Exchange/demand reaction
+EX_rib_D(e),exchange reaction for ribose,Exchange/demand reaction
+EX_ribflv(e),exchange reaction for Riboflavin,Exchange/demand reaction
+EX_rmn(e),L-Rhamnose exchange,Exchange/demand reaction
+EX_sT_antigen(e),sT_antigen (mucin O-glycan) exchange,Exchange/demand reaction
+EX_sTn_antigen(e),sialyl-Tn antigen exchange,Exchange/demand reaction
+EX_salcn(e),Salicin exchange,Exchange/demand reaction
+EX_sbt_D(e),d_Sorbitol exchange,Exchange/demand reaction
+EX_sbzcoa(e),Exchange of O-Succinylbenzoyl-CoA,Exchange/demand reaction
+EX_ser_D(e),D-Serine exchange,Exchange/demand reaction
+EX_ser_L(e),exchange reaction for L-serine,Exchange/demand reaction
+EX_sheme(e),Siroheme exchange,Exchange/demand reaction
+EX_so4(e),Sulfate exchange,Exchange/demand reaction
+EX_spmd(e),Exchange of spermidine(3+),Exchange/demand reaction
+EX_strch1(e),"starch, structure 1 (1,6-{7[1,4-Glc], 4[1,4-Glc]}) exchange",Exchange/demand reaction
+EX_strch2(e),"exchange reaction for starch, structure 2 (1,6-{2[1,4-Glc], [1,4-Glc]})",Exchange/demand reaction
+EX_stys(e),Stachyose exchange,Exchange/demand reaction
+EX_succ(e),Succinate exchange,Exchange/demand reaction
+EX_sucr(e),Sucrose exchange,Exchange/demand reaction
+EX_sulfac(e),sulfoacetate exchange,Exchange/demand reaction
+EX_taur(e),Taurine exchange,Exchange/demand reaction
+EX_thm(e),exchange reaction for Thiamin,Exchange/demand reaction
+EX_thmmp(e),Thiamin monophosphate exchange,Exchange/demand reaction
+EX_thr_L(e),L-Threonine exchange,Exchange/demand reaction
+EX_thymd(e),Thymidine exchange,Exchange/demand reaction
+EX_tre(e),Trehalose exchange,Exchange/demand reaction
+EX_trp_L(e),L-Tryptophan exchange,Exchange/demand reaction
+EX_tsul(e),Thiosulfate exchange,Exchange/demand reaction
+EX_ttdca(e),exchange reaction for tetradecanoate (n-C14:0),Exchange/demand reaction
+EX_tyr_L(e),L-Tyrosine exchange,Exchange/demand reaction
+EX_udcpdp(e),Undecaprenyl diphosphate exchange,Exchange/demand reaction
+EX_udp(e),UDP exchange,Exchange/demand reaction
+EX_udpg(e),"Exchange of [(2R,3S,4R,5R)-5-(2,4-dioxo-1,2,3,4-tetrahydropyrimidin-1-yl)-3,4-dihydroxyoxolan-2-yl]methyl {[(3R,4S,5S,6R)-3,4,5-... <Preview truncated at 128 characters>",Exchange/demand reaction
+EX_udpglcur_e,Exchange,Exchange/demand reaction
+EX_ump(e),UMP exchange,Exchange/demand reaction
+EX_ura(e),Uracil exchange,Exchange/demand reaction
+EX_urea(e),Urea exchange,Exchange/demand reaction
+EX_uri(e),exchange reaction for Uridine,Exchange/demand reaction
+EX_utp(e),UTP exchange,Exchange/demand reaction
+EX_val_L(e),L-Valine exchange,Exchange/demand reaction
+EX_xan(e),Xanthine exchange,Exchange/demand reaction
+EX_xyl_D(e),D-Xylose exchange,Exchange/demand reaction
+EX_zn2(e),Zinc exchange,Exchange/demand reaction
+F6PE4PL,D-Fructose-6-phosphate D-erythrose-4-phosphate-lyase,Fructose and mannose metabolism
+FA120ACPH,Fatty-Acyl-Acp Hydrolase,Fatty acid oxidation
+FA160ACPH,Fatty-Acyl-Acp Hydrolase,Fatty acid oxidation
+FA180ACPH,Fatty-Acyl-Acp Hydrolase,Fatty acid oxidation
+FA180ACPHrev,"fatty-acyl-ACP hydrolase, reversed",Fatty acid oxidation
+FA80ACPHi,fatty-acyl-ACP hydrolase,Fatty acid oxidation
+FAACPH,fatty-acyl-ACP hydrolase,Fatty acid oxidation
+FACOAL140i,Fatty-Acid- Coenzyme A Ligase (Tetradecanoate),Fatty acid synthesis
+FACOAL160i,C160 Fatty Acid Activation,Fatty acid synthesis
+FACOAL161,Fatty-Acid- Coenzyme A Ligase (Hexadecenoate),Fatty acid synthesis
+FACOAL180,fatty-acid--CoA ligase (octadecanoate),Fatty acid synthesis
+FACOAL180i,C180 Fatty Acid Activation,Fatty acid synthesis
+FACOAL181,fatty-acid--CoA ligase (octadecenoate),Fatty acid synthesis
+FACOAL181i,C181 Fatty Acid Activation,Fatty acid synthesis
+FACOALAI15,fatty-acid--CoA ligase (ANTEISO15),Fatty acid synthesis
+FACOALAI17,fatty-acid--CoA ligase (ANTEISO17),Fatty acid synthesis
+FACOALI14,fatty-acid--CoA ligase (ISO14),Fatty acid synthesis
+FACOALI15,fatty-acid--CoA ligase (ISO15),Fatty acid synthesis
+FACOALI16,fatty-acid--CoA ligase (ISO16),Fatty acid synthesis
+FACOALI17,fatty-acid--CoA ligase (ISO17),Fatty acid synthesis
+FADDP,FAD Diphosphatase,Vitamin B2 metabolism
+FAO11,Fatty acid oxidation (n-C16:1),Fatty acid oxidation
+FAO181E,Fatty acid oxidation (double bond on odd num. carbon),Fatty acid oxidation
+FAO181O,Fatty acid oxidation (double bond on odd num. carbon),Fatty acid oxidation
+FAO2,Fatty acid oxidation (n-C16:0),Fatty acid oxidation
+FAS140ACPrev,"Fatty-acyl-ACP synthase (n-C14:0ACP), reversed",Fatty acid synthesis
+FAS180ACP,fatty-acyl-ACP synthase (n-C18:0ACP),Fatty acid synthesis
+FATP2t,Fatty Acid Electroneutral Transport,"Transport, extracellular"
+FBA,Fructose-Bisphosphate Aldolase,Glycolysis/gluconeogenesis
+FBA2,D-Fructose 1-Phosphate D-Glyceraldehyde-3-Phosphate-Lyase,Fructose and mannose metabolism
+FBA3,"Sedoheptulose 1,7-bisphosphate D-glyceraldehyde-3-phosphate-lyase",Pentose phosphate pathway
+FBA4,D-Fructose 1-Phosphate D-Glyceraldehyde-3-Phosphate-Lyase,Glyoxylate and dicarboxylate metabolism
+FBP,Fructose-Bisphosphatase,Glycolysis/gluconeogenesis
+FCI,L-fucose isomerase,Fructose and mannose metabolism
+FCLK,L-fuculokinase,Fructose and mannose metabolism
+FCLPA,L-fuculose 1-phosphate aldolase,Fructose and mannose metabolism
+FDH,Formate Dehydrogenase,Glyoxylate and dicarboxylate metabolism
+FDHfdx,Formate Dehydrogenase(Ferredoxin dependent),Wood-Ljungdahl Pathway
+FDNADOX_H,"Ferredoxin:NAD oxidoreductase, generating a proton motive force",Butanoate metabolism
+FDOXR,Ferredoxin--nitrite reductase (EC 1.7.7.1),Nitrogen metabolism
+FDOXRi,"Ferredoxin--nitrite reductase, irreversible",Nitrogen metabolism
+FE2DH,Fe2 NAD oxidoreductase,Respiration
+FE2DHi,Fe2 NAD oxidoreductase irreversible,Respiration
+FE2abc,iron (II) transport via ABC system,"Transport, extracellular"
+FE2t,Transport of Iron (Fe2+),"Transport, extracellular"
+FE3Ri,Fe(III) reduction,Respiration
+FE3abc,iron (III) transport via ABC system,"Transport, extracellular"
+FE3t4,iron III transport,"Transport, extracellular"
+FECRMabc,Ferrichrome transport via ABC module,"Transport, extracellular"
+FEDCabc,iron (III) dicitrate transport via ABC system,"Transport, extracellular"
+FERO,Ferroxidase,Vitamin B2 metabolism
+FFSD,beta-fructofuranosidase,Starch and sucrose metabolism
+FGLU,formimidoylglutamase,Histidine metabolism
+FMNAT,FMN Adenylyltransferase,Vitamin B2 metabolism
+FMNRx,FMN reductase,Vitamin B2 metabolism
+FOLD3,dihydropteroate synthase,Folate metabolism
+FOLR3,tetrahydrofolate NAD oxidoreductase,Folate metabolism
+FOLRrev,"tetrahydrofolate NADP oxidoreductase, reversed",Folate metabolism
+FOLabc,Folate transport via ECF transporter,"Transport, extracellular"
+FOLt,Folate Transport via Proton Symport,"Transport, extracellular"
+FOMETR,aminomethyltransferase,Folate metabolism
+FORTHFC,Formiminotetrahydrofolate Cyclodeaminase (Ec 4.3.1.4),Folate metabolism
+FORt,formate transport via diffusion,"Transport, extracellular"
+FORt2r,formate transport in via proton symport,"Transport, extracellular"
+FPGS7,Folylpolyglutamate Synthetase (10Fthf),Folate metabolism
+FPGS_tm,TetrahydrofolateL-glutamate gamma-ligase (ADP-forming),Folate metabolism
+FRD,FRD,
+FRD2,fumarate reductase,Citric acid cycle
+FRD3,fumarate reductase,Citric acid cycle
+FRD7,fumarate reductase,Citric acid cycle
+FRDO,frdo,Respiration
+FRDPFT,"farnesyl-diphosphate:farnesyl-diphosphate farnesyltransferase (4,4-diapophytoene forming)",Cholesterol metabolism
+FRDPS,Farnesyl diphosphate synthase,Cholesterol metabolism
+FRTT,Farnesyltranstransferase,Cholesterol metabolism
+FRUK,fructose-1-phosphate kinase,Glycolysis/gluconeogenesis
+FRULYSE,fructoselysine 3-epimerase,Starch and sucrose metabolism
+FRULYSK,Fructoselysine Kinase,Starch and sucrose metabolism
+FRUpts,D-fructose transport via PEP:Pyr PTS,"Transport, extracellular"
+FRUpts2,Fructose transport via PEP:Pyr PTS (f6p generating),"Transport, extracellular"
+FRUt1r,Transport of D-Fructose via Uniport,
+FRUt4,D-Fructose Transport via Sodium Symport,"Transport, extracellular"
+FT,"Farnesyltranstransferase (Trans, Trans, Cis-Geranylgeranyl Diphosphate-Generating)",Cholesterol metabolism
+FTHFCL,5-Formethyltetrahydrofolate Cyclo-Ligase,Folate metabolism
+FTHFD,formyltetrahydrofolate deformylase,Folate metabolism
+FTHFL,Formate-Tetrahydrofolate Ligase,Folate metabolism
+FUCt,L-fucose transport via proton symport,"Transport, extracellular"
+FUCt2_1,L-fucose transport via proton symport (2 per proton),"Transport, extracellular"
+FUM,Fumarase,Citric acid cycle
+FUMt2,fumarate irreversible transport via symport,"Transport, extracellular"
+FUMt2r,fumarate reversible transport via symport,"Transport, extracellular"
+FXXRDO,Sulfite reductase (ferredoxin),Sulfur metabolism
+G15LACH,"D-Glucono-1,5-lactone lactonohydrolase",Pentose phosphate pathway
+G1PACT,glucosamine-1-phosphate N-acetyltransferase,Cell wall biosynthesis
+G1PCT,Glucose-1-phosphate cytidylyltransferase (EC 2.7.7.33),Starch and sucrose metabolism
+G1PGTi,"4-alpha-D-glucosyltransferase (dephosphorylating), irreversible",Starch and sucrose metabolism
+G1PRIBFLVPT,D-Glucose-1-phosphate:riboflavin 5-phosphotransferase,Vitamin B2 metabolism
+G1PTT,Glucose-1-Phosphate Thymidylyltransferase,Nucleotide sugar metabolism
+G1Pt2r,D-Glucose 1-phosphate transport via proton symport,"Transport, extracellular"
+G1SAT,glutamate-1-semialdehyde aminotransferase,Heme synthesis
+G3PAT120,glycerol-3-phosphate acyltransferase (C12:0),Glycerophospholipid metabolism
+G3PAT140,glycerol-3-phosphate acyltransferase (C14:0),Glycerophospholipid metabolism
+G3PAT141,glycerol-3-phosphate acyltransferase (C14:1),Glycerophospholipid metabolism
+G3PAT160,glycerol-3-phosphate acyltransferase (C16:0),Glycerophospholipid metabolism
+G3PAT161,glycerol-3-phosphate acyltransferase (C16:1),Glycerophospholipid metabolism
+G3PAT180,glycerol-3-phosphate acyltransferase (C18:0),Glycerophospholipid metabolism
+G3PAT181,glycerol-3-phosphate acyltransferase (C18:1),Glycerophospholipid metabolism
+G3PATAI15,anteisopentadecanoyl-glycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+G3PATAI17,anteisoheptadecanoyl-glycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+G3PATI14,isotetradecanoyl-glycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+G3PATI15,isopentadecanoyl-glycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+G3PATI16,isohexadecanoyl-glycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+G3PATI17,isoheptadecanoyl-glycerol-3-phosphate O-acyltransferase,Glycerophospholipid metabolism
+G3PCT,glycerol-3-phosphate cytidylyltransferase,Glycerophospholipid metabolism
+G3PD1,Glycerol-3-Phosphate Dehydrogenase (NAD),Glycerophospholipid metabolism
+G3PD2,glycerol-3-phosphate dehydrogenase (NADP),Glycerophospholipid metabolism
+G3PD5,glycerol-3-phosphate dehydrogenase (ubiquinone-8),Glycerophospholipid metabolism
+G3PD6,glycerol-3-phosphate dehydrogenase (menaquinone-8),Glycerophospholipid metabolism
+G3PD7,glycerol-3-phosphate dehydrogenase (demethylmenaquinone-8),Glycerophospholipid metabolism
+G3PD8i,glycerol 3 phosphate dehydrogenase FAD irreversible,Glycerophospholipid metabolism
+G3PFDXOR,D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase,Respiration
+G3PFDXORi,"D-glyceraldehyde-3-phosphate:ferredoxin oxidoreductase, irreversible",Respiration
+G5SADs,L-Glutamate 5-Semialdehyde Dehydratase (Spontaneous),Urea cycle
+G5SDr,"Glutamate-5-semialdehyde dehydrogenase, reversible",Arginine and proline metabolism
+G6PBDH,beta-D-Glucose-6-phosphateNADP+ 1-oxoreductase,Pentose phosphate pathway
+G6PDA,Glucosamine-6-Phosphate Deaminase,Aminosugar metabolism
+G6PDH2,glucose 6-phosphate dehydrogenase,Pentose phosphate pathway
+G6PDH2c,Glucose 6-Phosphate Dehydrogenase,Pentose phosphate pathway
+G6PDH2r,Glucose 6-Phosphate Dehydrogenase,Pentose phosphate pathway
+G6PGT,GDPglucose:D-glucose-6-phosphate 1-alpha-D-glucosyltransferase,Nucleotide sugar metabolism
+G6PI,alpha-D-Glucose 6-phosphate ketol-isomerase,Glycolysis/gluconeogenesis
+G6PI3,beta-D-Glucose 6-phosphate ketol-isomerase,Glycolysis/gluconeogenesis
+G6Pt6_2,Glucose-6-phosphate transport via phosphate antiport,"Transport, extracellular"
+GALASE_OGLYCAN1e,"Beta-galactosidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GALASE_OGLYCAN2e,"Beta-galactosidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GALASE_OGLYCAN3e,"Beta-galactosidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GALCTD,galactarate dehydratase,Ascorbate and aldarate metabolism
+GALK,Galactokinase,Galactose metabolism
+GALM1r,"aldose 1-epimerase (glucose), reversible",Glycolysis/gluconeogenesis
+GALNACASE_OGLYCAN1e,"N-acetylgalactosaminidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GALNACASE_OGLYCAN2e,"N-acetylgalactosaminidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GALNACASE_OGLYCAN3e,"N-acetylgalactosaminidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GALS3,a-galactosidase (melibiose),Plant polysaccharide degradation
+GALT,Galactose-1-Phosphate Uridylyltransferase,Galactose metabolism
+GALT1,galactosyltransferase I (LPS core synthesis),Lipopolysaccharide biosynthesis
+GALTpts,Galactitol transport via PEP:Pyr PTS,"Transport, extracellular"
+GALU,UTP-Glucose-1-Phosphate Uridylyltransferase,Galactose metabolism
+GALURt2r,galacturonate transport in via proton symport,"Transport, extracellular"
+GALabc,D-galactose transport via ABC system,"Transport, extracellular"
+GAMpts,D-glucosamine transport via PEP:Pyr PTS,"Transport, extracellular"
+GAPD,Glyceraldehyde-3-Phosphate Dehydrogenase,Glycolysis/gluconeogenesis
+GARFT,Phosphoribosylglycinamide Formyltransferase,Purine synthesis
+GARFTi,"phosphoribosylglycinamide formyltransferase, irreversible",Purine synthesis
+GBBTNabc,gbbtn[c] ABC transport,"Transport, extracellular"
+GCALDDr,Glycolaldehyde dehydrogenase,Glyoxylate and dicarboxylate metabolism
+GCALDt,Glycoaldehydye reversible transport,"Transport, extracellular"
+GCCa,glycine-cleavage complex,"Glycine, serine, alanine, and threonine metabolism"
+GCCb,glycine cleavage complex,"Glycine, serine, alanine, and threonine metabolism"
+GCCc,glycine-cleavage complex,"Glycine, serine, alanine, and threonine metabolism"
+GCDCHOLBHSe,Glycochenodeoxycholate hydrolysis by bile salt hydrolase (EC 3.5.1.24),Bile acid metabolism
+GCDOCHAH,Glycochenodeoxycholate amidohydrolase,Bile acid metabolism
+GDPMNH,GDP-mannose mannosyl hydrolase,Pentose and glucuronate interconversions
+GF6PTA,Glutamine-Fructose-6-Phosphate Transaminase,Aminosugar metabolism
+GFUCS,GDP-L-Fucose Synthase,Fructose and mannose metabolism
+GGTA,Gamma-glutamyltransferase,Glutathione metabolism
+GGTT,geranylgeranyltranstransferase,Terpenoid backbone biosynthesis
+GHMT2,glycine hydroxymethyltransferase,"Glycine, serine, alanine, and threonine metabolism"
+GHMT2r,"Glycine Hydroxymethyltransferase, Reversible","Glycine, serine, alanine, and threonine metabolism"
+GK1,Guanylate Kinase (GMP:ATP),Nucleotide interconversion
+GK2,guanylate kinase (GMPdATP),Nucleotide interconversion
+GLCDe,Glucose dehydrogenase (ubiquinone-8 as acceptor),Pentose phosphate pathway
+GLCNACASE_OGLYCAN1e,"N-acetylglucosaminidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GLCNACASE_OGLYCAN2e,"N-acetylglucosaminidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GLCNACASE_OGLYCAN3e,"N-acetylglucosaminidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GLCNACASE_OGLYCAN4e,"N-acetylglucosaminidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GLCNACASE_OGLYCAN5e,"N-acetylglucosaminidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GLCNACASE_OGLYCAN6e,"N-acetylglucosaminidase, mucin-type O-glycans, extracellular",O-glycan degradation
+GLCND,Gluconate dehydratase,Pentose phosphate pathway
+GLCNt2r,"D-gluconate transport via proton symport, reversible","Transport, extracellular"
+GLCP,glycogen phosphorylase,Starch and sucrose metabolism
+GLCRAL,5-dehydro-4-deoxyglucarate aldolase,Ascorbate and aldarate metabolism
+GLCRD,glucarate dehydratase,Ascorbate and aldarate metabolism
+GLCRHL,D-glucarate hydro-lyase,Ascorbate and aldarate metabolism
+GLCS1,glycogen synthase (ADPGlc),Starch and sucrose metabolism
+GLCS2,glycogen synthase (UDPGlc),Starch and sucrose metabolism
+GLCTR1,glucosyltransferase I (LPS core synthesis),Lipopolysaccharide biosynthesis
+GLCTR2,glucosyltransferase II (LPS core synthesis),Lipopolysaccharide biosynthesis
+GLCTR3,glucosyltransferase III (LPS core synthesis),Lipopolysaccharide biosynthesis
+GLCTR4r,"Glucosyltransferase IV, reversible",Lipopolysaccharide biosynthesis
+GLCURt2r,glucuronate transport in via proton symport,"Transport, extracellular"
+GLCabc,D-glucose transport via ABC system,"Transport, extracellular"
+GLCpts,D-glucose transport via PEP:Pyr PTS,"Transport, extracellular"
+GLFRDO,glu-L[c]:ferredoxin oxidoreductase (transaminating),Glyoxylate and dicarboxylate metabolism
+GLGC,glucose-1-phosphate adenylyltransferase,Glycolysis/gluconeogenesis
+GLNS,Glutamine Synthetase,Glutamate metabolism
+GLNSP1,glutamine synthetase (uaaAgld),Cell wall biosynthesis
+GLNSP2,glutamine synthetase (uaaGgla),Cell wall biosynthesis
+GLNSP3,glutamine synthetase (uaagmda),Cell wall biosynthesis
+GLNabc,L-glutamine transport via ABC system,"Transport, extracellular"
+GLNt2r,L-glutamine reversible transport via proton symport,"Transport, extracellular"
+GLTPD,Galactitol-1-phosphate dehydrogenase,Galactose metabolism
+GLU5K,glutamate 5-kinase,Arginine and proline metabolism
+GLUCYS,Gamma-Glutamylcysteine Synthetase,Glutathione metabolism
+GLUDC,Glutamate Decarboxylase,Glutamate metabolism
+GLUDxi,glutamate dehydrogenase (NAD),Glutamate metabolism
+GLUDy,glutamate dehydrogenase (NADP),Glutamate metabolism
+GLUFORT,Glutamate formiminotransferase (EC 2.1.2.5) @ Glutamate formyltransferase,Folate metabolism
+GLUN,glutaminase,Glutamate metabolism
+GLUOOR,D-Glutamate(D-aspartate):oxygen oxidoreductase (deaminating),Glutamate metabolism
+GLUOX,L-Glutamate:NADP+ oxidoreductase (transaminating),Glutamate metabolism
+GLUPRT,Glutamine Phosphoribosyldiphosphate Amidotransferase,Purine synthesis
+GLUR,glutamate racemase,Glutamate metabolism
+GLUTRR,glutamyl-tRNA reductase,tRNA Charging
+GLUTRS,Glutamyl-tRNA synthetase,tRNA Charging
+GLU_Dt2r,D-glutamate transport in via proton symport,"Transport, extracellular"
+GLUabc,L-glutamate transport via ABC system,"Transport, extracellular"
+GLUt2,GLUt2,
+GLUt2pp,GLUt2pp,
+GLUt2r,"L-glutamate transport via proton symport, reversible","Transport, extracellular"
+GLUt4r,Na+/glutamate symport (reversible),"Transport, extracellular"
+GLXO1,Glyoxylate Oxidase,Glyoxylate and dicarboxylate metabolism
+GLYASN1c,Hydrolysis of Glycyl-L-asparagine,Peptide metabolism
+GLYASNabc,Glycyl-L-asparagine transport via ABC system,"Transport, extracellular"
+GLYASP1c,Hydrolysis of Glycyl-L-aspartate,Peptide metabolism
+GLYASPabc,Glycyl-L-aspartate transport via ABC system,"Transport, extracellular"
+GLYAT,glycine C-acetyltransferase,"Glycine, serine, alanine, and threonine metabolism"
+GLYBabc,Glycine betaine transport via ABC system,"Transport, extracellular"
+GLYBt2r,"Glycine betaine transport via proton symport, reversible","Transport, extracellular"
+GLYBt4_2,GLYBt4_2,
+GLYC3Pabc,sn-Glycerol 3-phosphate transport via ABC system,"Transport, extracellular"
+GLYC3Pt,glycerol-3-phosphate transport in via proton symport,"Transport, extracellular"
+GLYCDx,Glycerol dehydrogenase,Glycerophospholipid metabolism
+GLYCK2,Glycerate Kinase,Glyoxylate and dicarboxylate metabolism
+GLYCL,Glycine Cleavage System,Folate metabolism
+GLYCLTDx,Glycolate dehydrogenase (NAD),Glyoxylate and dicarboxylate metabolism
+GLYCLTDy,Glycolate Dehydrogenase (NADP),Glyoxylate and dicarboxylate metabolism
+GLYCPT,diphosphate glycerol 1 phosphotransferase,Glycerophospholipid metabolism
+GLYCYSabc,Gly-Cys ABC transporter,"Transport, extracellular"
+GLYCt,Glycerol Transport via Channel,"Transport, extracellular"
+GLYD,glycerate dehydrogenase,"Glycine, serine, alanine, and threonine metabolism"
+GLYDy,Glycerate dehydrogenase (NADP),"Glycine, serine, alanine, and threonine metabolism"
+GLYGLN1c,Hydrolysis of Glycyl-L-glutamine,Peptide metabolism
+GLYGLNabc,Glycyl-L-glutamine transport via ABC system,"Transport, extracellular"
+GLYGLU1c,Hydrolysis of Glycyl-L-glutamate,Peptide metabolism
+GLYGLUabc,Glycyl-L-glutamate transport via ABC system,"Transport, extracellular"
+GLYK,Glycerol Kinase,Glycerophospholipid metabolism
+GLYLEUHYDROc,Hydrolysis of Glycylleucine,Peptide metabolism
+GLYLEUPEPT1tc,Transport of Glycylleucine by the Apical Pept1 Amino Acid Transporters,"Transport, extracellular"
+GLYMET1c,Hydrolysis of Glycyl-L-methionine,Peptide metabolism
+GLYMETabc,Glycyl-L-methionine transport via ABC system,"Transport, extracellular"
+GLYMETt2r,Gly-Met transport via proton symport,"Transport, extracellular"
+GLYOX,Hydroxyacylglutathione Hydrolase,Pyruvate metabolism
+GLYPHEHYc,Hydrolysis of Glycylphenylalanine,Peptide metabolism
+GLYPHEabc,Glycyl-L-phenylalanine transport via ABC system,"Transport, extracellular"
+GLYPROPRO1c,Hydrolysis of Prolylglycine,Peptide metabolism
+GLYPROabc,Glycyl-L-proline transport via ABC system,"Transport, extracellular"
+GLYR,Glycine reductase,Stickland reaction
+GLYTYR1c,Hydrolysis of Glycyl-L-tyrosine,Peptide metabolism
+GLYTYRabc,Glycyl-L-tyrosine transport via ABC system,"Transport, extracellular"
+GLYt2,glycine transport in via proton symport,"Transport, extracellular"
+GLYt2r,Glycine Reversible Transport via Proton Symport,"Transport, extracellular"
+GLYt4r,glycine reversible transport via sodium symport,"Transport, extracellular"
+GMAND,GDP-D-Mannose Dehydratase,Fructose and mannose metabolism
+GMHEPAT,D-glycero-D-manno-hepose 1-phosphate adenyltransferase,Lipopolysaccharide biosynthesis
+GMHEPK,D-glycero-D-manno-heptose 7-phosphate kinase,Lipopolysaccharide biosynthesis
+GMHEPPA,"D-glycero-D-manno-heptose 1,7-bisphosphate phosphatase",Lipopolysaccharide biosynthesis
+GMPR,GMP Reductase,Nucleotide interconversion
+GMPS2,GMP Synthase,Nucleotide interconversion
+GND,Phosphogluconate Dehydrogenase,Pentose phosphate pathway
+GND2,"phosphogluconate dehydrogenase, NAD-dependent",Pentose phosphate pathway
+GNDc,Phosphogluconate Dehydrogenase,Pentose phosphate pathway
+GNK,gluconokinase,Pentose phosphate pathway
+GNMT,Glycine N-Methyltransferase,"Glycine, serine, alanine, and threonine metabolism"
+GNNUC,Guanosine ribohydrolase,Nucleotide interconversion
+GP4GH,Gp4G hydrolase,Nucleotide interconversion
+GPDDA1,Glycerophosphodiester Phosphodiesterase (Glycerophosphocholine),Glycerophospholipid metabolism
+GPDDA2,Glycerophosphodiester phosphodiesterase (Glycerophosphoethanolamine),Glycerophospholipid metabolism
+GPDDA3,Glycerophosphodiester phosphodiesterase (Glycerophosphoserine),Glycerophospholipid metabolism
+GPDDA4,Glycerophosphodiester phosphodiesterase (Glycerophosphoglycerol),Glycerophospholipid metabolism
+GRTT,Geranyltranstransferase,Cholesterol metabolism
+GSNK,guanosine kinase,Nucleotide interconversion
+GSNt,Guanosine Faciliated Transport in Cytosol,"Transport, extracellular"
+GSNt2,guanosine transport in via proton symport,"Transport, extracellular"
+GSNt5le,Guanosine Transport in via Sodium (1:2) Symport,"Transport, extracellular"
+GSPH,GDPglucose sugarphosphohydrolase,Nucleotide sugar metabolism
+GTHOXti3,oxidized glutathione irreversible uniport,"Transport, extracellular"
+GTHOr,glutathione oxidoreductase,Glutamate metabolism
+GTHP,Glutathione Peroxidase,Glutathione metabolism
+GTHRD,glutathione disulfide reductase,Glutathione metabolism
+GTHRDH,glutathione hydralase (periplasmic),Glutathione metabolism
+GTHRDt2,glutathione transport,"Transport, extracellular"
+GTHS,Glutathione Synthetase,Glutathione metabolism
+GTPCI,GTP Cyclohydrolase I,Tetrahydrobiopterin metabolism
+GTPCII,GTP cyclohydrolase II,Vitamin B2 metabolism
+GTPDPK,GTP diphosphokinase,Vitamin B2 metabolism
+GTPGLCGLYCPPT,GTP:3-phospho-D-glycerate 1-phosphotransferase,Glycolysis/gluconeogenesis
+GTPt,Nucleoside transport (GTP),"Transport, extracellular"
+GTPti,Nucleoside transport (GTP) irreversible,"Transport, extracellular"
+GUAD,Guanine Deaminase,Purine catabolism
+GUAPRT,Guanine Phosphoribosyltransferase,Nucleotide salvage pathway
+GUAt,Transport of Guanine,"Transport, extracellular"
+GUAt2,guanine transport in via proton symport,"Transport, extracellular"
+GUI1,glucuronate isomerase (D-glucuronate),Pentose and glucuronate interconversions
+GUI2,glucuronate isomerase (D-galacturonate),Pentose and glucuronate interconversions
+H2CO3D,Carboxylic Acid Dissociation,Miscellaneous
+H2Ot,H2O Transport via Diffusion,"Transport, extracellular"
+H2St,h2s transport (diffusion),"Transport, extracellular"
+H2td,hydrogen transport,"Transport, extracellular"
+HACD1,3-hydroxyacyl-CoA dehydrogenase (acetoacetyl-CoA),Fatty acid synthesis
+HACD2,3-hydroxyacyl-CoA dehydrogenase (3-oxohexanoyl-CoA),Fatty acid synthesis
+HACD3,3-hydroxyacyl-CoA dehydrogenase (3-oxooctanoyl-CoA),Fatty acid synthesis
+HACD4,3-hydroxyacyl-CoA dehydrogenase (3-oxodecanoyl-CoA),Fatty acid synthesis
+HACD5,3-hydroxyacyl-CoA dehydrogenase (3-oxododecanoyl-CoA),Fatty acid synthesis
+HACD6,3-hydroxyacyl-CoA dehydrogenase (3-oxotetradecanoyl-CoA),Fatty acid synthesis
+HACD7,3-hydroxyacyl-CoA dehydrogenase (3-oxohexadecanoyl-CoA),Fatty acid synthesis
+HACD9,3-hydroxyacyl-CoA dehydrogenase (2-Methylacetoacetyl-CoA),Fatty acid synthesis
+HADPCOADH3,3-hydroxyadipyl-CoA dehydrogenase (NADH),Fatty acid synthesis
+HAMNOR,NADH:hydroxylamine oxidoreductase,Nitrogen metabolism
+HBZOPT,Hydroxybenzoate octaprenyltransferase,Ubiquinone and other terpenoid-quinone biosynthesis
+HCO3abc,Bicarbonate ABC transporter,"Transport, extracellular"
+HCYSHSL,L-Homocysteine hydrogen-sulfide-lyase (deaminating),Sulfur metabolism
+HCYSMT,homocysteine S-methyltransferase,Methionine and cysteine metabolism
+HCYSMT2,Homocysteine Methyltransferase,Methionine and cysteine metabolism
+HDCAtr,Fatty Acid Transport via Diffusion,"Transport, extracellular"
+HDCEAtr,Fatty Acid Transport via Diffusion,"Transport, extracellular"
+HDECMOCOACACT,Hexadecanoyl-[acyl-carrier protein]:malonyl-CoA  C-acyltransferase,Fatty acid synthesis
+HDG3PACT,Hexadecanoyl(palmitoyl)-glycerol-3-phosphate O-acyltransferase,Cell wall biosynthesis
+HEMEti,Heme transport via ABC system,"Transport, extracellular"
+HEPK1,LPS heptose kinase I (LPS core synthesis),Lipopolysaccharide biosynthesis
+HEPK2,LPS heptose kinase II (LPS core synthesis),Lipopolysaccharide biosynthesis
+HEPT1,heptosyltransferase I (LPS core synthesis),Lipopolysaccharide biosynthesis
+HEPT2,heptosyltransferase II (LPS core synthesis),Lipopolysaccharide biosynthesis
+HEPT3,heptosyltransferase III (LPS core synthesis),Lipopolysaccharide biosynthesis
+HEPT4,heptosyltransferase IV (LPS core synthesis),Lipopolysaccharide biosynthesis
+HETT,all-trans-Heptaprenyltransferase,Terpenoid backbone biosynthesis
+HETZK,hydroxyethylthiazole kinase,Thiamine metabolism
+HEX1,Hexokinase (D-Glucose:ATP),Glycolysis/gluconeogenesis
+HEX10,Hexokinase (D-Glucosamine:ATP),Aminosugar metabolism
+HEX4,Hexokinase (D-Mannose:ATP),Fructose and mannose metabolism
+HEX7,Hexokinase (D-Fructose:ATP),Fructose and mannose metabolism
+HEXSabc,hexanesulfonate transport via ABC system,"Transport, extracellular"
+HEXTT,trans-hexaprenyltranstransferase,Terpenoid backbone biosynthesis
+HEXb,ATPD-glucose 6-phosphotransferase,Glycolysis/gluconeogenesis
+HG2abc,Mercury (Hg+2) ABC transporter,"Transport, extracellular"
+HGOR,Hg:NADP+ oxidoreductase,Inorganic ion metabolism
+HIBD,3 hydroxyisobutyrate dehydrogenase,"Valine, leucine, and isoleucine metabolism"
+HISD,Histidase,Histidine metabolism
+HISSNAT5tc,Transport of L-Histidine with Symport of Sodium And Antiport of Proton by Snat5 Transporter,"Transport, extracellular"
+HISTDOX,L-histidinol:NAD+ oxidoreductase,Histidine metabolism
+HISTLOX,L-histidinal:NAD+ oxidoreductase,Histidine metabolism
+HISTP,histidinol-phosphatase,Histidine metabolism
+HISabc,L-histidine transport via ABC system,"Transport, extracellular"
+HISt2pp,"L histidine transport in via proton symport, periplasmatic","Transport, periplasmatic"
+HISt2r,L-histidine reversible transport via proton symport,"Transport, extracellular"
+HIStN1,"Histidine Transport (Na, H Coupled)","Transport, extracellular"
+HIStiDF,L-Histidine Transport via Diffusion (Extracellular to Cytosol),"Transport, extracellular"
+HISyLATthc,Transport of Histidine by Y+Lat1 Or Y+Lat2 with Symporter of H,"Transport, extracellular"
+HKt,H+/K+ Gastric/Non-Gastric P-ATPase And ABC ATPase,"Transport, extracellular"
+HMBS,Hydroxymethylbilane Synthase,Heme synthesis
+HMGCOAS,Hydroxymethylglutaryl CoA synthase,Squalene and cholesterol synthesis
+HMGL,Hydroxymethylglutaryl-CoA lyase,Butanoate metabolism
+HMPK1,hydroxymethylpyrimidine kinase (ATP),Thiamine metabolism
+HOPNTAL,4-hydroxy-2-oxopentanoate aldolase,Phenylalanine metabolism
+HPPK,2-amino-4-hydroxy-6-hydroxymethyldihydropteridine diphosphokinase,Folate metabolism
+HPYRI,hydroxypyruvate isomerase,Glyoxylate and dicarboxylate metabolism
+HSDx,homoserine dehydrogenase (NADH),"Glycine, serine, alanine, and threonine metabolism"
+HSDy,homoserine dehydrogenase (NADPH),"Glycine, serine, alanine, and threonine metabolism"
+HSERTA,homoserine O-trans-acetylase,Methionine and cysteine metabolism
+HSK,homoserine kinase,"Glycine, serine, alanine, and threonine metabolism"
+HSST,homoserine O-succinyltransferase,Methionine and cysteine metabolism
+HSTPTr,Histidinol-phosphate aminotransferase (EC 2.6.1.9),Histidine metabolism
+HXAND,hypoxanthine dehydrogenase,Nucleotide interconversion
+HXANt2,hypoxanthine transport in via proton symport,"Transport, extracellular"
+HXPRT,Hypoxanthine Phosphoribosyltransferase (Hypoxanthine),Nucleotide salvage pathway
+HXPRTr,"Hypoxanthine phosphoribosyltransferase, reversible",Nucleotide salvage pathway
+HYD1,hydrogenase (ubiquinone-8: 2 protons),Respiration
+HYD4,hydrogen:ferredoxin oxidoreductase,Respiration
+HYDFDN2rfdx,Ferredoxin NADPH linked hydrogenase,Wood-Ljungdahl Pathway
+HYDFDNrfdx,Ferredoxin NADH linked hydrogenase,Wood-Ljungdahl Pathway
+HYPD,Hydroxyproline dehydratase,Arginine and proline metabolism
+HYXNt,Hypoxanthine Transport,"Transport, extracellular"
+HYXNti,HYXNti,
+HYXNtipp,"Hypoxanthine transport irreversible, periplasmatic","Transport, periplasmatic"
+IAHDGK,anteisoheptadecanoyl-Diacylglycerol kinase,Glycerophospholipid metabolism
+IAPDGK,anteisopentadecanoyl-Diacylglycerol kinase,Glycerophospholipid metabolism
+IBCOATA,2-methylpropionyl-CoA[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+ICDHx,isocitrate dehydrogenase NAD,Citric acid cycle
+ICDHxi,isocitrate dehydrogenase NAD irreversible,Citric acid cycle
+ICDHy,Isocitrate Dehydrogenase (NADP),Citric acid cycle
+ICDHyr,isocitrate dehydrogenase (NADP),Citric acid cycle
+ICHORS,isochorismate synthase,Ubiquinone and other terpenoid-quinone biosynthesis
+ICHORT,isochorismatase,Biosynthesis of siderophore group nonribosomal peptides
+IG3PS,Imidazole-glycerol-3-phosphate synthase,Histidine metabolism
+IGPDH,imidazoleglycerol-phosphate dehydratase,Histidine metabolism
+IGPS,indole-3-glycerol-phosphate synthase,Tryptophan metabolism
+IHDCOATA,14-methyl-pentadecanoyl-ACP[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+IHDGK,isoheptadecanoyl-Diacylglycerol kinase,Glycerophospholipid metabolism
+IHDUDPG,isoheptadecanoyl-UDP-glucosyltransferase (diglucosyl),Cell wall biosynthesis
+IHDUDPMG,isoheptadecanoyl-UDP-glucosyltransferase (monoglucosyl),Cell wall biosynthesis
+IHPDCOATA,15-methyl-hexa-decanoyl-ACP[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+IHXDGK,isohexadecanoyl-Diacylglycerol kinase,Glycerophospholipid metabolism
+ILETA,Isoleucine Transaminase,"Valine, leucine, and isoleucine metabolism"
+ILEabc,L-isoleucine transport via ABC system,"Transport, extracellular"
+ILEt2r,L-isoleucine reversible transport via proton symport,"Transport, extracellular"
+IMACTD,Imidazole Acetaldeyde Dehydrogenase,Histidine metabolism
+IMPC,IMP Cyclohydrolase,Purine synthesis
+IMPD,IMP Dehydrogenase,Nucleotide interconversion
+IMPPH,5-Inosinate phosphoribohydrolase,Nucleotide salvage pathway
+INDOLEt2r,"Indole transport via proton symport, reversible","Transport, extracellular"
+INHINDH,iad[c] amidohydrolase,Histidine metabolism
+INS2D,inositol 2 dehydrogenase,Inositol phosphate metabolism
+INSH,Inosine hydrolase,Nucleotide interconversion
+INSK,Insosine Kinase,Purine synthesis
+INSt,Transport of Inosine (Diffusion),"Transport, extracellular"
+INSt2,"Inosine Transport in via Proton Symport, Reversible","Transport, extracellular"
+INSt2i,"inosine transport in via proton symport, irreversible","Transport, extracellular"
+INULINASE,Inulin degradation by beta-2->1-fructanase,Plant polysaccharide degradation
+INULINASEe,"Inulin degradation, extracellular",Plant polysaccharide degradation
+INULINabc,Inulin import through ABC transport system,"Transport, extracellular"
+IOR,indolepyruvate ferredoxin oxidoreductase,Tryptophan metabolism
+IPDCOATA,13-methyl-tetra-decanoyl-ACP[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+IPDDI,Isopentenyl-Diphosphate D-Isomerase,Squalene and cholesterol synthesis
+IPDGK,isopentadecanoyl-Diacylglycerol kinase,Glycerophospholipid metabolism
+IPDPS,1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate reductase (ipdp),Terpenoid backbone biosynthesis
+IPDPS2,isopentenyl-diphosphateNAD(P)+ oxidoreductase,Terpenoid backbone biosynthesis
+IPDPUPT,"di-trans,poly-cis-Decaprenyl-diphosphate:isopentenyl-diphosphate",Terpenoid backbone biosynthesis
+IPDUDPG,isopentadecanoyl-UDP-glucosyltransferase (diglucosyl),Cell wall biosynthesis
+IPDUDPMG,isopentadecanoyl-UDP-glucosyltransferase (monoglucosyl),Cell wall biosynthesis
+IPFPHS,Hexaprenyl-pyrophosphate-synthase,Terpenoid backbone biosynthesis
+IPMD2,"(2R,3S)-3-methylmalate:NAD+ oxidoreductase","Valine, leucine, and isoleucine metabolism"
+IPMDr,3-isopropylmalate dehydrogenase (EC 1.1.1.85),"Valine, leucine, and isoleucine metabolism"
+IPPMIa,3-isopropylmalate dehydratase,"Valine, leucine, and isoleucine metabolism"
+IPPMIb,2-isopropylmalate hydratase,"Valine, leucine, and isoleucine metabolism"
+ISETACabc,isethionate transport via ABC system,"Transport, extracellular"
+ISOBUTt2r,Isobutyrate transport via proton symport,"Transport, extracellular"
+ISOCAPRt2r,Isocaproate transport via proton symport,"Transport, extracellular"
+ISOMALT,Isomaltose 6-alpha-D-glucanohydrolase,Starch and sucrose metabolism
+ISOVALt2r,Isovalerate transport via proton symport,"Transport, extracellular"
+ITDCOATA,12-methyl-tridecanoyl-ACP[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+ITDGK,isotetradecanoyl-Diacylglycerol kinase,Glycerophospholipid metabolism
+ITDUDPG,isotetradecanoyl-UDP-glucosyltransferase (diglucosyl),Cell wall biosynthesis
+ITDUDPMG,isotetradecanoyl-UDP-glucosyltransferase (monoglucosyl),Cell wall biosynthesis
+IVCOATA,3-methylbutanoyl-CoA[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+IXDUDPG,isohexadecanoyl-UDP-glucosyltransferase (diglucosyl),Cell wall biosynthesis
+IXDUDPMG,isohexadecanoyl-UDP-glucosyltransferase (monoglucosyl),Cell wall biosynthesis
+IZPN,Imidazolonepropionase,Histidine metabolism
+KARA1,"ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)","Valine, leucine, and isoleucine metabolism"
+KARA3,"ketol-acid reductoisomerase (2,3-dihydroxy-3-methylbutanoate)","Valine, leucine, and isoleucine metabolism"
+KAS1,b-ketoacyl synthetase (Iso-C14:0),Fatty acid synthesis
+KAS11,b-ketoacyl synthetase (Iso-C17:0),Fatty acid synthesis
+KAS12,b-ketoacyl synthetase (Anteiso-C17:0),Fatty acid synthesis
+KAS13,b-ketoacyl synthetase (octadecanoate),Fatty acid synthesis
+KAS14,beta-ketoacyl-ACP synthase,Fatty acid synthesis
+KAS16,3-hydroxy-myristoyl-ACP synthesis,Fatty acid synthesis
+KAS17rev,"b-ketoacyl synthetase (n-C18:1), reversed",Fatty acid synthesis
+KAS3,b-ketoacyl synthetase (Iso-C15:0),Fatty acid synthesis
+KAS4,b-ketoacyl synthetase (Anteiso-C15:0),Fatty acid synthesis
+KAS6,b-ketoacyl synthetase (Iso-C16:0),Fatty acid synthesis
+KAS7,b-ketoacyl synthetase (n-C16:1),Fatty acid synthesis
+KAS8,"B-Ketoacyl Synthetase (Palmitate, N-C16:0)",Fatty acid synthesis
+KAS_HP,3-hydroxy-palmetoyl-ACP synthesis,Fatty acid synthesis
+KDOCT2,3-deoxy-manno-octulosonate cytidylyltransferase,Lipopolysaccharide biosynthesis
+KDOPP,3-deoxy-manno-octulosonate-8-phosphatase,Lipopolysaccharide biosynthesis
+KDOPSr,"3-deoxy-D-manno-octulosonic-acid 8-phosphate synthease, reversible",Lipopolysaccharide biosynthesis
+KDOS,3-Deoxy-D-manno-octulosonate synthase,Lipopolysaccharide biosynthesis
+KESTOASEe,"Beta-2-1 fructan degradation, extracellular",Plant polysaccharide degradation
+KESTOPTASEe,"Beta-2-1 fructan degradation, extracellular",Plant polysaccharide degradation
+KESTOTTRASEe,"Beta-2-1 fructan degradation, extracellular",Plant polysaccharide degradation
+KHK2,Ketohexokinase (D-Xylulose),Glyoxylate and dicarboxylate metabolism
+Kabc,Potassium ABC transporter,"Transport, extracellular"
+Kt1r,potassium transport via uniport reversible (facilitated diffusion),"Transport, extracellular"
+Kt2,potassium irreversible transport  via proton symport,"Transport, extracellular"
+Kt2r,potassium reversible transport  via proton symport,"Transport, extracellular"
+Kt3,potassium proton antiporter irreversible,"Transport, extracellular"
+L2A6OD2s,"2,3,4,5-Tetrahydrodipicolinate conversion to L-2-Amino-6-oxopimelate (spontaneous)",Lysine metabolism
+L2A6ODs,"L-2-Amino-6-oxopimelate conversion to 2,3,4,5-Tetrahydrodipicolinate (spontaneous)",Lysine metabolism
+LAAL_CGLY,L-amino acid ligase (Gly-Cys),Peptide metabolism
+LACLi,S lactate acetaldehyde lyase formate forming,Pyruvate metabolism
+LACZ,b-galactosidase,Galactose metabolism
+LACpts,Lactose transport via PEP:Pyr PTS,"Transport, extracellular"
+LANOSTt,Lanosterol transport,"Transport, extracellular"
+LAPCOAe,Lysosomal Acid Phosphorylase (CoA),CoA catabolism
+LARGNAT,L-arogenate:2-oxoglutarate aminotransferase,Phenylalanine metabolism
+LCADi,Lactaldehyde Dehydrogenase,Pyruvate metabolism
+LCARRy,"Lacaldehyde reductase (R-propane-1,2-diol forming), NADPH",Pentose and glucuronate interconversions
+LCARS,"lacaldehyde reductase (S-propane-1,2-diol forming)",Glyoxylate and dicarboxylate metabolism
+LCAT,Lithocholate exporter,"Transport, extracellular"
+LCTSabc,lactose transport via ABC system (import),"Transport, extracellular"
+LCYSTabc,L-cysteate transport via ABC system,"Transport, extracellular"
+LDH_D,D-Lactate Dehydrogenase,Pyruvate metabolism
+LDH_D2,D-lactate dehydrogenase,Pyruvate metabolism
+LDH_L,L-Lactate Dehydrogenase,Glycolysis/gluconeogenesis
+LEU2,3-isopropylmalate dehydrogenase,"Valine, leucine, and isoleucine metabolism"
+LEUO,Leucine oxidation by gut bacteria,"Valine, leucine, and isoleucine metabolism"
+LEUTA,Leucine Transaminase,"Valine, leucine, and isoleucine metabolism"
+LEUabc,L-leucine transport via ABC system,"Transport, extracellular"
+LEUt2r,L-leucine reversible transport via proton symport,"Transport, extracellular"
+LGTHL,Lactoylglutathione Lyase,Pyruvate metabolism
+LLEUD,L-leucine:NAD+ oxidoreductase(deaminating) irreversible,"Valine, leucine, and isoleucine metabolism"
+LLEUDr,L-leucine:NAD+ oxidoreductase(deaminating),"Valine, leucine, and isoleucine metabolism"
+LPADSS,Lipid A disaccaride synthase,Lipopolysaccharide biosynthesis
+LPAMS,Lipoamide synthase,"Valine, leucine, and isoleucine metabolism"
+LPLIPAL1A120,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C12:0)",Glycerophospholipid metabolism
+LPLIPAL1A140,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C14:0)",Glycerophospholipid metabolism
+LPLIPAL1A141,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C14:1)",Glycerophospholipid metabolism
+LPLIPAL1A160,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C16:0)",Glycerophospholipid metabolism
+LPLIPAL1A161,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C16:1)",Glycerophospholipid metabolism
+LPLIPAL1A180,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C18:0)",Glycerophospholipid metabolism
+LPLIPAL1A181,"Lysophospholipase L1 (2-acylglycerophosphotidate, n-C18:1)",Glycerophospholipid metabolism
+LPLIPAL1E120,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C12:0)",Glycerophospholipid metabolism
+LPLIPAL1E140,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C14:0)",Glycerophospholipid metabolism
+LPLIPAL1E141,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C14:1)",Glycerophospholipid metabolism
+LPLIPAL1E160,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C16:0)",Glycerophospholipid metabolism
+LPLIPAL1E161,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C16:1)",Glycerophospholipid metabolism
+LPLIPAL1E180,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C18:0)",Glycerophospholipid metabolism
+LPLIPAL1E181,"Lysophospholipase L1 (2-acylglycerophosphoethanolamine, n-C18:1)",Glycerophospholipid metabolism
+LPLIPAL1G120,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C12:0)",Glycerophospholipid metabolism
+LPLIPAL1G140,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C14:0)",Glycerophospholipid metabolism
+LPLIPAL1G141,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C14:1)",Glycerophospholipid metabolism
+LPLIPAL1G160,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C16:0)",Glycerophospholipid metabolism
+LPLIPAL1G161,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C16:1)",Glycerophospholipid metabolism
+LPLIPAL1G180,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C18:0)",Glycerophospholipid metabolism
+LPLIPAL1G181,"Lysophospholipase L1 (2-acylglycerophosphoglycerol, n-C18:1)",Glycerophospholipid metabolism
+LPLIPAL2A120,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C12:0)",Glycerophospholipid metabolism
+LPLIPAL2A140,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C14:0)",Glycerophospholipid metabolism
+LPLIPAL2A141,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C14:1)",Glycerophospholipid metabolism
+LPLIPAL2A160,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C16:0)",Glycerophospholipid metabolism
+LPLIPAL2A161,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C16:1)",Glycerophospholipid metabolism
+LPLIPAL2A180,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C18:0)",Glycerophospholipid metabolism
+LPLIPAL2A181,"Lysophospholipase L2 (2-acylglycerophosphotidate, n-C18:1)",Glycerophospholipid metabolism
+LPLIPAL2E120,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C12:0)",Glycerophospholipid metabolism
+LPLIPAL2E140,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C14:0)",Glycerophospholipid metabolism
+LPLIPAL2E141,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C14:1)",Glycerophospholipid metabolism
+LPLIPAL2E160,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:0)",Glycerophospholipid metabolism
+LPLIPAL2E161,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C16:1)",Glycerophospholipid metabolism
+LPLIPAL2E180,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C18:0)",Glycerophospholipid metabolism
+LPLIPAL2E181,"Lysophospholipase L2 (2-acylglycerophosphoethanolamine, n-C18:1)",Glycerophospholipid metabolism
+LPLIPAL2G120,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C12:0)",Glycerophospholipid metabolism
+LPLIPAL2G140,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C14:0)",Glycerophospholipid metabolism
+LPLIPAL2G141,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C14:1)",Glycerophospholipid metabolism
+LPLIPAL2G160,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C16:0)",Glycerophospholipid metabolism
+LPLIPAL2G161,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C16:1)",Glycerophospholipid metabolism
+LPLIPAL2G180,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C18:0)",Glycerophospholipid metabolism
+LPLIPAL2G181,"Lysophospholipase L2 (2-acylglycerophosphoglycerol, n-C18:1)",Glycerophospholipid metabolism
+LYSAM,"Lysine 2,3-aminomutase (EC 5.4.3.2)",Lysine metabolism
+LYSDC,lysine decarboxylase,Lysine metabolism
+LYSabc,L-lysine transport via ABC system,"Transport, extracellular"
+LYSt2r,L-lysine reversible transport via proton symport,"Transport, extracellular"
+LYSt3,L-lysine transport out via proton antiport (cytoplasm to extracellular),"Transport, extracellular"
+LYSt3pp,"L-lysine transport out via proton antiport (cytoplasm to extracellular), periplasmatic","Transport, periplasmatic"
+LYSt3r,L-lysine transport out via proton antiport reversible,"Transport, extracellular"
+LYXI,Lyxose isomerase,Pentose and glucuronate interconversions
+LYXabc,L-lyxose transport via ABC system,"Transport, extracellular"
+L_AROND,Arogenate dehydrogenase (NAD+),Tyrosine metabolism
+L_ARONR,Arogenate dehydrogenase (NADP+),Tyrosine metabolism
+L_ASPR,L-aspartate:nad[c]P+ oxidoreductase (deaminating),NAD metabolism
+L_ILE3MR,ile-L[c]:nad[c]+ oxidoreductase(deaminating),"Valine, leucine, and isoleucine metabolism"
+L_ILE3MRi,ile-L[c]:nad[c]+ oxidoreductase(deaminating) irreversible,"Valine, leucine, and isoleucine metabolism"
+L_LACD,"L-Lactate dehydrogenase, irreversible",Pyruvate metabolism
+L_LACD2,L-Lactate dehydrogenase (ubiquinone),Pyruvate metabolism
+L_LACD3,L-Lactate dehydrogenase (menaquinone),Pyruvate metabolism
+L_LACt2,L-lactate reversible transport in via proton symport irreversible,"Transport, extracellular"
+L_LACt2r,L-Lactate Reversible Transport via Proton Symport,"Transport, extracellular"
+L_VALMOD,Valine dehydrogenase (NAD+),"Valine, leucine, and isoleucine metabolism"
+M1PD,mannitol-1-phosphate 5-dehydrogenase,Fructose and mannose metabolism
+MACCOAT,2-Methylacetyl-CoA thiolase,"Valine, leucine, and isoleucine metabolism"
+MACPMT,MACPMT,
+MADGBG,beta-glucosidase (methyl-alpha-D-glucoside),Starch and sucrose metabolism
+MALACPS,Malonyl-ACP synthase,Glycerophospholipid metabolism
+MALCOAPYRCT,Malonyl CoA pyruvate carboxytransferase,Propanoate metabolism
+MALFADOi,"(S)-Malate:FAD oxidoreductase, irreversible",Citric acid cycle
+MALT,Alpha-Glucosidase,Starch and sucrose metabolism
+MALT6PH,maltose-6-phosphate hydrolase,Starch and sucrose metabolism
+MALTATr,maltose O-acetyltransferase,Starch and sucrose metabolism
+MALTHXabc,maltohexaose transport via ABC system,"Transport, extracellular"
+MALTTRabc,Maltotriose transport via ABC system,"Transport, extracellular"
+MALTabc,maltose transport via ABC system,"Transport, extracellular"
+MALTpts,maltose transport via PEP:Pyr PTS,"Transport, extracellular"
+MALt2r,L-malate reversible transport via proton symport,"Transport, extracellular"
+MAN1PT,mannose-1-phosphate guanylyltransferase,Fructose and mannose metabolism
+MAN1PT2,Mannose-1-Phosphate Guanylyltransferase (GDP),Fructose and mannose metabolism
+MAN6PI,Mannose-6-Phosphate Isomerase,Fructose and mannose metabolism
+MANA4,Alpha-galactosidase (EC 3.2.1.22),Fructose and mannose metabolism
+MANAD_D,D-mannitol dehydrogenase,Fructose and mannose metabolism
+MANAO,Mannonate oxidoreductase,Pentose and glucuronate interconversions
+MANTRabc,mannotriose transport via ABC transporter,"Transport, extracellular"
+MANabc,mannose transport via ABC transporter,"Transport, extracellular"
+MANpts,D-mannose transport via PEP:Pyr PTS,"Transport, extracellular"
+MBDGBG,beta-glucosidase,Starch and sucrose metabolism
+MCCCr,Methylcrotonyl-CoA carboxylase,"Valine, leucine, and isoleucine metabolism"
+MCITL2,methylisocitrate lyase,Propanoate metabolism
+MCOATA,Malonyl Coenzyme A-Acp Transacylase,Fatty acid oxidation
+MCSNAH1r,5-Methylcytosine aminohydrolase,Pyrimidine catabolism
+MDDCP1,"murein D,D-carboxypeptidase (murein5px4p) (periplasm)",Cell wall biosynthesis
+MDDCP4,"murein D,D-carboxypeptidase (murein5p4p) (periplasm)",Cell wall biosynthesis
+MDDEP1,"murein D,D-endopeptidase (murein4px4p) (periplasm)",Cell wall biosynthesis
+MDDEP4,"murein D,D-endopeptidase (murein4px4px4p) (periplasm)",Cell wall biosynthesis
+MDH,Malate Dehydrogenase,Citric acid cycle
+ME1,malic enzyme (NAD),Citric acid cycle
+ME2,Malic Enzyme (NADP),Pyruvate metabolism
+MECDPDH2,"2C-methyl-D-erythritol 2,4 cyclodiphosphate dehydratase",Terpenoid backbone biosynthesis
+MECDPS,"2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase",Terpenoid backbone biosynthesis
+MELIBt2r,"Melibiose transport in via symport, reversible","Transport, extracellular"
+MEOHt2,Methanol Diffusion,"Transport, extracellular"
+MEPCT,2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase,Terpenoid backbone biosynthesis
+METALA1c,Hydrolysis of L-methionyl-L-alanine,Peptide metabolism
+METALAabc,L-methionyl-L-alanine transport via ABC system,"Transport, extracellular"
+METAT,Methionine Adenosyltransferase,Methionine and cysteine metabolism
+METB1,O-Acetyl-L-homoserine succinate-lyase (adding cysteine),Methionine and cysteine metabolism
+METDabc,D-methionine transport via ABC system,"Transport, extracellular"
+METFR,methylenetetrahydrofolate reductase NADPH2,Folate metabolism
+METR,Methyltetrahydrofolate:corrinoid/iron-sulfur protein methyltransferase (MeTr),Wood-Ljungdahl Pathway
+METS,Methionine Synthase,Methionine and cysteine metabolism
+METSOX1abc,L-methionine S-oxide transport via ABC system,"Transport, extracellular"
+METSOX2abc,L-methionine R-oxide transport via ABC system,"Transport, extracellular"
+METSOXR1r,"L-methionine-S-oxide reductase, reversible",Methionine and cysteine metabolism
+METSr,5-MethyltetrahydrofolateL-homocysteine S-methyltransferase,Methionine and cysteine metabolism
+METabc,L-methionine transport via ABC system,"Transport, extracellular"
+METt2pp,METt2pp,
+METt2r,L-methionine reversible transport via proton symport,"Transport, extracellular"
+METt3r,L-methionine transport out via proton antiport,"Transport, extracellular"
+MEVK1c,Mevalonate Kinase (ATP) Cytosol,Squalene and cholesterol synthesis
+MG2abc,magnesium transport via ABC system,"Transport, extracellular"
+MGSA,Methylglyoxal Synthase,Pyruvate metabolism
+MGt5,magnesium transport in/out via permease (no H+),"Transport, extracellular"
+MI1PP,Myo-Inositol 1-Phosphatase,Inositol phosphate metabolism
+MI3PP,Myo-Inositol 3-Phosphatase,Inositol phosphate metabolism
+MI4PP,Myo-Inositol 4-Phosphatase,Inositol phosphate metabolism
+MK7te,Menaquinone secretion (menaquinone 7),"Transport, extracellular"
+MK8t,Menaquinone Secretion/ Uptake (Menaquinone 8),"Transport, extracellular"
+MLTG1,Maltodextrin Glucosidase (Maltotriose),Starch and sucrose metabolism
+MLTG2,Maltodextrin glucosidase (maltotetraose),Starch and sucrose metabolism
+MLTG3,Maltodextrin glucosidase (maltopentaose),Starch and sucrose metabolism
+MLTG4,Maltodextrin glucosidase (maltohexaose),Starch and sucrose metabolism
+MLTG5,Maltodextrin glucosidase (maltoheptaose),Starch and sucrose metabolism
+MLTGY1,murein lytic transglycosylase (murein4p4p) (periplasm),Cell wall biosynthesis
+MLTGY3,murein lytic transglycosylase (murein3p3p) (periplasm),Cell wall biosynthesis
+MLTGY4,murein lytic transglycosylase (murein4px4p4p) (periplasm),Cell wall biosynthesis
+MLTHFTRU,"5,10-Methylenetetrahydrofolate:tRNA-UpsiC",tRNA Charging
+MLTP1,Maltodextrin phosphorylase (maltopentaose),Starch and sucrose metabolism
+MLTP2,Maltodextrin phosphorylase (maltohexaose),Starch and sucrose metabolism
+MLTP3,Maltodextrin phosphorylase (maltoheptaose),Starch and sucrose metabolism
+MLTP4,Maltose phosphorylase,Starch and sucrose metabolism
+MLTP5,maltodextrin phosphorylase,Starch and sucrose metabolism
+MMCD,Methylmalonyl Coenzyme A Decarboxylase,"Valine, leucine, and isoleucine metabolism"
+MME,methylmalonyl-CoA epimerase,Propanoate metabolism
+MMETt2,S-methylmethionine permease,"Transport, extracellular"
+MMM2r,Methylmalonyl-CoA mutase,Propanoate metabolism
+MMSAD1,methylmalonate-semialdehyde dehydrogenase,"Valine, leucine, and isoleucine metabolism"
+MMSAD2,methylmalonate-semialdehyde dehydrogenase (propanol),"Valine, leucine, and isoleucine metabolism"
+MMSAD3,methylmalonate-semialdehyde dehydrogenase (malonic semialdehyde),"Valine, leucine, and isoleucine metabolism"
+MMSAD5,"3-Oxopropanoate:NADP+ oxidoreductase (decarboxylating, CoA-acetylating)",Propanoate metabolism
+MNLP,mannitol 1 phosphatase,Fructose and mannose metabolism
+MNLpts,mannitol transport via PEP:Pyr PTS,"Transport, extracellular"
+MNLt6i,MNLt6i,
+MNNH,D-mannonate hydrolyase,Pentose and glucuronate interconversions
+MNt2,manganese transport in via proton symport,"Transport, extracellular"
+MOAT,3-deoxy-D-manno-octulosonic acid transferase,Lipopolysaccharide biosynthesis
+MOAT3C,3-deoxy-D-manno-octulosonic acid transferase III (LPS core biosynthesis),Lipopolysaccharide biosynthesis
+MOBDabc,molybdate transport via ABC system,"Transport, extracellular"
+MOHMT,3-methyl-2-oxobutanoate hydroxymethyltransferase,CoA synthesis
+MOPSabc,MOPS transport via ABC system,"Transport, extracellular"
+MSAS,3-oxopropanoate synthase,Chloroalkane and chloroalkene degradation
+MSO3abc,methanesulfonate transport via ABC system (periplasm),"Transport, extracellular"
+MTAN,methylthioadenosine nucleosidase,Arginine and proline metabolism
+MTAP,5-Methylthioadenosine Phosphorylase,Arginine and proline metabolism
+MTHFC,Methenyltetrahydrofolate Cyclohydrolase,Folate metabolism
+MTHFD,Methylenetetrahydrofolate Dehydrogenase (NADP),Folate metabolism
+MTHFD2,Methylenetetrahydrofolate Dehydrogenase (NAD),Folate metabolism
+MTHFRfdx,"5,10-methylenetetrahydrofolate reductase (Ferredoxin) Electron bifurcating",Wood-Ljungdahl Pathway
+MTHPTGHM,5 methyltetrahydropteroyltriglutamate homocysteine S methyltransferase,Methionine and cysteine metabolism
+MTI,maltose trehalose isomerase,Starch and sucrose metabolism
+MTRI,5-Methylthioribose-1-Phosphate Isomerase,Arginine and proline metabolism
+MTRK,5-methylthioribose kinase,Arginine and proline metabolism
+MUCCYCI,muconate cycloisomerase,Benzoate degradation
+MUDPDGT,Myristoyl-UDP-glucosyltransferase diglucosyl,Cell wall biosynthesis
+MUDPMGT,Myristoyl-UDP-glucosyltransferase monoglucosyl,Cell wall biosynthesis
+NACDe,Release of Nicotinate at the Basolateral Surface,"Transport, extracellular"
+NACODA,N-acetylornithine deacetylase,Arginine and proline metabolism
+NACSMCTte,Nicotinate Transport by Smct1,"Transport, extracellular"
+NACUP,Uptake of Nicotinic Acid,"Transport, extracellular"
+NACabc,Nicotinic acid transport in via ABC transporter,"Transport, extracellular"
+NACt,Nicotinate secretion/ uptake,"Transport, extracellular"
+NACt2r,Nicotinic acid transport by proton symport reversible,"Transport, extracellular"
+NADDP,NAD diphosphatase,NAD metabolism
+NADH10,NADH dehydrogenase (menaquinone-8 & 0 protons),Respiration
+NADH18,NADH dehydrogenase (ubiquinone-8 & 4 protons),Respiration
+NADH5,NADH dehydrogenase (ubiquinone-8 ),Respiration
+NADH6,NADH dehydrogenase (ubiquinone-8 & 3.5 protons),Respiration
+NADH7,NADH dehydrogenase (menaquinone-8 & 2 protons),Respiration
+NADH8,NADH dehydrogenase (demethylmenaquinone-8 & 2.8 protons),Respiration
+NADH9,NADH dehydrogenase (demethylmenaquinone-8 & 0 protons),Respiration
+NADHUBQOX,NADH-Ubiquinone Oxidoreductase (Na+ translocating),Respiration
+NADK,NAD Kinase,NAD metabolism
+NADK2,NAD kinase (dTTP),NAD metabolism
+NADK3,NAD kinase (dGTP),NAD metabolism
+NADK4,NAD kinase (dCTP),NAD metabolism
+NADK5,NAD kinase (GTP),NAD metabolism
+NADK6,NAD kinase (dATP),NAD metabolism
+NADN,NAD Nucleosidase,NAD metabolism
+NADPti,NADP transporter,"Transport, extracellular"
+NADS1,NAD synthase (nh3),NAD metabolism
+NADS2,NAD Synthase (Glutamine-Hydrolysing),NAD metabolism
+NAMNPP,nicotinic acid mononucleotide pyrophosphorylase,NAD metabolism
+NAPRT,NAPRTase,NAD metabolism
+NAt3,sodium transport out via proton antiport,"Transport, extracellular"
+NAt3_1,Sodium Proton Antiporter (H:Na Is 1:1),"Transport, extracellular"
+NCAMabc,Nicotinamide transport via ABC system,"Transport, extracellular"
+NCAMt,Nicotinamide transport reversible,"Transport, extracellular"
+NCAMt2r,Nicotinamide transport by proton symport reversible,"Transport, extracellular"
+NCOAH,"1,4-dihydroxy-2-naphthoyl-CoA hydrolase",Ubiquinone and other terpenoid-quinone biosynthesis
+NCPTRCA,N-Carbamoylputrescine amidase,Arginine and proline metabolism
+NDP7ex,"Nucleoside-Diphosphatase (UDP), Extracellular",Nucleotide interconversion
+NDP7i,NDP7i,
+NDPK1,Nucleoside-Diphosphate Kinase (ATP:GDP),Nucleotide interconversion
+NDPK10,Nucleoside-Diphosphate Kinase (ATP:DIDP),Nucleotide interconversion
+NDPK2,Nucleoside-Diphosphate Kinase (ATP:UDP),Nucleotide interconversion
+NDPK3,Nucleoside-Diphosphate Kinase (ATP:CDP),Nucleotide interconversion
+NDPK4,Nucleoside-Diphosphate Kinase (ATP:dTDP),Nucleotide interconversion
+NDPK5,Nucleoside-Diphosphate Kinase (ATP:dGDP),Nucleotide interconversion
+NDPK6,Nucleoside-Diphosphate Kinase (ATP:dUDP),Nucleotide interconversion
+NDPK7,Nucleoside-Diphosphate Kinase (ATP:dCDP),Nucleotide interconversion
+NDPK8,Nucleoside-Diphosphate Kinase (ATP:dADP),Nucleotide interconversion
+NDPK9,Nucleoside-Diphosphate Kinase (ATP:IDP),Nucleotide interconversion
+NFORGLUAH,Nforglu[c] amidohydrolase,Histidine metabolism
+NFORTYRt,"N,N-bisformyl-dityrosine transport (extracellular)","Transport, extracellular"
+NFTYROX,N-formyltyrosine oxidase,Folate metabolism
+NH4t4,ammonium transport out via K+ antiport,"Transport, extracellular"
+NH4tb,Transport of Ammonium ion,"Transport, extracellular"
+NHFRBOr,"NADH:flavorubredoxin oxidoreductase, reversible","Transport, extracellular"
+NICRNS,Nicotinate D-Ribonucleoside Kinase,NAD metabolism
+NIT_n1p4,Nitrogenase,Nitrogen metabolism
+NIabc,nickel transport via ABC system,"Transport, extracellular"
+NKCC2t,Na+-K+-Cl- Symport (NH4+),"Transport, extracellular"
+NKCCt,Na+-K+-Cl- Symport,"Transport, extracellular"
+NMNAT,nicotinamide-nucleotide adenylyltransferase,NAD metabolism
+NMNP,NMN permease,"Transport, extracellular"
+NMNS,Nicotinamide Ribotide (NMN) Synthetase,NAD metabolism
+NNAM,nicotinamidase,NAD metabolism
+NNATr,Nicotinate-Nucleotide Adenylyltransferase,NAD metabolism
+NNDMBRT,Nicotinate-nucleotide dimethylbenzimidazole phosphoribosyltransferase,NAD metabolism
+NNDPR,Nicotinate-Nucleotide Diphosphorylase (Carboxylating),NAD metabolism
+NO2rPuq,"Ammonia-forming cytochrome c nitrite reductase, periplasmic (Ubiquinol)",Respiration
+NO2t2,"nitrite transport in via proton symport, irreversible","Transport, extracellular"
+NO2t2r,"nitrite transport in via proton symport, reversible","Transport, extracellular"
+NO3R1,Nitrate reductase (Ubiquinol-8),Respiration
+NO3R2,Nitrate reductase (Menaquinol-8),Respiration
+NO3abc,nitrate transport via ABC system,"Transport, extracellular"
+NO3rPuq,"Respiratory nitrate reductase, periplasmic (Ubiquinol)",Respiration
+NO3t2,nitrate transport in via proton symport,"Transport, extracellular"
+NOPHMO,R04987,Ubiquinone and other terpenoid-quinone biosynthesis
+NP1_r,nucleotide phosphatase,NAD metabolism
+NP2MSUCCS,Spore photoproduct lyase (EC 4.1.99.-),Naphthalene degradation
+NPHS,naphthoate synthase,Ubiquinone and other terpenoid-quinone biosynthesis
+NPR,NADH peroxidase,NAD metabolism
+NT5C,Nicotinate D-Ribonucleotide Phosphohydrolase,NAD metabolism
+NTD1,5-Nucleotidase (dUMP),Pyrimidine catabolism
+NTD10,5-Nucleotidase (XMP),Nucleotide interconversion
+NTD11,5-Nucleotidase (IMP),Purine catabolism
+NTD12,5-Nucleotidase (DIMP),Nucleotide interconversion
+NTD2,5-Nucleotidase (UMP),Pyrimidine catabolism
+NTD3,5-Nucleotidase (dCMP),Pyrimidine catabolism
+NTD4,5-Nucleotidase (CMP),Pyrimidine catabolism
+NTD5,5-Nucleotidase (dTMP),Pyrimidine catabolism
+NTD5_a,5-Nucleotidase (dTMP),Vitamin B2 metabolism
+NTD6,5-Nucleotidase (dAMP),Nucleotide interconversion
+NTD7,5-Nucleotidase (AMP),Nucleotide interconversion
+NTD8,5-Nucleotidase (dGMP),Nucleotide interconversion
+NTD9,5-Nucleotidase (GMP),Nucleotide interconversion
+NTP3,nucleoside-triphosphatase (GTP),Nucleotide interconversion
+NTP9i,NTP9i,
+NTPP1,Nucleoside triphosphate pyrophosphorylase (dgtp),Nucleotide interconversion
+NTPP10,Nucleoside Triphosphate Pyrophosphorylase (dITP),Nucleotide interconversion
+NTPP11,Nucleoside Triphosphate Pyrophosphorylase (XTP),Nucleotide interconversion
+NTPP4,Nucleoside triphosphate pyrophosphorylase (ctp),Nucleotide interconversion
+NTPP6,Nucleoside triphosphate pyrophosphorylase (atp),Nucleotide interconversion
+NTPP7,Nucleoside triphosphate pyrophosphorylase (dttp),Nucleotide interconversion
+NTPP8,Nucleoside triphosphate pyrophosphorylase (utp),Nucleotide interconversion
+NTPP9,Nucleoside Triphosphate Pyrophosphorylase (ITP),Nucleotide interconversion
+NTPTP1,Nucleoside triphosphate tripolyhydrolase,Nucleotide interconversion
+NTRIR2x,nitrite Reductase (NADH),Respiration
+NTRIR2y,Nitrite reductase (NADP),Respiration
+NTRIR4,nitrite Reductase (Menaquinole-8),Nitrogen metabolism
+NTRK,nicotinamide riboside kinase,NAD metabolism
+N_CBL_ASPAH,N-Carbamoyl-L-aspartate amidohydrolase,Alanine and aspartate metabolism
+O16G2e,"Oligo-1, 6-Glucosidase (Strch2 ->Strch3), Extracellular",Starch and sucrose metabolism
+O2t5i,O2 transport in via diffusion,"Transport, extracellular"
+OAACL,ITP oxaloacetate carboxy lyase adding ITP phosphoenolpyruvate forming,Citric acid cycle
+OAADC,Oxaloacetate Decarboxylase,Unassigned
+OAASr,"Oxaloacetate synthase, reversible",Citric acid cycle
+OBDHc,"2-Oxobutanoate Dehydrogenase, Cytosolic","Glycine, serine, alanine, and threonine metabolism"
+OBTFL,2-Oxobutanoate formate lyase,Propanoate metabolism
+OCBT,ornithine carbamoyltransferase,Urea cycle
+OCDCAt2,Octadecanoate transport via proton symport,"Transport, extracellular"
+OCDCAtr,Fatty Acid Transport via Diffusion,"Transport, extracellular"
+OCDCEAtr,Fatty Acid Transport via Diffusion,"Transport, extracellular"
+OCOAT1,3-oxoacid CoA-transferase (Succinyl-CoA: acetoacetate),"Valine, leucine, and isoleucine metabolism"
+OCOAT1r,3-oxoacid CoA-transferase (Succinyl-CoA: acetoacetate),"Valine, leucine, and isoleucine metabolism"
+OCTDPS,Octaprenyl pyrophosphate synthase,Cholesterol metabolism
+ODECOAI,Octadecenoyl-coa cis-trans isomerization,Fatty acid oxidation
+OHPBAT,O-Phospho-4-hydroxy-L-threonine:2-oxoglutarate aminotransferase,Vitamin B6 metabolism
+OHPHM,2-octaprenyl-6-hydroxyphenol methylase,Ubiquinone and other terpenoid-quinone biosynthesis
+OIVD1r,2-oxoisovalerate dehydrogenase (acylating; 4-methyl-2-oxopentaoate),"Valine, leucine, and isoleucine metabolism"
+OIVD2,2-oxoisovalerate dehydrogenase (acylating; 3-methyl-2-oxobutanoate),"Valine, leucine, and isoleucine metabolism"
+OIVD3,2-oxoisovalerate dehydrogenase (acylating; 3-methyl-2-oxopentanoate),"Valine, leucine, and isoleucine metabolism"
+OMBZLM,2-Octaprenyl-6-methoxy-benzoquinol methylase,Ubiquinone and other terpenoid-quinone biosynthesis
+OMCDC,2-Oxo-4-methyl-3-carboxypentanoate decarboxylation,"Valine, leucine, and isoleucine metabolism"
+OMMBLHX3,"2-Octaprenyl-3-methyl-6-methoxy-1,4-benzoquinol hydroxylase (anaerobic)",Ubiquinone and other terpenoid-quinone biosynthesis
+OMPDC,Orotidine-5-Phosphate Decarboxylase,Pyrimidine synthesis
+OMPHHX3,2-octaprenyl-6-methoxyphenol hydroxylase (anaerobic),Ubiquinone and other terpenoid-quinone biosynthesis
+OOR2,2-oxoglutarate synthase (irreversible),Citric acid cycle
+OOR2r,2-oxoglutarate synthase (rev),Citric acid cycle
+OPHBDC,Octaprenyl-hydroxybenzoate decarboxylase,Ubiquinone and other terpenoid-quinone biosynthesis
+OPHHX,2-Octaprenylphenol hydroxylase,Ubiquinone and other terpenoid-quinone biosynthesis
+OPHHX3,2-Octaprenylphenol hydroxylase (anaerobic),Ubiquinone and other terpenoid-quinone biosynthesis
+ORNCD,ornithine cyclodeaminase,Arginine and proline metabolism
+ORNDC,Ornithine Decarboxylase,Urea cycle
+ORNTAC,ornithine transacetylase,Arginine and proline metabolism
+ORNTAr,"Ornithine transaminase, reversible",Urea cycle
+ORNabc,ornithine transport via ABC system,"Transport, extracellular"
+ORNt2r,orntithine reversible transport in via proton symport,"Transport, extracellular"
+OROTPT,Orotidine-5-phosphate pyrophosphate phosphoribosyltransferase,Pyrimidine synthesis
+OROte,Orotate Transporter,"Transport, extracellular"
+O_PP_L_SERH2SO3,O-phospho-L-serine:hydrogen-sulfide,Methionine and cysteine metabolism
+P1CM,S adenosyl L methionine precorrin 1 C methyltransferase,Vitamin B12 metabolism
+P5CD,1-pyrroline-5-carboxylate dehydrogenase,Glutamate metabolism
+P5CR,Pyrroline-5-Carboxylate Reductase,Arginine and proline metabolism
+P5CRyr,L-ProlineNADP+ 5-oxidoreductase,Arginine and proline metabolism
+PAAI17P,anteisoheptadecanoyl-phosphatidic acid phosphatase,Glycerophospholipid metabolism
+PACTH,phosphonoacetaldehyde hydrolase,Aminophosphonate metabolism
+PAI17P,isoheptadecanoyl-phosphatidic acid phosphatase,Glycerophospholipid metabolism
+PANTS,pantothenate synthase,CoA synthesis
+PAPA180,Phosphatidate phosphatase (n-C18:0),Glycerophospholipid metabolism
+PAPPT2,phospho-N-acetylmuramoyl-pentapeptide-transferase (gamma-glutamate),Cell wall biosynthesis
+PAPPT3,"phospho-N-acetylmuramoyl-pentapeptide-transferase (meso-2,6-diaminopimelate)",Cell wall biosynthesis
+PAPt,PAP reversible uniport,"Transport, extracellular"
+PBUTT,Phosphate butyryltransferase (EC 2.3.1.19),Butanoate metabolism
+PBt,Lead (Pb+2) ABC transporter,"Transport, extracellular"
+PC,pyruvate carboxylase,Citric acid cycle
+PC11M,precorrin-4 C11-methyltransferase,Vitamin B12 metabolism
+PC17M,precorrin-3B C17-methyltransferase,Vitamin B12 metabolism
+PC20M,precorrin-2 C20-methyltransferase,Vitamin B12 metabolism
+PC6AR,precorrin-6A reductase,Vitamin B12 metabolism
+PC6YM,"precorrin-6Y C5,15-methyltransferase (decarboxylating)",Vitamin B12 metabolism
+PC8XM,precorrin-8X methylmutase,Vitamin B12 metabolism
+PDH,pyruvate dehydrogenase,Pyruvate metabolism
+PDHa,pyruvate dehydrogenase (lipoamide),Glycolysis/gluconeogenesis
+PDHbr,pyruvate dehydrogenase (dihydrolipoamide) reversible,Glycolysis/gluconeogenesis
+PDHc,pyruvate dehydrogenase (dihydrolipoamide dehydrogenase),Glycolysis/gluconeogenesis
+PDX5PO,Pyridoxine 5-Phosphate Oxidase,Vitamin B6 metabolism
+PDX5PO2,pyridoxine 5-phosphate oxidase (anaerboic,Vitamin B6 metabolism
+PECTIN_DEGe,"Pectin degradation, extracellular",Plant polysaccharide degradation
+PEPCK,Phosphoenolpyruvate Carboxykinase (GTP),Glycolysis/gluconeogenesis
+PEPCK_re,phosphoenolpyruvate carboxykinase (GTP),Glycolysis/gluconeogenesis
+PEPGLY,Peptidoglycan subunit synthesis,Cell wall biosynthesis
+PFK,Phosphofructokinase,Glycolysis/gluconeogenesis
+PFK(ppi),"Pyrophosphate--fructose 6-phosphate 1-phosphotransferase, beta subunit (EC 2.7.1.90)",Glycolysis/gluconeogenesis
+PFK4,ITP:Sedoheptulose 7-phosphate 1-phosphotransferase,Pentose phosphate pathway
+PFK_2,Phosphofructokinase,Glycolysis/gluconeogenesis
+PFK_3,ATPSedoheptulose 7-phosphate 1-phosphotransferase,Pentose phosphate pathway
+PFL,pyruvate formate lyase,Pyruvate metabolism
+PGAMT,phosphoglucosamine mutase,Cell wall biosynthesis
+PGCDr,3-Phospho-D-glycerateNAD+ 2-oxidoreductase,"Glycine, serine, alanine, and threonine metabolism"
+PGI,Glucose-6-Phosphate Isomerase,Glycolysis/gluconeogenesis
+PGK,Phosphoglycerate Kinase,Glycolysis/gluconeogenesis
+PGL,6-Phosphogluconolactonase,Pentose phosphate pathway
+PGLYCP,Phosphoglycolate Phosphatase,Glyoxylate and dicarboxylate metabolism
+PGLc,6-Phosphogluconolactonase,Pentose phosphate pathway
+PGM,Phosphoglycerate Mutase,Glycolysis/gluconeogenesis
+PGMT,Phosphoglucomutase,Glycolysis/gluconeogenesis
+PGMT2,phosphoglucomutase,Glycolysis/gluconeogenesis
+PGPGT,Polyglycerol-phosphate alpha-glucosyltransferase,Cell wall biosynthesis
+PGPP120,phosphatidylglycerol phosphate phosphatase (n-C14:0),Glycerophospholipid metabolism
+PGPP140,phosphatidylglycerol phosphate phosphatase (n-C14:0),Glycerophospholipid metabolism
+PGPP141,phosphatidylglycerol phosphate phosphatase (n-C14:1),Glycerophospholipid metabolism
+PGPP160,phosphatidylglycerol phosphate phosphatase (n-C16:0),Glycerophospholipid metabolism
+PGPP161,phosphatidylglycerol phosphate phosphatase (n-C16:1),Glycerophospholipid metabolism
+PGPP180,phosphatidylglycerol phosphate phosphatase (n-C18:0),Glycerophospholipid metabolism
+PGPP181,phosphatidylglycerol phosphate phosphatase (n-C18:1),Glycerophospholipid metabolism
+PGPPAI15,anteisopentadecanoyl-Phosphatidylglycerophosphate phosphohydrolase,Glycerophospholipid metabolism
+PGPPAI17,anteisoheptadecanoyl-Phosphatidylglycerophosphate phosphohydrolase,Glycerophospholipid metabolism
+PGPPI14,isotetradecanoyl-Phosphatidylglycerophosphate phosphohydrolase,Glycerophospholipid metabolism
+PGPPI15,isopentadecanoyl-Phosphatidylglycerophosphate phosphohydrolase,Glycerophospholipid metabolism
+PGPPI16,isohexadecanoyl-Phosphatidylglycerophosphate phosphohydrolase,Glycerophospholipid metabolism
+PGPPI17,isoheptadecanoyl-Phosphatidylglycerophosphate phosphohydrolase,Glycerophospholipid metabolism
+PGSA120,Phosphatidylglycerol synthase (n-C12:0),Glycerophospholipid metabolism
+PGSA140,Phosphatidylglycerol synthase (n-C14:0),Glycerophospholipid metabolism
+PGSA141,Phosphatidylglycerol synthase (n-C14:1),Glycerophospholipid metabolism
+PGSA160,Phosphatidylglycerol synthase (n-C16:0),Glycerophospholipid metabolism
+PGSA161,Phosphatidylglycerol synthase (n-C16:1),Glycerophospholipid metabolism
+PGSA180,Phosphatidylglycerol synthase (n-C18:0),Glycerophospholipid metabolism
+PGSA181,Phosphatidylglycerol synthase (n-C18:1),Glycerophospholipid metabolism
+PGSAAI15,anteisopentadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase,Glycerophospholipid metabolism
+PGSAAI17,anteisoheptadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase,Glycerophospholipid metabolism
+PGSAI14,isotetradecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase,Glycerophospholipid metabolism
+PGSAI15,isopentadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase,Glycerophospholipid metabolism
+PGSAI16,isohexadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase,Glycerophospholipid metabolism
+PGSAI17,isoheptadecanoyl-CDPdiacylglycerolsn-glycerol-3-phosphate 3-phosphatidyltransferase,Glycerophospholipid metabolism
+PHEATB0tc,Transport of L-Phenylalanine by Atb0 Transporter,"Transport, extracellular"
+PHEMEt,Heme Transport,"Transport, extracellular"
+PHETA1,Phenylalanine Transaminase,Phenylalanine metabolism
+PHEt2pp,"L-phenylalanine transport via proton symport, periplasmatic","Transport, periplasmatic"
+PHEt2r,L-phenylalanine reversible transport via proton symport,"Transport, extracellular"
+PHEtec,Transport of L-Phenylalanine  via Diffusion,"Transport, extracellular"
+PHPB2,acetoacetyl-CoA reductase,Butanoate metabolism
+PHPB2i,acetoacetyl-CoA reductase reversible,Butanoate metabolism
+PHTHRDH,NAD-dependent threonine 4-phosphate dehydrogenase,Vitamin B6 metabolism
+PHYQS,"2-heptaprenyl-1,4-naphthoquinone methyltransferase (EC 2.1.1.163)",Ubiquinone and other terpenoid-quinone biosynthesis
+PIMEtr,"pimelate transport via diffusion, reversible","Transport, extracellular"
+PIabc,phosphate transport via ABC system,"Transport, extracellular"
+PIt6bi,PIt6b irreversible,"Transport, extracellular"
+PIt7,Phosphate Transport In/Out via Three Na+ Symporter,"Transport, extracellular"
+PIt7ir,PIt7ir,"Transport, extracellular"
+PIt7irpp,"PIt7ir, periplasmatic","Transport, periplasmatic"
+PKL,phosphoketolase,Pentose phosphate pathway
+PLIPA1A180,"Phospholipase A1 (phosphatidate, n-C18:0)",Glycerophospholipid metabolism
+PLIPA1G180,"Phospholipase A1 (phosphatidylglycerol, n-C18:0)",Glycerophospholipid metabolism
+PLIPA2A180,"Phospholipase A2 (phosphatidate, n-C18:0)",Glycerophospholipid metabolism
+PLIPA2G180,"Phospholipase A2 (phosphatidylglycerol, n-C18:0)",Glycerophospholipid metabolism
+PLPS,Pyridoxine biosynthesis glutamine amidotransferase,Vitamin B6 metabolism
+PMANM,Phosphomannomutase,Fructose and mannose metabolism
+PMDPHT,pyrimidine phosphatase,Vitamin B2 metabolism
+PMEVKc,"Phosphomevalonate Kinase, Cytosol",Squalene and cholesterol synthesis
+PMPK,phosphomethylpyrimidine kinase,Thiamine metabolism
+PMTCOATA,hexadecanoyl-ACP[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+PNP,Purine-Nucleoside Phosphorylase,NAD metabolism
+PNPPHISPT,Protein-N(pai)-phosphohistidine:sugar N(pai)-phosphotransferase,Histone phosphorylation
+PNTAH,Pantothenate amidohydrolase,CoA catabolism
+PNTK,Pantothenate Kinase,CoA synthesis
+PNTOabc,Pantothenate transport via ECF transporter,"Transport, extracellular"
+PNTOt2,Pantothenate reversible transport via proton symport,"Transport, extracellular"
+PNTOt2i,PNTOt2i,
+PNTOt4,Pantothenate sodium symporter,"Transport, extracellular"
+PNTOte,Transport of (R)-Pantothenate,"Transport, extracellular"
+POR4,Pyruvate-flavodoxin oxidoreductase (EC 1.2.7.-),Pyruvate metabolism
+POX,pyruvate oxidase,Pyruvate metabolism
+POX2,Pyruvate Oxidase (2),Pyruvate metabolism
+PPA,Inorganic Diphosphatase,Oxidative phosphorylation
+PPA2,Inorganic Triphosphatase,Oxidative phosphorylation
+PPAKr,Propionate kinase,Propanoate metabolism
+PPAt2r,Propionate transport via proton symport reversible,"Transport, extracellular"
+PPBNGS,Porphobilinogen Synthase,Heme synthesis
+PPC,phosphoenolpyruvate carboxylase,Pyruvate metabolism
+PPCDC,Phosphopantothenoylcysteine Decarboxylase,CoA synthesis
+PPCK,PPCK,
+PPCKr,phosphoenolpyruvate carboxykinase,Citric acid cycle
+PPCOAC,Propionyl-CoA carboxylase,Propanoate metabolism
+PPCr,"phosphoenolpyruvate carboxylase, reversible",Pyruvate metabolism
+PPDK,"Pyruvate,phosphate dikinase.",Glycolysis/gluconeogenesis
+PPGPPDP,"guanosine-3,5-bis(diphosphate) 3-diphosphatase",Nucleotide interconversion
+PPHNPPT,Protein-N(pai)-phosphohistidine:sugar N(pai)-phosphotransferase,Histone phosphorylation
+PPIACPT,Pyrophosphate:acetate phosphotransferase,Pyruvate metabolism
+PPIOAACL,Pyrophosphate:oxaloacetate carboxy-lyase (transphosphorylating),Pyruvate metabolism
+PPIt2e,Diphosphate export via proton symport,"Transport, extracellular"
+PPIte,Diphosphate exporter,"Transport, extracellular"
+PPItepp,"Diphosphate exporter, periplasmatic","Transport, periplasmatic"
+PPK2,polyphosphate kinase,Respiration
+PPKr,polyphosphate kinase,Respiration
+PPM,Phosphopentomutase,Pentose phosphate pathway
+PPNCL,phosphopantothenate-cysteine ligase,CoA synthesis
+PPNCL3,Phosphopantothenate-Cysteine Ligase,CoA synthesis
+PPND,prephenate dehydrogenase,Tyrosine metabolism
+PPND2,PrephenateNADP+ oxidoreductase(decarboxylating),Tyrosine metabolism
+PPNDH,prephenate dehydratase,Phenylalanine metabolism
+PPPIt2,Tripolyphosphate transport in via proton symport,"Transport, extracellular"
+PPPNt2r,"3-phenylpropionate transport via proton symport, reversible","Transport, extracellular"
+PPS,phosphoenolpyruvate synthase,Glycolysis/gluconeogenesis
+PPTT,trans-pentaprenyltranstransferase,Terpenoid backbone biosynthesis
+PPTabc,phosphonate transport via ABC system,"Transport, extracellular"
+PPt2,Pyrophosphate transport in via proton symport,"Transport, extracellular"
+PRAGS,phosphoribosylglycinamide synthetase,Purine synthesis
+PRAI,phosphoribosylanthranilate isomerase,Tryptophan metabolism
+PRAIS,phosphoribosylaminoimidazole synthase,Purine synthesis
+PRAMPC,phosphoribosyl-AMP cyclohydrolase,Histidine metabolism
+PRASCSi,phosphoribosylaminoimidazolesuccinocarboxamide synthase,Purine synthesis
+PRATPP,phosphoribosyl-ATP pyrophosphatase,Histidine metabolism
+PREN,prenyl transferase,Terpenoid backbone biosynthesis
+PRFGS,Phosphoribosylformylglycinamidine Synthase,Purine synthesis
+PRMICI,1-(5-phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino)imidazole-4-carboxamide isomerase,Histidine metabolism
+PRO1x,L-ProlineNAD+ 5-Oxidoreductase,Arginine and proline metabolism
+PRODTHLOX,NADPH protein-disulfide oxidoreductase,Others
+PROLR,proline racemase,Arginine and proline metabolism
+PROPAT4te,Transport of Proline via Pat4,"Transport, extracellular"
+PROTRS,Prolyl-tRNA synthetase,tRNA Charging
+PROabc,L-proline transport via ABC system,"Transport, extracellular"
+PROt2,L proline transport in via proton symport,"Transport, extracellular"
+PROt2r,L-Proline Reversible Transport via Proton Symport,"Transport, extracellular"
+PROt4,Na+/Proline-L Symporter,"Transport, extracellular"
+PRPPS,Phosphoribosylpyrophosphate Synthetase,Pentose phosphate pathway
+PSCVT,3-phosphoshikimate 1-carboxyvinyltransferase,Phenylalanine metabolism
+PSD120,Phosphatidylserine decarboxylase (n-C12:0),Glycerophospholipid metabolism
+PSD140,Phosphatidylserine decarboxylase (n-C14:0),Glycerophospholipid metabolism
+PSD141,Phosphatidylserine decarboxylase (n-C14:1),Glycerophospholipid metabolism
+PSD160,Phosphatidylserine decarboxylase (n-C16:0),Glycerophospholipid metabolism
+PSD161,Phosphatidylserine decarboxylase (n-C16:1),Glycerophospholipid metabolism
+PSD180,Phosphatidylserine decarboxylase (n-C18:0),Glycerophospholipid metabolism
+PSD181,Phosphatidylserine decarboxylase (n-C18:1),Glycerophospholipid metabolism
+PSDAI15,anteisopentadecanoyl-phosphatidylserine decarboxylase,Glycerophospholipid metabolism
+PSDAI17,anteisoheptadecanoyl-phosphatidylserine decarboxylase,Glycerophospholipid metabolism
+PSDI14,isotetradecanoyl-phosphatidylserine decarboxylase,Glycerophospholipid metabolism
+PSDI15,isopentadecanoyl-phosphatidylserine decarboxylase,Glycerophospholipid metabolism
+PSDI16,isohexadecanoyl-phosphatidylserine decarboxylase,Glycerophospholipid metabolism
+PSDI17,isoheptadecanoyl-phosphatidylserine decarboxylase,Glycerophospholipid metabolism
+PSERT,Phosphoserine Transaminase,"Glycine, serine, alanine, and threonine metabolism"
+PSP_L,Phosphoserine Phosphatase (L-Serine),"Glycine, serine, alanine, and threonine metabolism"
+PSSA120,Phosphatidylserine syntase (n-C12:0),Glycerophospholipid metabolism
+PSSA140,Phosphatidylserine syntase (n-C14:0),Glycerophospholipid metabolism
+PSSA141,Phosphatidylserine syntase (n-C14:1),Glycerophospholipid metabolism
+PSSA160,Phosphatidylserine syntase (n-C16:0),Glycerophospholipid metabolism
+PSSA161,Phosphatidylserine syntase (n-C16:1),Glycerophospholipid metabolism
+PSSA180,Phosphatidylserine syntase (n-C18:0),Glycerophospholipid metabolism
+PSSA181,Phosphatidylserine syntase (n-C18:1),Glycerophospholipid metabolism
+PSSAAI15,anteisopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,Glycerophospholipid metabolism
+PSSAAI17,anteisoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,Glycerophospholipid metabolism
+PSSAI14,isotetradecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,Glycerophospholipid metabolism
+PSSAI15,isopentadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,Glycerophospholipid metabolism
+PSSAI16,isohexadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,Glycerophospholipid metabolism
+PSSAI17,isoheptadecanoyl-CDPdiacylglycerol-serine O-phosphatidyltransferase,Glycerophospholipid metabolism
+PTA2,Phosphate acetyltransferase,Propanoate metabolism
+PTAr,phosphotransacetylase,Pyruvate metabolism
+PTPAT,Phosphopantetheine Adenylyltransferase (Ec 2.7.7.3),CoA synthesis
+PTRCabc,Putrescine-ABC transport,"Transport, extracellular"
+PTRCt2,putrescine transport in via proton symport,"Transport, extracellular"
+PUDPDGT,Palmitoyl-UDP-glucosyltransferase diglucosyl,Cell wall biosynthesis
+PUDPMGT,Palmitoyl-UDP-glucosyltransferase monoglucosyl,Cell wall biosynthesis
+PUNP1,Purine-Nucleoside Phosphorylase (Adenosine),Nucleotide interconversion
+PUNP2,Purine-Nucleoside Phosphorylase (Deoxyadenosine),Purine catabolism
+PUNP3,Purine-Nucleoside Phosphorylase (Guanosine),Purine catabolism
+PUNP4,Purine-Nucleoside Phosphorylase (Deoxyguanosine),Purine catabolism
+PUNP5,Purine-Nucleoside Phosphorylase (Inosine),Purine catabolism
+PUNP6,Purine-Nucleoside Phosphorylase (Deoxyinosine),Purine catabolism
+PUNP7,Purine-Nucleoside Phosphorylase (Xanthosine),Nucleotide interconversion
+PYAM5POr,Pyridoxamine 5-Phosphate Oxidase,Vitamin B6 metabolism
+PYDAMK,Pyridoxamine Kinase,Vitamin B6 metabolism
+PYDAMabc,Pyridoxamine transport via ECF transporter,"Transport, extracellular"
+PYDXK,Pyridoxal Kinase,Vitamin B6 metabolism
+PYDXNK,Pyridoxine Kinase,Vitamin B6 metabolism
+PYDXNabc,Pyridoxine transport via ECF transporter,"Transport, extracellular"
+PYDXPP,Pyridoxal 5-Phosphate Phosphatase,Vitamin B6 metabolism
+PYDXabc,Pyridoxal transport via ECF transporter,"Transport, extracellular"
+PYDXtr,Transport of Pyridoxal,"Transport, extracellular"
+PYK,Pyruvate Kinase,Glycolysis/gluconeogenesis
+PYNP1,pyrimidine-nucleoside phosphorylase (cytosine),Pyrimidine catabolism
+PYNP1r,pyrimidine nucleoside phosphorylase cytosine,Pyrimidine catabolism
+PYNP2r,Pyrimidine-Nucleoside Phosphorylase (Uracil),Pyrimidine catabolism
+PYROX,pyruvate oxidase,Pyruvate metabolism
+PYRt2r,Transport of Pyruvate Reversible via Proton Symport,"Transport, extracellular"
+Q8abc,Ubiquinone-8 uptake via ABC transporter,"Transport, extracellular"
+QUI3OR,L-quinate:NADP+ 3-oxidoreductase,Phenylalanine metabolism
+QUI5OR,Quinate:NAD+ 5-oxidoreductase,Phenylalanine metabolism
+QULNS,quinolinate synthase,NAD metabolism
+R05224,"Hydrogenobyrinate  <=> Hydrogenobyrinate a,c diamide",Vitamin B12 metabolism
+R5PNH4L,Ribose-5-phosphate:ammonia ligase (ADP-forming),Purine synthesis
+RAFGH,Raffinose galactohydrolase,Plant polysaccharide degradation
+RAFH,raffinose hydrolyzing enzyme,Plant polysaccharide degradation
+RB5PE,L-ribulose-5-phosphate 3-epimerase,Pentose and glucuronate interconversions
+RBFK,Riboflavin Kinase,Vitamin B2 metabolism
+RBFSa,riboflavin synthase,Vitamin B2 metabolism
+RBFSb,riboflavin synthase,Vitamin B2 metabolism
+RBK,Ribokinase,Pentose phosphate pathway
+RBK_D,D-Ribulokinase,Pentose phosphate pathway
+RBK_L1,L-ribulokinase (L-ribulose),Pentose phosphate pathway
+RBLIi,"Ribulose isomerase, irreversible",Pentose and glucuronate interconversions
+RBP4E,L-ribulose-phosphate 4-epimerase,Pentose and glucuronate interconversions
+RE0344C,Palmitoyl Coenzyme A Hydrolase,Fatty acid synthesis
+RE0453C,Nucleoside-Diphosphate Kinase,Pyrimidine synthesis
+RE0583C,RE0583C,Fatty acid synthesis
+RE0926C,Alpha-Amylase,Starch and sucrose metabolism
+RE1530C,Thymidine Kinase,Pyrimidine synthesis
+RE1944C,RE1944C,Lipoate metabolism
+RE2112C,RE2112C,Bile acid synthesis
+RE2636C,RE2636C,Bile acid synthesis
+RE2954C,Pyruvate Kinase,Pyrimidine synthesis
+RE3009C,RE3009C,Methionine and cysteine metabolism
+RE3245C,RE3245C,Fatty acid synthesis
+RE3351C,RE3351C,Others
+RE3352C,RE3352C,Purine catabolism
+RHAT1,rhamnosyltransferase I (LPS core biosynthesis),Lipopolysaccharide biosynthesis
+RHC,ribosylhomocysteinase,Methionine and cysteine metabolism
+RHCCE,S-ribosylhomocysteine cleavage enzyme,Methionine and cysteine metabolism
+RIBABCte,D-ribose transport out via ABC system,"Transport, extracellular"
+RIBFLVt2r,riboflavin transport in via proton symport reversible,"Transport, extracellular"
+RIBabc,D-ribose transport via ABC system,"Transport, extracellular"
+RIBt,Ribose Transport via Diffusion,"Transport, extracellular"
+RMI,L-rhamnose isomerase,Fructose and mannose metabolism
+RMK,rhamnulokinase,Fructose and mannose metabolism
+RMK2,Rhamnulokinase,Pentose and glucuronate interconversions
+RMNt2,L-rhamnose transport via proton symport,"Transport, extracellular"
+RMPA,Rhamnulose-1-phosphate aldolase,Fructose and mannose metabolism
+RMPA2,Rhamnulose-1-phosphate aldolase (xylulose-1-phosphate),Pentose and glucuronate interconversions
+RNDR1,Ribonucleoside-Diphosphate Reductase (ADP),Nucleotide interconversion
+RNDR2,Ribonucleoside-Diphosphate Reductase (GDP),Nucleotide interconversion
+RNDR3,Ribonucleoside-Diphosphate Reductase (CDP),Nucleotide interconversion
+RNDR4,Ribonucleoside-Diphosphate Reductase (UDP),Nucleotide interconversion
+RNDR4r,"ribonucleoside-diphosphate reductase (UDP), reversible",Nucleotide interconversion
+RNTR1,ribonucleoside-triphosphate reductase (ATP),Nucleotide interconversion
+RNTR2,ribonucleoside-triphosphate reductase (GTP),Nucleotide interconversion
+RNTR3,ribonucleoside-triphosphate reductase (CTP),Nucleotide interconversion
+RNTR4,ribonucleoside-triphosphate reductase (UTP),Nucleotide interconversion
+RPE,Ribulose 5-Phosphate 3-Epimerase,Pentose phosphate pathway
+RPEc,Ribulose 5-Phosphate 3-Epimerase,Pentose phosphate pathway
+RPI,Ribose-5-Phosphate Isomerase,Pentose phosphate pathway
+RZ5PP,alpha-ribazole 5-phosphate phosphatase,Vitamin B12 metabolism
+S17BPH,"Sedoheptulose 1,7-bisphosphate 1-phosphohydrolase",Carbon fixation in photosynthetic organisms
+S7P1K,CTP:Sedoheptulose 7-phosphate 1-phosphotransferase,Pentose phosphate pathway
+S7PIr,sedoheptulose 7-phosphate isomerase (reversible),Lipopolysaccharide biosynthesis
+SADT,Sulfate Adenylyltransferase,Nucleotide interconversion
+SADT2,Sulfate adenyltransferase,Sulfur metabolism
+SALCS2,Isochorismate pyruvate-lyase (salicylate-forming),Biosynthesis of siderophore group nonribosomal peptides
+SALCpts,salicin transport via PEP:Pyr PTS,"Transport, extracellular"
+SARCOX,sarcosine oxidase,"Glycine, serine, alanine, and threonine metabolism"
+SARCSMT,S-adenosyl-L-methionine:sarcosine N-methyltransferase,"Glycine, serine, alanine, and threonine metabolism"
+SBTDOX,"(S,S)-Butane-2,3-diol:NAD+ oxidoreductase",Butanoate metabolism
+SBTD_D2,D-Sorbitol Dehydrogenase (D-Fructose Producing),Fructose and mannose metabolism
+SBTPD,sorbitol-6-phosphate dehydrogenase,Fructose and mannose metabolism
+SBTpts,D sorbitol transport via PEPPyr PTS,"Transport, extracellular"
+SDPDS,succinyl-diaminopimelate desuccinylase,Lysine metabolism
+SDPTA,succinyldiaminopimelate transaminase,Lysine metabolism
+SELMETAT,Selenomethionine Adenosyltransferase,Selenoamino acid metabolism
+SELNPS,Selenophosphate Synthase,Selenoamino acid metabolism
+SEPHCHS,2-succinyl-5-enolpyruvyl-6-hydroxy-3-cyclohexene-1-carboxylic-acid synthase,Ubiquinone and other terpenoid-quinone biosynthesis
+SERATi,Serine acetyltransferase (EC 2.3.1.30),Methionine and cysteine metabolism
+SERD_D,d_Serine deaminase,"Glycine, serine, alanine, and threonine metabolism"
+SERt2r,L-serine reversible transport via proton symport,"Transport, extracellular"
+SGAT,Stearoyl-glycerol-3-phosphate O-acyltransferase,Cell wall biosynthesis
+SHCHCC2,"sirohydrochlorin cobaltochelatase, irreversible",Vitamin B12 metabolism
+SHCHCS,"2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase",Ubiquinone and other terpenoid-quinone biosynthesis
+SHCHCS3,"2-succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate synthase",Ubiquinone and other terpenoid-quinone biosynthesis
+SHCHD2,sirohydrochlorin dehydrogenase (NAD),Vitamin B12 metabolism
+SHCHF,sirohydrochlorin ferrochelatase,Vitamin B12 metabolism
+SHEMEabc,Siroheme transport via ABC system,"Transport, extracellular"
+SHK3Dr,shikimate dehydrogenase,Phenylalanine metabolism
+SHK3OR,shikimate:NAD+ 3-oxidoreductase,Phenylalanine metabolism
+SHKK,shikimate kinase,Phenylalanine metabolism
+SHSL1r,O-succinylhomoserine lyase reversible,Methionine and cysteine metabolism
+SHSL2,"O-succinylhomoserine lyase (H2S), irreversible",Methionine and cysteine metabolism
+SHSL4,SHSL4,
+SIAASE_OGLYCAN1e,"Sialidase, mucin-type O-glycans, extracellular",O-glycan degradation
+SIAASE_OGLYCAN2e,"Sialidase, mucin-type O-glycans, extracellular",O-glycan degradation
+SIAASE_OGLYCAN3e,"Sialidase, mucin-type O-glycans, extracellular",O-glycan degradation
+SNCOAT,"Acetyl-CoA:acetoacetyl-CoA transferase, alpha subunit (EC 2.8.3.8)",Naphthalene degradation
+SO4t2,sulfate transport in via proton symport,"Transport, extracellular"
+SO4t4_2,Sulfate Transport via Sodium Symport,"Transport, extracellular"
+SPMDAT1,Spermidine acetyltransferase,Arginine and proline metabolism
+SPMDAT2,Spermidine acetyltransferase (N8),Arginine and proline metabolism
+SPMDabc,spermidine transport via ABC system,"Transport, extracellular"
+SPMDt2,Transport of spermidine extracellular,"Transport, extracellular"
+SPMDt3,spermidine transport out via proton antiport,"Transport, extracellular"
+SPMS,Spermidine Synthase,Urea cycle
+SPMTDe,Transport of Spermidine,"Transport, extracellular"
+SPODM,Superoxide Dismutase,ROS detoxification
+SPTc,serine-pyruvate aminotransferase,"Glycine, serine, alanine, and threonine metabolism"
+SQLE,Squalene epoxidase (nad[c]),Cholesterol metabolism
+SQLErev,"Squalene epoxidase, endoplasmic reticular (nad[c]), reversed",Cholesterol metabolism
+SRBL1PR,L-sorbose 1-phosphate reductase,Fructose and mannose metabolism
+SSALxr,"succinate-semialdehyde dehydrogenase (NAD), reversible",Butanoate metabolism
+SSALy,SSALy,
+SSALyr,"succinate-semialdehyde dehydrogenase (NADP), reversible",Butanoate metabolism
+SSQEPXS,"(S)-2,3-epoxysqualene synthase",Cholesterol metabolism
+STCOATA,stearyl-ACP[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+STS2,Steryl-Sulfatase,Steroid metabolism
+STYSGH,a-galactosidase (stachyose),Plant polysaccharide degradation
+STYSabc,stachyose transport via ABC system (import),"Transport, extracellular"
+STYSt2,Stachyose transport in via proton symport,"Transport, extracellular"
+SUCBZL,o-succinylbenzoate-CoA ligase,Ubiquinone and other terpenoid-quinone biosynthesis
+SUCBZS,O-succinylbenzoate-CoA synthase,Ubiquinone and other terpenoid-quinone biosynthesis
+SUCCt,Succinate transport via diffusion,"Transport, extracellular"
+SUCCt2r,succinate transport via proton symport,"Transport, extracellular"
+SUCD1,succinate dehydrogenase,Citric acid cycle
+SUCD4,succinate dehyrdogenase,Citric acid cycle
+SUCDi,succinate dehydrogenase (irreversible),Citric acid cycle
+SUCOAS,succinyl-CoA synthetase (ADP-forming),Citric acid cycle
+SUCOAS1,succinate---CoA ligase,Citric acid cycle
+SUCOAS1c,Succinate--CoA ligase (GDP forming),Citric acid cycle
+SUCR,sucrose hydrolyzing enzyme,Plant polysaccharide degradation
+SUCRe,"Sucrose Hydrolyzing Enxyme, Extracellular",Galactose metabolism
+SUCRt2,sucrose transport in via proton symport,"Transport, extracellular"
+SUCpts,sucrose transport via PEP:Pyr PTS,"Transport, extracellular"
+SUDPDGT,Stearoyl-UDP-glucosyltransferase diglucosyl,Cell wall biosynthesis
+SUDPMGT,Stearoyl-UDP-glucosyltransferase monoglucosyl,Cell wall biosynthesis
+SULFACabc,sulfoacetate transport via ABC system,"Transport, extracellular"
+SULFR,Sulfate reductase,Methionine and cysteine metabolism
+SULR,sulfite reductase (NADPH2),Sulfur metabolism
+SULabc,sulfate transport via ABC system,"Transport, extracellular"
+TAGURr,tagaturonate reductase,Pentose and glucuronate interconversions
+TALA,Transaldolase,Pentose phosphate pathway
+TARTD,L(+)-tartrate dehydratase,Glyoxylate and dicarboxylate metabolism
+TAURabc,taurine transport via ABC system,"Transport, extracellular"
+TDCOATA,tetradecanoyl-ACP[acyl-carrier-protein] transferase,Glycerophospholipid metabolism
+TDG3PACT,Tetradecanoyl-CoA(myristoyl)-glycerol-3-phosphate O-acyltransferase,Cell wall biosynthesis
+TDPAGTA,"dTDP-4-amino-4,6-dideoxy-D-glucose transaminase",Cell wall biosynthesis
+TDPDRE,"DTDP-4-Dehydrorhamnose 3, 5-Epimerase",Cell wall biosynthesis
+TDPDRR2,dTDP-6-deoxy-L-mannose:NADP+ 4-oxidoreductase,Cell wall biosynthesis
+TDPDRRr,"dTDP-4-dehydrorhamnose reductase, reversible",Lipopolysaccharide biosynthesis
+TDPGDH,"DTDPglucose 4, 6-Dehydratase",Nucleotide sugar metabolism
+TDSK,Tetraacyldisaccharide 4kinase,Lipopolysaccharide biosynthesis
+TECA1S140,"myristoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",Cell wall biosynthesis
+TECA1S160,"palmitoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",Cell wall biosynthesis
+TECA1S180,"stearoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",Cell wall biosynthesis
+TECA1SAI15,"anteisopentadecanoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",Cell wall biosynthesis
+TECA1SAI17,"anteisoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",Cell wall biosynthesis
+TECA1SI14,"isotetradecanoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",Cell wall biosynthesis
+TECA1SI15,"isopentadecanoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",Cell wall biosynthesis
+TECA1SI16,"isohexadecanoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",Cell wall biosynthesis
+TECA1SI17,"isoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, unsubstituted",Cell wall biosynthesis
+TECA2S140,Myristoyl-lipoteichoic acid synthesis n=24 linked glucose substituted,Cell wall biosynthesis
+TECA2S160,Palmitoyl-lipoteichoic acid synthesis n=24 linked glucose substituted,Cell wall biosynthesis
+TECA2S180,Stearoyl-lipoteichoic acsd synthesis n=24 linked glucose substituted,Cell wall biosynthesis
+TECA2SAI15,Anteisopentadecanoyl-lipoteichoic acid synthesis n=24 linked glucose substituted,Cell wall biosynthesis
+TECA2SAI17,Anteisoheptadecanoyl-lipoteichoic acid synthesis n=24 linked glucose substituted,Cell wall biosynthesis
+TECA2SI14,Isotetradecanoyl-lipoteichoic acid synthesis n=24 linked glucose substituted,Cell wall biosynthesis
+TECA2SI15,Isopentadecanoyl-lipoteichoic acid synthesis n=24 linked glucose substituted,Cell wall biosynthesis
+TECA2SI16,Isohexadecanoyl-lipoteichoic acid synthesis n=24 linked glucose substituted,Cell wall biosynthesis
+TECA2SI17,Isoheptadecanoyl-lipoteichoic acid synthesis n=24 linked glucose substituted,Cell wall biosynthesis
+TECA3S140,Myristoyl-lipoteichoic acid synthesis n=24 unlinked D-alanine substituted,Cell wall biosynthesis
+TECA3S160,Palmitoyl-lipoteichoic acid synthesis n=24 unlinked D-alanine substituted,Cell wall biosynthesis
+TECA3S180,Stearoyl-lipoteichoic acid synthesis n=24 unlinked D-alanine substituted,Cell wall biosynthesis
+TECA3SAI15,Anteisopentadecanoyl-lipoteichoic acid synthesis n=24 unlinked D-alanine substituted,Cell wall biosynthesis
+TECA3SAI17,Anteisoheptadecanoyl-lipoteichoic acid synthesis n=24 unlinked D-alanine substituted,Cell wall biosynthesis
+TECA3SI14,Isotetradecanoyl-lipoteichoic acid synthesis n=24 unlinked D-alanine substituted,Cell wall biosynthesis
+TECA3SI15,Isopentadecanoyl-lipoteichoic acid synthesis n=24 unlinked D-alanine substituted,Cell wall biosynthesis
+TECA3SI16,Isohexadecanoyl-lipoteichoic acid synthesis n=24 unlinked D-alanine substituted,Cell wall biosynthesis
+TECA3SI17,Isoheptadecanoyl-lipoteichoic acid synthesis n=24 unlinked D-alanine substituted,Cell wall biosynthesis
+TECA4S,TECA4S,Cell wall biosynthesis
+TECA5S140,"myristoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",Cell wall biosynthesis
+TECA5S160,"palmitoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",Cell wall biosynthesis
+TECA5S180,"stearoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",Cell wall biosynthesis
+TECA5SAI15,"anteisopentadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",Cell wall biosynthesis
+TECA5SAI17,"anteisoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",Cell wall biosynthesis
+TECA5SI14,"isotetradecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",Cell wall biosynthesis
+TECA5SI15,"isopentadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",Cell wall biosynthesis
+TECA5SI16,"isohexadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",Cell wall biosynthesis
+TECA5SI17,"isoheptadecanoyl-lipoteichoic acid synthesis (n=24), linked, N-acetylglucosamine substituted",Cell wall biosynthesis
+TECAAE,Teichoic acid D-alanine substituted export,Cell wall biosynthesis
+TECAGE,Teichoic acid glucose substituted export,Cell wall biosynthesis
+TECAUE,Teichoic acid unsubstituted export,Cell wall biosynthesis
+TEICH45,teichuronic acid n=45 unlinked GalNAc-GlcA repeated,Cell wall biosynthesis
+TGBPA,Tagatose-bisphosphate aldolase,Galactose metabolism
+THD1,NAD(P) transhydrogenase (B-specific),NAD metabolism
+THD2,NAD(P) transhydrogenase,NAD metabolism
+THDPOR,"2,3,4,5-Tetrahydrodipicolinate:NAD+ oxidoreductase",Lysine metabolism
+THFHL,rxn03005,Folate metabolism
+THIORDXi,hydrogen peroxide reductase (thioredoxin),ROS detoxification
+THMDt2,THMDt2,
+THMDt2r,Thymidine Transport in via Proton Symport Reversible,"Transport, extracellular"
+THMDt4,Thymidine Transport in via Sodium Symport,"Transport, extracellular"
+THMMPt2,"Thiamin monophosphate transport in via proton symport, irreversible","Transport, extracellular"
+THMNasym,Thiamin sodium symporter,"Transport, extracellular"
+THMPPC,Thiamin diphosphate carboxylase,Glycolysis/gluconeogenesis
+THMabc,thiamine transport via ABC system,"Transport, extracellular"
+THMt2,Thiamine transport in via proton symport,"Transport, extracellular"
+THMt3,Thiamine Transport in via Proton Antiport,"Transport, extracellular"
+THRA2i,L-allo-Threonine Aldolase,"Glycine, serine, alanine, and threonine metabolism"
+THRAi,Threonine aldolase,"Glycine, serine, alanine, and threonine metabolism"
+THRAr,Threonine Aldolase,"Glycine, serine, alanine, and threonine metabolism"
+THRD,L-threonine dehydrogenase,"Glycine, serine, alanine, and threonine metabolism"
+THRD2,Threonine dehydrogenase,"Glycine, serine, alanine, and threonine metabolism"
+THRD_L,L-Threonine Deaminase,"Glycine, serine, alanine, and threonine metabolism"
+THRPD,threonine-phosphate decarboxylase,Vitamin B12 metabolism
+THRS,Threonine Synthase,"Glycine, serine, alanine, and threonine metabolism"
+THRt2r,L-threonine reversible transport via proton symport,"Transport, extracellular"
+THSFST,Thiosulfate Sulfurtransferase,Sulfur metabolism
+THZPSN,thiazole phosphate synthesis,Thiamine metabolism
+TKT1,Transketolase,Pentose phosphate pathway
+TKT2,Transketolase,Pentose phosphate pathway
+TMAOR1,Trimethylamine N-oxide reductase (menaquinol 8),Respiration
+TMAOR2,Trimethylamine N-oxide reductase (demethylmenaquinol 8),Respiration
+TMDK1,Thymidine Kinase (ATP:Thymidine),Nucleotide interconversion
+TMDK2,thymidine kinase GTPThymidine,Pyrimidine synthesis
+TMDPK,Thiamin Pyrophosphokinase (Ec 2.7.6.2),Thiamine metabolism
+TMDPP,Thymidine Phosphorylase,Pyrimidine catabolism
+TMDS,Thymidylate Synthase,Nucleotide interconversion
+TMDSf2,"thymidylate synthase  (Flavin-dependent, NAD)",Nucleotide interconversion
+TMK,thiamine kinase,Thiamine metabolism
+TMN,thiaminase,Thiamine metabolism
+TMPK,thiamine-phosphate kinase,Thiamine metabolism
+TMPPP,thiamine-phosphate diphosphorylase,Thiamine metabolism
+TPI,Triose-Phosphate Isomerase,Glycolysis/gluconeogenesis
+TRDOXOX,Peptide-methionine thioredoxin-disulfide S-oxidoreductase,Others
+TRDR,Thioredoxin Reductase (NADPH),Sulfur metabolism
+TRDRr,Thioredoxin reductase (EC 1.8.1.9),Sulfur metabolism
+TRE6PH,trehalose-6-phosphate hydrolase,Starch and sucrose metabolism
+TRE6PP,trehalose-phosphatase,Starch and sucrose metabolism
+TRE6PPGT,trehalose 6-phosphate:phosphate b-D-glucosyltransferase,Starch and sucrose metabolism
+TRE6PS,"alpha,alpha-trehalose-phosphate synthase (UDP-forming)",Starch and sucrose metabolism
+TREGLUDR2,"alpha,alpha-Trehalose:orthophosphate beta-D-glucosyltransferase",Starch and sucrose metabolism
+TREH,"Alpha, Alpha-Trehalase",Starch and sucrose metabolism
+TREabc,trehalose  transport via ABC system,"Transport, extracellular"
+TREpts,trehalose transport via PEP:Pyr PTS,"Transport, extracellular"
+TRIOK,Triokinase,Fructose and mannose metabolism
+TRPAS2i,Tryptophanase (L-tryptophan) irreversible,Tryptophan metabolism
+TRPS1,tryptophan synthase (indoleglycerol phosphate),Tryptophan metabolism
+TRPS2,tryptophan synthase (indole),Tryptophan metabolism
+TRPS3,tryptophan synthase (indoleglycerol phosphate),Tryptophan metabolism
+TRPS3r,"(1S,2R)-1-C-(indol-3-yl)glycerol 3-phosphate",Tryptophan metabolism
+TRPt2r,L-tryptophan reversible transport via proton symport,"Transport, extracellular"
+TRSAR,tartronate semialdehyde reductase irreversible,Glyoxylate and dicarboxylate metabolism
+TRSARry,"tartronate semialdehyde reductase, NADP",Glyoxylate and dicarboxylate metabolism
+TSULabc,thiosulfate transport via ABC system,"Transport, extracellular"
+TTDCAt2,Tetradecanoate transport via proton symport,"Transport, extracellular"
+TTDCAtr,Tetradecanoate (Transport),"Transport, extracellular"
+TYRAL,L-Tyrosine ammonia-lyase,Tyrosine metabolism
+TYRNFT,L-tyrosine N-formyltransferase,Folate metabolism
+TYRTA,Tyrosine Transaminase,Tyrosine metabolism
+TYRt2r,L-tyrosine reversible transport via proton symport,"Transport, extracellular"
+U23GAAT,UDP-3-O-(3-hydroxymyristoyl)glucosamine acyltransferase,Lipopolysaccharide biosynthesis
+UAAGDS,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimelate synthetase",Cell wall biosynthesis
+UAAGLAA,UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysine:alanyl-D-alanine,Cell wall biosynthesis
+UACGAMP,UDP-N-acetyl-D-glucosamine pyrophosphohydrolase,Pentose and glucuronate interconversions
+UACMAMAT,"beta-1,4-N-acetylmannosaminyltransferase",Aminosugar metabolism
+UACMAMH,N-acetyl-D-mannosamine N-acetylmannosaminohydrolase,Aminosugar metabolism
+UACMAMO,UDP-N-acetyl-D-mannosamine oxidoreductase,Aminosugar metabolism
+UAG2E,UDP-N-acetylglucosamine 2-epimerase,Aminosugar metabolism
+UAG2EMA,UDP-N-acetyl-D-glucosamine 2-epimerase (Hydrolysis),Aminosugar metabolism
+UAG4E,UDP-N-Acetylglucosamine 4-Epimerase,Aminosugar metabolism
+UAGAAT,UDP-N-acetylglucosamine acyltransferase,Aminosugar metabolism
+UAGCVT_r,UDP-N-acetylglucosamine 1-carboxyvinyltransferase (EC 2.5.1.7),Aminosugar metabolism
+UAGDP,UDP-N-Acetylglucosamine Diphosphorylase,Aminosugar metabolism
+UAGPT2,UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,Cell wall biosynthesis
+UAGPT3,UDP-N-acetylglucosamine-N-acetylmuramyl-(pentapeptide)pyrophosphoryl-undecaprenol N-acetylglucosamine transferase,Cell wall biosynthesis
+UAMAGS,UDP-N-acetylmuramoyl-L-alanyl-D-glutamate synthetase,Cell wall biosynthesis
+UAMAS,UDP-N-acetylmuramoyl-L-alanine synthetase,Cell wall biosynthesis
+UAPGR,UDP-N-acetylenolpyruvoylglucosamine reductase,Cell wall biosynthesis
+UDCPDP,undecaprenyl-diphosphatase,Cell wall biosynthesis
+UDCPDPS,Undecaprenyl diphosphate synthase,Cell wall biosynthesis
+UDCPDPabc,Undecaprenyl diphosphate uptake via ABC transporter,"Transport, extracellular"
+UDPACGLP,UDP-N-acetylglucosamine diphosphorylase,Pentose and glucuronate interconversions
+UDPDPS,undecaprenyl-diphosphate synthase,Cell wall biosynthesis
+UDPG4E,UDPglucose 4-Epimerase,Galactose metabolism
+UDPGALGLCGT,UDPgalactose:D-glucose 4-beta-D-galactosyltransferase,Pentose and glucuronate interconversions
+UDPGALM,UDPgalactopyranose mutase,Aminosugar metabolism
+UDPGDr,UDPglucoseNAD+ oxidoreductase,Pentose and glucuronate interconversions
+UDPGFRUGT,UDPglucose:D-fructose 2-alpha-D-glucosyltransferase,Pentose and glucuronate interconversions
+UDPGGT,UDPglucose:D-fructose-6-phosphate 2-alpha-D-glucosyltransferase,Starch and sucrose metabolism
+UDPGLCURtr,Transport of UDP-Glucuronate,"Transport, extracellular"
+UDPGP,UDPglucose Pyrophosphohydrolase,Starch and sucrose metabolism
+UGLT,UDPglucose-Hexose-1-Phosphate Uridylyltransferase,Galactose metabolism
+UGMDDS,"UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine synthetase",Cell wall biosynthesis
+UHGADA,UDP-3-O-acetylglucosamine deacetylase,Lipopolysaccharide biosynthesis
+UM4PCP,"UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate-D-alanine L,D-carboxypeptidase",Cell wall biosynthesis
+UM4PL,UDP-N-acetylmuramate:L-alanyl-gamma-D-glutamyl-meso-diaminopimelate-D-alanine ligase,Cell wall biosynthesis
+UMPK,UMP Kinase,Nucleotide interconversion
+UMPK2,UMP Kinase (CTP),Nucleotide interconversion
+UMPK3,UMP Kinase (UTP),Nucleotide interconversion
+UMPK4,UMP Kinase (GTP),Nucleotide interconversion
+UMPK5,UMP Kinase (dATP),Nucleotide interconversion
+UMPK6,UMP Kinase (dCTP),Nucleotide interconversion
+UMPK7,UMP Kinase (dGTP),Nucleotide interconversion
+UMPt2,UMP transport via proton symport,"Transport, extracellular"
+UMPt2i,UMP transport via proton symport irreversible,"Transport, extracellular"
+UP4GH,"P1,P4-Bis(5-nucleosyl)-tetraphosphate nucleotidohydrolase",Pyrimidine catabolism
+UPP3MT,uroporphyrinogen methyltransferase,Vitamin B12 metabolism
+UPP3MT3,S adenosyl L methionine uroporphyrinogen III C methyltransferase,Vitamin B12 metabolism
+UPP3S,Uroporphyrinogen-Iii Synthase,Heme synthesis
+UPPDC1,Uroporphyrinogen Decarboxylase (Uroporphyrinogen Iii),Heme synthesis
+UPPDC2b,uroporphyrinogen decarboxylase (uroporphyrinogen I),Heme synthesis
+UPPN,B-Ureidopropionase,Pyrimidine catabolism
+UPPRT,uracil phosphoribosyltransferase,Nucleotide salvage pathway
+URAOX,urate[c]:oxygen oxidoreductase,Purine catabolism
+URAt,Uracil Transport via Faciliated Diffusion,"Transport, extracellular"
+URAt2,uracil transport in via proton symport,"Transport, extracellular"
+URAt2r,uracil transport in via proton symport reversible,"Transport, extracellular"
+URCN,Urocanase,Histidine metabolism
+URDGLYCD,ureidoglycolate dehydrogenase,Purine catabolism
+URDGLYCR,(S)-urdglyc[c]:nad[c]P+ oxidoreductase,Purine catabolism
+UREA,urease,Arginine and proline metabolism
+UREAt,Urea Transport via Facilitate Diffusion,"Transport, extracellular"
+URFGTT,UDP-L-rhamnose:flavonol-3-O-D-glucoside L-rhamnosyltransferase,Cell wall biosynthesis
+URIDK2,uridylate kinase dUMP,Nucleotide interconversion
+URIDK3,ATP:dUMP Phosphotransferase,Nucleotide interconversion
+URIK1,Uridine Kinase (ATP:Uridine),Pyrimidine synthesis
+URIK10,cytidine kinase (dCTP:Cytidine),Pyrimidine synthesis
+URIK11,cytidine kinase (dUTP:Cytidine),Pyrimidine synthesis
+URIK12,cytidine kinase (dATP:Cytidine),Pyrimidine synthesis
+URIK13,cytidine kinase (dGTP:Cytidine),Pyrimidine synthesis
+URIK14,cytidine kinase (dTTP:Cytidine),Pyrimidine synthesis
+URIK2,uridine kinase (GTP:Uridine),Pyrimidine synthesis
+URIK3,uridine kinase (ITP:Uridine),Pyrimidine synthesis
+URIK4,uridine kinase (UTP:Uridine),Pyrimidine synthesis
+URIK5,uridine kinase (dCTP:Uridine),Pyrimidine synthesis
+URIK6,uridine kinase (dUTP:Uridine),Pyrimidine synthesis
+URIK7,uridine kinase (dATP:Uridine),Pyrimidine synthesis
+URIK8,uridine kinase (dGTP:Uridine),Pyrimidine synthesis
+URIK9,uridine kinase (dTTP:Uridine),Pyrimidine synthesis
+URIt2,uridine transport in via proton symport,"Transport, extracellular"
+URIt2r,Uridine Transport in via Proton Symport Reversible,"Transport, extracellular"
+URIt4,Uridine Transport in via Sodium Symport,"Transport, extracellular"
+US7P1PT,utp[c]:Sedoheptulose 7-phosphate 1-phosphotransferase,Pentose phosphate pathway
+USHD,UDP-sugar hydrolase,Lipopolysaccharide biosynthesis
+UTPATPT,Uridine triphosphate:AMP phosphotransferase,Nucleotide interconversion
+VALO,Valine oxidation by gut bacteria,"Valine, leucine, and isoleucine metabolism"
+VALTA,Valine Transaminase,"Valine, leucine, and isoleucine metabolism"
+VALabc,L-valine transport via ABC system,"Transport, extracellular"
+VALt2r,L-valine reversible transport via proton symport,"Transport, extracellular"
+VPAMTr,"Valine-pyruvate aminotransferase, reversible","Valine, leucine, and isoleucine metabolism"
+XANt2,xanthine transport in via proton symport,"Transport, extracellular"
+XPPT,xanthine phosphoribosyltransferase,Purine catabolism
+XPPTr,"Xanthine phosphoribosyltransferase, reversible",Purine catabolism
+XTSNH,Xanthosine hydrolase,Nucleotide interconversion
+XU5PG3PL,D-Xylulose 5-phosphate D-glyceraldehyde-3-phosphate-lyase,Pentose phosphate pathway
+XYLI1,xylose isomerase,Pentose and glucuronate interconversions
+XYLI2,xylose isomerase,Fructose and mannose metabolism
+XYLK,Xylulokinase,Pentose phosphate pathway
+XYLTD_Dr,Xylitol Dehydrogenase (D-Xyulose-Forming),Pentose phosphate pathway
+XYLabc,D-xylose transport via ABC system,"Transport, extracellular"
+XYLt,D-Xylose Reversible Transport,"Transport, extracellular"
+YUMPS,yUMP synthetase,Pyrimidine synthesis
+ZN2t4,ZN2t4,"Transport, extracellular"
+ZNabc,zinc transport via ABC system,"Transport, extracellular"
+biomassPan_panBacteroides_pectinophilus,biomassPan,
+biomassPan_panBlautia_torques,biomassPan,
+biomassPan_panClostridium_innocuum,biomassPan,
+biomassPan_panClostridium_leptum,biomassPan,
+biomassPan_panClostridium_methylpentosum,biomassPan,
+biomassPan_panErysipelotrichaceae_bacterium,biomassPan,
+biomassPan_panEubacterium_brachy,biomassPan,
+biomassPan_panEubacterium_saphenum,biomassPan,
+biomassPan_panEubacterium_siraeum,biomassPan,
+biomassPan_panEubacterium_sulci,biomassPan,
+biomassPan_panRuminococcus_lactaris,biomassPan,
+biomassPan_panTyzzerella_nexilis,biomassPan,
+dTMPt2,"dTMP transport in via proton symport, irreversible","Transport, extracellular"
+dreplication,DNA replication c0,Exchange/demand reaction
+pbiosynthesis,Protein biosynthesis c0,Exchange/demand reaction
+r0010,Hydrogen-Peroxide:Hydrogen-Peroxide Oxidoreductase Ec:1.11.1.6,ROS detoxification
+r0051,AMP:Pyrophosphate Phosphoribosyltransferase,Purine catabolism
+r0060,L-Serine Ammonia-Lyase Ec:4.3.1.17,Methionine and cysteine metabolism
+r0082,Oxalosuccinate:NADP+ Oxidoreductase (Decarboxylating) Ec:1.1.1.42,Unassigned
+r0093,UDPglucose Pyrophosphohydrolase,Starch and sucrose metabolism
+r0119,Guanosine 5-Triphosphate Pyrophosphohydrolase,Purine catabolism
+r0120,"GTP 7, 8-8, 9-Dihydrolase",Folate metabolism
+r0122,GTP:Pyruvate O2-Phosphotransferase,Glycolysis/gluconeogenesis
+r0127,L-Asparagine Amidohydrolase / Cyanoamino Acid Metabolism / Nitrogen Metabolism Ec:3.5.1.1 Ec:3.5.1.38,Alanine and aspartate metabolism
+r0139,CDP Diphosphohydrolase,Pyrimidine catabolism
+r0149,CTP Diphosphohydrolase,Pyrimidine catabolism
+r0153,CTP:Pyruvate O2-Phosphotransferase,Glycolysis/gluconeogenesis
+r0163c,2-oxoglutarate dehydrogenase,Citric acid cycle
+r0165,UTP:Pyruvate O2-Phosphotransferase,Glycolysis/gluconeogenesis
+r0220,Propinol Adenylate:Coa Ligase (AMP-Forming) Ec:6.2.1.17 Ec:6.2.1.1,Unassigned
+r0224,"5, 6, 7, 8-Tetrahydrofolate:NAD+ Oxidoreductase",Folate metabolism
+r0236,"5, 6-Dihydrouracil:NAD+ Oxidoreductase",Pyrimidine catabolism
+r0276,NADH:Guanosine-5-Phosphate Oxidoreductase (Deaminating),Purine catabolism
+r0280,DATP:Pyruvate O2-Phosphotransferase,Glycolysis/gluconeogenesis
+r0301,Xanthosine-5-Phosphate:Ammonia Ligase (AMP-Forming),Bile acid synthesis
+r0318i,Propanoate:CoA ligase (AMP-forming) irreversible,Unassigned
+r0339,ATP:(R)-Glycerate 3-Phosphotransferase Ec:2.7.1.31,Unassigned
+r0345,ATP:AMP Phosphotransferase Ec:2.7.4.11,Nucleotide interconversion
+r0377,ATP:Deoxycitidine 5-Phosphotransferase,Pyrimidine catabolism
+r0389i,Pyridoxine:Oxygen Oxidoreductase (Deaminating) irreversible,Vitamin B6 metabolism
+r0391,Nicotinate D-Ribonucleotide:Pyrophosphate Phosphoribosyltransferase,NAD metabolism
+r0392,D-Glyceraldehyde:NAD+ Oxidoreductase Ec:1.2.1.3,Glycolysis/gluconeogenesis
+r0413,DATP:Pyruvate O2-Phosphotransferase,Glycolysis/gluconeogenesis
+r0422,Isocitrate:NADP+ Oxidoreductase (Decarboxylating) Ec:1.1.1.42,Unassigned
+r0456,ATP:Deoxyguanosine 5-Phosphotransferase,Nucleotide interconversion
+r0470,2-Deoxyadenosine 5-Diphosphate:Oxidized-Thioredoxin 2-Oxidoreductase,Nucleotide interconversion
+r0472,2-Deoxyadenosine 5-Diphosphate:Oxidized-Thioredoxin 2-Oxidoreductase,Nucleotide interconversion
+r0474,2-Deoxyadenosine 5-Diphosphate:Oxidized-Thioredoxin 2-Oxidoreductase,Nucleotide interconversion
+r0475,2-Deoxyadenosine 5-Diphosphate:Oxidized-Thioredoxin 2-Oxidoreductase,Nucleotide interconversion
+r0488,(R)-Mevalonate:NADP+ Oxidoreductase (Coa Acylating),Cholesterol metabolism
+r0494,DTDP Diphosphohydrolase,Pyrimidine catabolism
+r0497,DTTP Nucleotidohydrolase,Pyrimidine catabolism
+r0502,Xanthine:NAD+ Oxidoreductase,Purine catabolism
+r0527,Nicotinamide-D-Ribonucleotide Amidohydrolase,NAD metabolism
+r0570,"2-Deoxy-D-Ribose 1-Phosphate 1, 5-Phosphomutase Ec:5.4.2.7",Pentose phosphate pathway
+r0578,ATP:Pantothenate 4-Phosphotransferase,CoA synthesis
+r0584,Deamino-NAD+ Nucleotidohydrolase,NAD metabolism
+r0591,Dephospho Coenzyme A Nucleotidohydrolase,CoA synthesis
+r0671,(R)-4-Phosphopantothenate:L-Cysteine Ligase Ec:6.3.2.5,CoA synthesis
+r0679,ATP:Pantothenate 4-Phosphotransferase,CoA catabolism
+r0708,"2-Amino-4-Hydroxy-6- (Erythro-1, 2, 3-Trihydroxypropyl) Dihydropteridine Triphosphate 7, 8-8, 9-Dihydrolase",Folate metabolism
+r0775,"Formamidopyrimidine Nucleoside Triphosphate 7, 8-8, 9-Dihydrolase",Folate metabolism
+r0777,"GTP 7, 8-8, 9-Dihydrolase",Folate metabolism
+r0792,5-Methyltetrahydrofolate:NAD+ Oxidoreductase / Ec:1.5.1.20,Folate metabolism
+r0871,Diffusion,"Transport, extracellular"
+r0892,Facilitated Diffusion,"Transport, extracellular"
+r0944,Active Transport,"Transport, extracellular"
+r0974,Active Transport,"Transport, extracellular"
+r1045,Concentrative Nucleoside Transporter (Cnt) Tcdb:2.A.41.2.4,"Transport, extracellular"
+r1116,ATP Exporter (ATP-E) Tcdb:9.A.6.1.1,"Transport, extracellular"
+r1144,Major Facilitator (Mfs) Tcdb:2.A.18.6.3,"Transport, extracellular"
+r1384,Guanosine Aminohydrolase,Nucleotide interconversion
+r1562,Amino Acid-Polyamine-Organocation (Apc) Tcdb:2.A.3.8.1,"Transport, extracellular"
+r1575,Amino Acid-Polyamine-Organocation (Apc) Tcdb:2.A.3.8.1,"Transport, extracellular"
+r1576,Amino Acid-Polyamine-Organocation (Apc) Tcdb:2.A.3.8.1,"Transport, extracellular"
+r1619,Amino Acid-Polyamine-Organocation (Apc) Tcdb:2.A.3.8.1,"Transport, extracellular"
+r1627,Amino Acid-Polyamine-Organocation (Apc) Tcdb:2.A.3.8.1,"Transport, extracellular"
+r1637,Amino Acid-Polyamine-Organocation (Apc) Tcdb:2.A.3.8.1,"Transport, extracellular"
+r1639,Amino Acid-Polyamine-Organocation (Apc) Tcdb:2.A.3.8.1,"Transport, extracellular"
+r1667,Y+Lat2 Utilized Transport,"Transport, extracellular"
+r1769,Y+Lat2 Utilized Transport,"Transport, extracellular"
+r1784,Y+Lat2 Utilized Transport,"Transport, extracellular"
+r2041,Amino Acid-Polyamine-Organocation (Apc) Tcdb:2.A.3.8.15,"Transport, extracellular"
+r2042,Amino Acid-Polyamine-Organocation (Apc) Tcdb:2.A.3.8.15,"Transport, extracellular"
+r2044,Amino Acid-Polyamine-Organocation (Apc) Tcdb:2.A.3.8.15,"Transport, extracellular"
+r2137,Major Facilitator(MFS) TCDB:2.A.1.14.6,"Transport, extracellular"
+rtranscription,RNA transcription c0,Exchange/demand reaction
+sink_PGPm1_c,Sink reaction for peptidoglycan polymer (n-1) subunits,Exchange/demand reaction
+sink_gthrd(c),sink reaction for reduced glutathione,Exchange/demand reaction
+sink_s,sink_reaction_sulfur[c],Exchange/demand reaction
+tDHNACOA,"Transport of 1,4-Dihydroxy-2-naphthoyl-CoA, hypothetical reaction","Transport, extracellular"
+tSBZCOA,"Transport of O-Succinylbenzoyl-CoA, hypothetical reaction","Transport, extracellular"

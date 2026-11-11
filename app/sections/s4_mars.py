@@ -1,0 +1,177 @@
+import contextlib
+import importlib.util
+import io
+import os
+import pickle
+import tempfile
+import warnings
+import pandas as pd
+import plotly.express as px
+import streamlit as st
+from common import (concepto,
+                    load_raw_demo, db_stats, species_label, RES)
+
+def _short(lineage: str) -> str:
+    parts = [p.strip() for p in lineage.split(';')]
+    sp = parts[-1].replace('s__', '').replace('_', ' ')
+    if sp:
+        return sp
+    return parts[-2].replace('g__', '').replace('_', ' ') + ' (sin especie)'
+
+def stacked_bar(df_rel: pd.DataFrame, title: str):
+    long = df_rel.reset_index().melt(id_vars=df_rel.index.name or 'index', var_name='Muestra', value_name='Abundancia')
+    long.columns = ['Taxón', 'Muestra', 'Abundancia']
+    fig = px.bar(long, x='Muestra', y='Abundancia', color='Taxón', title=title,
+                 color_discrete_sequence=px.colors.qualitative.Safe + px.colors.qualitative.Pastel)
+    fig.update_layout(yaxis_tickformat='.0%', height=430, legend=dict(font=dict(size=10)), margin=dict(t=50))
+    return fig
+
+CUTOFFS = [1e-6, 1e-5, 1e-4, 1e-3, 1e-2]
+
+
+def mars_precomputed(cutoff: float) -> str:
+    return os.path.join(RES, 'MARS_demo', 'cutoffs', f'{cutoff:.0e}.pkl')
+
+
+def mars_live_available() -> bool:
+    return importlib.util.find_spec('persephone') is not None
+
+
+@st.cache_data(show_spinner=False)
+def run_mars(database: str, cutoff: float):
+    """Ejecuta MARS si el paquete está instalado; si no, lee el resultado precalculado con los mismos parámetros."""
+    if not mars_live_available():
+        with open(mars_precomputed(cutoff), 'rb') as f:
+            return pickle.load(f)
+    return compute_mars(database, cutoff)
+
+
+def compute_mars(database: str, cutoff: float):
+    from persephone import runMARS
+    raw = load_raw_demo()
+    out = tempfile.mkdtemp(prefix='mars_')
+    cwd = os.getcwd()
+    try:
+        os.chdir(out)  # MARS escribe un fichero temporal en el directorio actual
+        with contextlib.redirect_stdout(io.StringIO()), warnings.catch_warnings():
+            warnings.simplefilter('ignore')
+            counts, taxa = runMARS(counts=raw.drop(columns='Taxon'), taxa=raw[['Taxon']], database=database,
+                                   taxa_delimiter=';', cutoff=cutoff, output_dir=os.path.join(out, 'MARS'))
+    finally:
+        os.chdir(cwd)
+    summ = pd.read_csv(os.path.join(out, 'MARS', 'metrics', 'Species', 'summary_statistics_Species.csv'), index_col=0)
+    reads = pd.read_csv(os.path.join(out, 'MARS', 'metrics', 'Species', 'read_counts.csv'), index_col=0)
+    unm_f = os.path.join(out, 'MARS', 'normalized_unmapped', 'normalized_unmapped_species.csv')
+    unmapped = pd.read_csv(unm_f, index_col=0) if os.path.exists(unm_f) else pd.DataFrame()
+    log = open(os.path.join(out, 'MARS', 'MARS.log')).read()
+    return counts, taxa, summ, reads, unmapped, log
+
+def page():
+    st.title('4 · Datos de entrada y armonización taxonómica (MARS)')
+
+    st.subheader('4.1 Los datos de partida')
+    st.markdown(
+        """
+Tras el procesamiento bioinformático habitual (p. ej. QIIME 2 con DADA2 y asignación taxonómica con SILVA)
+se obtiene una **tabla de lecturas** por variante de secuencia (ASV) y muestra, junto con el **linaje taxonómico**
+de cada ASV. Esta es la entrada de MARS.
+
+**Origen de la tabla.** Se ha construido a partir de las abundancias relativas de las 12 especies del conjunto de
+ejemplo, multiplicadas por una profundidad de secuenciación asignada a cada muestra, con el linaje completo de cada
+especie. Se han añadido tres ASV (13–15) que representan casos habituales en datos reales. Tras MARS, las abundancias
+de las 12 especies coinciden con las del conjunto de ejemplo, que es la entrada de los bloques siguientes.
+"""
+    )
+    raw = load_raw_demo()
+    show = raw.copy()
+    show.insert(0, 'Especie (resumen)', show['Taxon'].map(_short))
+    st.dataframe(show, use_container_width=True, height=330)
+    st.caption('15 ASV × 5 muestras (número de lecturas). La columna «Taxon» contiene el linaje completo, de reino '
+               '(k__) a especie (s__).')
+
+    rel = raw.drop(columns='Taxon')
+    rel.index = raw['Taxon'].map(_short)
+    rel = rel / rel.sum()
+    st.plotly_chart(stacked_bar(rel, 'Composición relativa antes de MARS'), use_container_width=True)
+
+    st.markdown(
+        """
+Los tres ASV añadidos no pueden modelarse:
+- **ASV_13** (*Prevotella*) solo está clasificado hasta **género**: no sabemos qué especie es.
+- **ASV_14** es una «bacteria no cultivada» de un grupo de *Lachnospiraceae* sin nombre formal.
+- **ASV_15** es una especie ficticia (*Candidatus* Fakeibacter intestinalis) que no existe en ninguna base de datos.
+"""
+    )
+
+    st.subheader('4.2 Ejecución de MARS')
+    concepto('Qué hace MARS (Microbial Abundances Retrieved from Sequencing data)',
+             '<ol><li>Estandariza el formato de los linajes y los prefijos taxonómicos.</li>'
+             '<li>Corrige nombres: elimina sufijos de clado, prefijos <i>Candidatus</i>, aplica sinónimos y '
+             'reclasificaciones taxonómicas para coincidir con la nomenclatura de la base de datos.</li>'
+             '<li>Descarta taxones sin resolución de especie y aplica un umbral de abundancia mínima.</li>'
+             '<li>Comprueba qué especies tienen reconstrucción en AGORA2 / APOLLO.</li>'
+             '<li><b>Renormaliza</b> las abundancias de las especies mapeadas para que sumen 1 en cada muestra.</li></ol>')
+
+    database = 'AGORA2-APOLLO'
+    c1, c2 = st.columns(2)
+    c1.markdown('**Base de datos:** AGORA2-APOLLO (combinación de ambas; opción por defecto y recomendada)')
+    cutoff = c2.select_slider('Umbral de abundancia relativa mínima', options=CUTOFFS,
+                              value=1e-6, format_func=lambda x: f'{x:.0e}')
+    n_rec, n_sp = db_stats()
+    st.caption(f'La base de datos seleccionada contiene {n_rec:,} reconstrucciones '
+               f'({n_sp:,} especies distintas).'.replace(',', '.'))
+
+    if st.button('▶ Ejecutar MARS', type='primary'):
+        st.session_state['mars_params'] = (database, cutoff)
+
+    if 'mars_params' not in st.session_state:
+        st.info('Pulse «Ejecutar MARS» para procesar la tabla.')
+        return
+
+    database, cutoff = st.session_state['mars_params']
+    with st.spinner('Ejecutando MARS...'):
+        counts, taxa, summ, reads, unmapped, log = run_mars(database, cutoff)
+    st.success(f'MARS completado con la base de datos **{database}** y umbral **{cutoff:.0e}**.')
+
+    st.subheader('4.3 Resultados')
+    k1, k2, k3 = st.columns(3)
+    k1.metric('Taxones antes del mapeo', int(summ.loc['Total number of taxa', 'Pre mapping']))
+    k2.metric('Taxones mapeados', int(summ.loc['Total number of taxa', 'Post mapping']))
+    k3.metric('Lecturas asignadas a especies modelables',
+              f'{reads.loc["Post mapping"].sum() / reads.loc["Pre mapping"].sum():.1%}')
+
+    c1, c2 = st.columns(2)
+    with c1:
+        st.markdown('**Especies mapeadas (entrada para MgPipe)**')
+        t = taxa.copy()
+        t['Especie'] = t['Taxon'].map(species_label)
+        st.dataframe(t, use_container_width=True, height=300)
+    with c2:
+        st.markdown('**Taxones no mapeados** (abundancia relativa media)')
+        if len(unmapped):
+            st.dataframe(unmapped.mean(axis=1).rename('Abundancia media').to_frame().style.format('{:.2%}'),
+                         use_container_width=True)
+        st.markdown('*Prevotella* sin especie se descarta antes de la comprobación, por carecer de nivel de especie.')
+
+    cm = counts.copy()
+    cm.index = taxa['Taxon'].map(species_label)
+    st.plotly_chart(stacked_bar(cm, 'Composición relativa después de MARS (renormalizada)'), use_container_width=True)
+
+    with st.expander('Ver las métricas de resumen generadas por MARS'):
+        st.dataframe(summ, use_container_width=True)
+    with st.expander('Ver el registro (log) de MARS: correcciones de nombres aplicadas'):
+        lines = [l.split('\t')[-1] for l in log.splitlines() if 'Replacement' in l or 'removed' in l.lower()]
+        st.code('\n'.join(lines) if lines else log[-3000:], language='text')
+
+    st.markdown(
+        """
+**Interpretación.** Las especies que permanecen ganan peso relativo tras la renormalización, porque el modelo de
+comunidad solo puede representar lo que tiene reconstrucción. Por ello, **la cobertura del mapeo es un control de
+calidad esencial**: si una fracción importante de la microbiota no se mapea, las predicciones metabólicas
+serán menos representativas.
+
+**Efecto del umbral.** Con el umbral por defecto (1e-6) se conservan las 12 especies. Con 1e-3 se eliminan las
+especies minoritarias (*Eubacterium brachy*, *E. saphenum*) y el resto se renormaliza: un umbral alto reduce el ruido
+a costa de perder especies poco abundantes que pueden ser metabólicamente relevantes.
+"""
+    )
