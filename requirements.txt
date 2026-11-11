@@ -1,7 +1,5 @@
-streamlit==1.65.0
-plotly==7.1.0
-pandas==2.2.3
-numpy==1.26.4
-cobra==0.30.0
-optlang==1.8.3
-swiglpk==5.0.12
+streamlit>=1.40
+plotly>=5.20
+pandas>=2.2,<3
+numpy
+cobra>=0.29
