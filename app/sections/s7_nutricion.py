@@ -20,10 +20,10 @@ GROUPS = {
 FIBRE_DETAIL = {'strch1': 'Almidón', 'starch1200': 'Almidón resistente', 'cellul': 'Celulosa'}
 
 def page():
-    st.title('7 · Aplicaciones en nutrición')
+    st.title('8 · Aplicaciones en nutrición')
 
     # ------------------------------------------------------------------ 7.1
-    st.subheader('7.1 Dietas de referencia')
+    st.subheader('8.1 Dietas de referencia')
     st.markdown(
         """
 Persephone incluye cinco dietas de referencia, elaboradas con el *Diet Designer* de la base de datos Virtual
@@ -65,7 +65,7 @@ Antes de llegar a la microbiota, el modelo asume que una parte se absorbe en el 
         return
 
     # ------------------------------------------------------------------ 7.2
-    st.subheader('7.2 Efecto de la dieta sobre la producción microbiana')
+    st.subheader('8.2 Efecto de la dieta sobre la producción microbiana')
 
     keys = [m for m in KEY_METS if m in set(prof['Metabolito'])]
     met = st.selectbox('Metabolito', keys, index=keys.index('but') if 'but' in keys else 0, format_func=met_label)
@@ -96,7 +96,7 @@ Antes de llegar a la microbiota, el modelo asume que una parte se absorbe en el 
     st.caption('Fuente: perfiles NMPC calculados con MgPipe para las 5 muestras y las 5 dietas de referencia.')
     nutricion('Resultados',
               '<ul><li><b>Butirato:</b> idéntico con las cinco dietas en cada individuo. Su producción está limitada por la '
-              'abundancia de <i>E. siraeum</i> (bloque 6), no por el sustrato: cambiar la dieta no la modifica.</li>'
+              'abundancia de <i>E. siraeum</i> (bloque 7), no por el sustrato: cambiar la dieta no la modifica.</li>'
               '<li><b>H₂S:</b> es el metabolito más sensible a la dieta. Aumenta con la dieta poco saludable (hasta ≈ ×2,3) y la '
               'hiperproteica, y disminuye con la vegetariana (≈ −30 %), en paralelo al aporte de aminoácidos azufrados.</li>'
               '<li><b>Amonio y succinato</b> varían ligeramente; acetato y lactato permanecen en el techo del modelo.</li>'
@@ -107,7 +107,7 @@ Antes de llegar a la microbiota, el modelo asume que una parte se absorbe en el 
               'mientras que la capacidad de producir AGCC está fijada por la composición de la microbiota.</p>')
 
     # ------------------------------------------------------------------ 7.3
-    st.subheader('7.3 Variabilidad interindividual de la respuesta')
+    st.subheader('8.3 Variabilidad interindividual de la respuesta')
     concepto('Mejor dieta por individuo',
              '<p>La tabla muestra, para cada individuo, <b>qué dieta maximiza</b> la capacidad de producir el metabolito '
              'seleccionado y cuánto aumenta respecto a la dieta europea. Si las mejores dietas difieren entre individuos, '
@@ -131,7 +131,7 @@ Antes de llegar a la microbiota, el modelo asume que una parte se absorbe en el 
     st.plotly_chart(fig, use_container_width=True)
 
     # ------------------------------------------------------------------ 7.4
-    st.subheader('7.4 Simulación de una intervención dietética (dosis–respuesta)')
+    st.subheader('8.4 Simulación de una intervención dietética (dosis–respuesta)')
     st.markdown(
         """
 A partir de la dieta europea media se ha multiplicado la cantidad de **fibra y almidón** (celulosa, almidón,

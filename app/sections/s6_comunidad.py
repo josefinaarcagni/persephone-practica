@@ -26,9 +26,9 @@ digraph G {
 """
 
 def page():
-    st.title('6 · MgPipe: modelos de comunidad y perfiles metabólicos')
+    st.title('7 · MgPipe: modelos de comunidad y perfiles metabólicos')
 
-    st.subheader('6.1 Construcción del modelo de comunidad')
+    st.subheader('7.1 Construcción del modelo de comunidad')
     st.graphviz_chart(DOT, use_container_width=True)
     st.markdown(
         """
@@ -51,7 +51,7 @@ Para cada muestra, MgPipe:
         st.caption('Compárese con una bacteria aislada (~1.000–1.500 reacciones): el modelo comunitario de 12 especies '
                    'supera las 14.000 reacciones. En estudios reales, con cientos de especies, se alcanzan cientos de miles.')
 
-    st.subheader('6.2 Capacidad de intercambio de metabolitos por especie')
+    st.subheader('7.2 Capacidad de intercambio de metabolitos por especie')
     st.markdown(
         """
 Antes de construir los modelos, MgPipe determina mediante FVA qué metabolitos puede **captar o secretar** cada especie
@@ -76,7 +76,7 @@ por separado. Esta matriz indica, por ejemplo, qué especies de la comunidad pue
     except FileNotFoundError:
         st.warning('Matriz de intercambios no disponible.')
 
-    st.subheader('6.3 Perfiles metabólicos por individuo (dieta europea media)')
+    st.subheader('7.3 Perfiles metabólicos por individuo (dieta europea media)')
     concepto('Capacidad neta máxima de producción (NMPC)',
              '<p>Aplicada la dieta, MgPipe fija la biomasa comunitaria cerca de su valor óptimo y calcula con FVA, '
              'para cada metabolito, el <b>flujo máximo de salida hacia las heces</b> y el de <b>entrada desde la dieta</b>. '
@@ -119,11 +119,11 @@ por separado. Esta matriz indica, por ejemplo, qué especies de la comunidad pue
 """
     )
 
-    st.subheader('6.4 Factores que limitan la capacidad de producción')
+    st.subheader('7.4 Factores que limitan la capacidad de producción')
     st.markdown(
         """
 La figura relaciona, para el metabolito elegido, la **abundancia conjunta de las especies capaces de intercambiarlo**
-(según la matriz del apartado 6.2) con la secreción neta máxima de cada individuo.
+(según la matriz del apartado 7.2) con la secreción neta máxima de cada individuo.
 """
     )
     try:
@@ -159,7 +159,7 @@ La figura relaciona, para el metabolito elegido, la **abundancia conjunta de las
              'acoplamiento para el conjunto de la comunidad. En esos casos el modelo no discrimina entre individuos ni dietas, '
              'y conviene no sobreinterpretarlos.</li></ul>')
 
-    st.subheader('6.5 Perfil completo de una muestra')
+    st.subheader('7.5 Perfil completo de una muestra')
     c1, c2 = st.columns([1, 3])
     s = c1.selectbox('Muestra', SAMPLES)
     kind = c1.radio('Tipo de flujo', ['Secreción', 'Captación'])
@@ -180,4 +180,4 @@ La figura relaciona, para el metabolito elegido, la **abundancia conjunta de las
     nutricion('Interpretación nutricional',
               '<p>Cada individuo presenta un perfil metabólico propio, determinado por su microbiota. Las muestras CSM5MCXD y CSM67UB9 muestran '
               'una capacidad muy baja de producir butirato. Antes de recomendar más fibra conviene preguntarse si el problema '
-              'es la dieta o la ausencia de especies productoras; el bloque 7 aborda esta cuestión.</p>')
+              'es la dieta o la ausencia de especies productoras; el bloque 8 aborda esta cuestión.</p>')

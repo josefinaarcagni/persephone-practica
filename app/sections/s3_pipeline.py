@@ -26,7 +26,7 @@ digraph G {
 """
 
 def page():
-    st.title('3 · Flujo de trabajo de Persephone')
+    st.title('4 · Flujo de trabajo de Persephone')
 
     st.graphviz_chart(DOT, use_container_width=True)
     st.caption('Flujo de trabajo de Persephone para el análisis de la comunidad microbiana.')

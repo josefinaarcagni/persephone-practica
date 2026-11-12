@@ -24,7 +24,7 @@ def rxn_tax_matrix(taxa: tuple):
     return rt, ri.set_index('rxnID')
 
 def page():
-    st.title('5 · MgPipe: abundancia de reacciones y subsistemas')
+    st.title('6 · MgPipe: abundancia de reacciones y subsistemas')
 
     counts, taxa = load_example()
     rt, ri = rxn_tax_matrix(tuple(taxa['Taxon']))
@@ -32,7 +32,7 @@ def page():
     subsAb = load_mgpipe('subsAbundance')
     rxnPre = load_mgpipe('rxnPresence')
 
-    st.subheader('5.1 Abundancia de reacciones')
+    st.subheader('6.1 Abundancia de reacciones')
     concepto('Fórmula',
              '<p>Para cada reacción <i>r</i> y muestra <i>j</i>:</p>'
              '<p style="text-align:center; font-size:1.1rem"><b>Abundancia(r, j) = Σ<sub>especies i</sub> '
@@ -71,7 +71,7 @@ def page():
                     'el número de reacciones presentes por muestra es: '.replace(',', '.') +
                     ', '.join(f'{s}: **{n:,}**'.replace(',', '.') for s, n in rxnPre.sum().items()) + '.')
 
-    st.subheader('5.2 Abundancia de subsistemas (rutas metabólicas)')
+    st.subheader('6.2 Abundancia de subsistemas (rutas metabólicas)')
     st.markdown(
         """
 Cada reacción pertenece a un **subsistema** (p. ej. «Metabolismo del butanoato», «Degradación de O-glicanos»).
@@ -107,4 +107,4 @@ reacciones en unas 90 rutas interpretables.
 
     st.warning('**Limitación:** la abundancia de reacciones refleja *potencial genético*, no actividad. '
                'Una reacción abundante puede no utilizarse si la dieta no aporta el sustrato. La dieta se incorpora '
-               'en los **modelos de comunidad** (bloque 6).')
+               'en los **modelos de comunidad** (bloque 7).')

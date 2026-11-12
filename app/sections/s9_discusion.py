@@ -47,9 +47,9 @@ QUIZ = [
 ]
 
 def page():
-    st.title('8 · Discusión y cuestionario')
+    st.title('9 · Discusión y cuestionario')
 
-    st.subheader('8.1 Cuestiones para la discusión')
+    st.subheader('9.1 Cuestiones para la discusión')
     st.markdown(
         """
 1. **Validación.** Las predicciones de Persephone son *capacidades máximas*, no concentraciones medidas.
@@ -65,7 +65,7 @@ def page():
 """
     )
 
-    st.subheader('8.2 Cuestionario')
+    st.subheader('9.2 Cuestionario')
     st.caption('Seleccione una respuesta en cada pregunta y pulse «Corregir».')
     answers = []
     for i, (q, opts, _, _) in enumerate(QUIZ):
@@ -82,7 +82,7 @@ def page():
                 st.error(f'Pregunta {i + 1}: incorrecta. Respuesta correcta: «{opts[ok]}». {expl}')
         st.metric('Puntuación', f'{score} / {len(QUIZ)}')
 
-    st.subheader('8.3 Limitaciones del modelado')
+    st.subheader('9.3 Limitaciones del modelado')
     st.markdown(
         """
 - **Calidad de las reconstrucciones**: los modelos derivan de genomas y anotaciones; pueden faltar o sobrar reacciones.
@@ -93,12 +93,14 @@ def page():
 """
     )
 
-    st.subheader('8.4 Referencias')
+    st.subheader('9.4 Referencias')
     st.markdown(
         f"""
 - Persephone (COBRA Toolbox): [código fuente]({PERSEPHONE_URL}).
 - Base de datos **Virtual Metabolic Human (VMH)**: metabolitos, reacciones, modelos AGORA2 y el diseñador de dietas — [vmh.life](https://www.vmh.life).
 - Heinken A. *et al.* (2023). Genome-scale metabolic reconstruction of 7,302 human microorganisms for personalized medicine (AGORA2). *Nature Biotechnology*.
 - Orth J. D., Thiele I., Palsson B. Ø. (2010). What is flux balance analysis? *Nature Biotechnology*.
+- Orth J. D., Fleming R. M. T., Palsson B. Ø. (2010). Reconstruction and use of microbial metabolic networks: the core *Escherichia coli* metabolic model as an educational guide. *EcoSal Plus*.
+- King Z. A. *et al.* (2015). Escher: a web application for building, sharing, and embedding data-rich visualizations of biological pathways. *PLOS Computational Biology*.
 """
     )

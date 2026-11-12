@@ -28,12 +28,13 @@ taxonómica) y **MgPipe** (modelos de comunidad y perfiles metabólicos).
 |---|---|---|
 | 1 | Microbiota, dieta y metabolismo | — |
 | 2 | Modelos metabólicos, FBA y FVA | En directo (modelo simplificado) |
-| 3 | Flujo de trabajo de Persephone | — |
-| 4 | Datos de entrada y armonización taxonómica (MARS) | {mars_calc} |
-| 5 | MgPipe: abundancia de reacciones y subsistemas | Precalculado |
-| 6 | MgPipe: modelos de comunidad y perfiles metabólicos | Precalculado |
-| 7 | Aplicaciones en nutrición: comparación de dietas e intervención dietética | Precalculado |
-| 8 | Discusión y cuestionario | — |
+| 3 | *Escherichia coli*: matriz S, intercambios, FBA y mapa metabólico | En directo |
+| 4 | Flujo de trabajo de Persephone | — |
+| 5 | Datos de entrada y armonización taxonómica (MARS) | {mars_calc} |
+| 6 | MgPipe: abundancia de reacciones y subsistemas | Precalculado |
+| 7 | MgPipe: modelos de comunidad y perfiles metabólicos | Precalculado |
+| 8 | Aplicaciones en nutrición: comparación de dietas e intervención dietética | Precalculado |
+| 9 | Discusión y cuestionario | — |
 """
     )
 
@@ -52,13 +53,14 @@ son los mismos.
         """
 | Datos | Procedencia | Bloques |
 |---|---|---|
-| Abundancias relativas de 12 especies × 5 muestras | Ficheros de prueba de la implementación en Python de Persephone | 4–7 |
-| Tabla de lecturas con linaje taxonómico completo (`data/raw_counts_demo.tsv`) | Construida para esta práctica a partir de la anterior: lecturas = abundancia relativa × profundidad de secuenciación asignada (18.766–38.908 lecturas por muestra), con linajes en formato SILVA (`k__…; s__…`) y tres ASV añadidos que ilustran casos no modelables | 4 |
-| Reconstrucciones metabólicas de especie (pan-modelos) | AGORA2 (7.302 cepas) y APOLLO (MAGs), distribuidas con el paquete como matriz reacción × especie | 5, 6 |
-| Dietas de referencia (5) | Virtual Metabolic Human (VMH), *Diet Designer*: cantidades diarias de ~90 compuestos (mmol/persona/día) | 6, 7 |
-| Abundancias de reacciones/subsistemas y modelos de comunidad | Calculados para esta práctica con MgPipe (dieta europea media, solucionador GLPK) | 5, 6 |
-| Perfiles de secreción y captación (NMPC) | Calculados para esta práctica con MgPipe para las 5 dietas y las 5 muestras (FVA, GLPK) | 6, 7 |
-| Intervención dietética | Calculada para esta práctica: dieta europea media con la fibra o la proteína multiplicadas por 0–4 | 7 |
+| Abundancias relativas de 12 especies × 5 muestras | Ficheros de prueba de la implementación en Python de Persephone | 5–8 |
+| Tabla de lecturas con linaje taxonómico completo (`data/raw_counts_demo.tsv`) | Construida para esta práctica a partir de la anterior: lecturas = abundancia relativa × profundidad de secuenciación asignada (18.766–38.908 lecturas por muestra), con linajes en formato SILVA (`k__…; s__…`) y tres ASV añadidos que ilustran casos no modelables | 5 |
+| Reconstrucciones metabólicas de especie (pan-modelos) | AGORA2 (7.302 cepas) y APOLLO (MAGs), distribuidas con el paquete como matriz reacción × especie | 6, 7 |
+| Dietas de referencia (5) | Virtual Metabolic Human (VMH), *Diet Designer*: cantidades diarias de ~90 compuestos (mmol/persona/día) | 7, 8 |
+| Abundancias de reacciones/subsistemas y modelos de comunidad | Calculados para esta práctica con MgPipe (dieta europea media, solucionador GLPK) | 6, 7 |
+| Perfiles de secreción y captación (NMPC) | Calculados para esta práctica con MgPipe para las 5 dietas y las 5 muestras (FVA, GLPK) | 7, 8 |
+| Intervención dietética | Calculada para esta práctica: dieta europea media con la fibra o la proteína multiplicadas por 0–4 | 8 |
+| Modelo e_coli_core y mapa «Core metabolism» | BiGG Models (distribuido con COBRApy) y Escher | 3 |
 """
     )
 

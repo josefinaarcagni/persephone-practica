@@ -67,9 +67,9 @@ def compute_mars(database: str, cutoff: float):
     return counts, taxa, summ, reads, unmapped, log
 
 def page():
-    st.title('4 · Datos de entrada y armonización taxonómica (MARS)')
+    st.title('5 · Datos de entrada y armonización taxonómica (MARS)')
 
-    st.subheader('4.1 Los datos de partida')
+    st.subheader('5.1 Los datos de partida')
     st.markdown(
         """
 Tras el procesamiento bioinformático habitual (p. ej. QIIME 2 con DADA2 y asignación taxonómica con SILVA)
@@ -103,7 +103,7 @@ Los tres ASV añadidos no pueden modelarse:
 """
     )
 
-    st.subheader('4.2 Ejecución de MARS')
+    st.subheader('5.2 Ejecución de MARS')
     concepto('Qué hace MARS (Microbial Abundances Retrieved from Sequencing data)',
              '<ol><li>Estandariza el formato de los linajes y los prefijos taxonómicos.</li>'
              '<li>Corrige nombres: elimina sufijos de clado, prefijos <i>Candidatus</i>, aplica sinónimos y '
@@ -133,7 +133,7 @@ Los tres ASV añadidos no pueden modelarse:
         counts, taxa, summ, reads, unmapped, log = run_mars(database, cutoff)
     st.success(f'MARS completado con la base de datos **{database}** y umbral **{cutoff:.0e}**.')
 
-    st.subheader('4.3 Resultados')
+    st.subheader('5.3 Resultados')
     k1, k2, k3 = st.columns(3)
     k1.metric('Taxones antes del mapeo', int(summ.loc['Total number of taxa', 'Pre mapping']))
     k2.metric('Taxones mapeados', int(summ.loc['Total number of taxa', 'Post mapping']))
