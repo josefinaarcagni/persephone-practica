@@ -76,10 +76,8 @@ Tras el procesamiento bioinformático habitual (p. ej. QIIME 2 con DADA2 y asign
 se obtiene una **tabla de lecturas** por variante de secuencia (ASV) y muestra, junto con el **linaje taxonómico**
 de cada ASV. Esta es la entrada de MARS.
 
-**Origen de la tabla.** Se ha construido a partir de las abundancias relativas de las 12 especies del conjunto de
-ejemplo, multiplicadas por una profundidad de secuenciación asignada a cada muestra, con el linaje completo de cada
-especie. Se han añadido tres ASV (13–15) que representan casos habituales en datos reales. Tras MARS, las abundancias
-de las 12 especies coinciden con las del conjunto de ejemplo, que es la entrada de los bloques siguientes.
+**Contenido de la tabla.** 15 ASV × 5 muestras. Los ASV 1–12 corresponden a las 12 especies descritas en la
+presentación; los ASV 13–15 representan casos habituales en datos reales que no pueden modelarse.
 """
     )
     raw = load_raw_demo()
@@ -99,7 +97,7 @@ de las 12 especies coinciden con las del conjunto de ejemplo, que es la entrada 
 Los tres ASV añadidos no pueden modelarse:
 - **ASV_13** (*Prevotella*) solo está clasificado hasta **género**: no sabemos qué especie es.
 - **ASV_14** es una «bacteria no cultivada» de un grupo de *Lachnospiraceae* sin nombre formal.
-- **ASV_15** es una especie ficticia (*Candidatus* Fakeibacter intestinalis) que no existe en ninguna base de datos.
+- **ASV_15** (*Candidatus* Fakeibacter intestinalis) no figura en ninguna base de datos de referencia.
 """
     )
 

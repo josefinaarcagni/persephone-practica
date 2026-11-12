@@ -49,7 +49,7 @@ Para cada muestra, MgPipe:
         st.markdown('**Tamaño de los modelos de comunidad generados para las cinco muestras:**')
         st.dataframe(stats.style.format('{:,.0f}'), use_container_width=True)
         st.caption('Compárese con una bacteria aislada (~1.000–1.500 reacciones): el modelo comunitario de 12 especies '
-                   'supera las 14.000 reacciones. En estudios reales, con cientos de especies, se alcanzan cientos de miles.')
+                   'supera las 14.000 reacciones.')
 
     st.subheader('7.2 Capacidad de intercambio de metabolitos por especie')
     st.markdown(
