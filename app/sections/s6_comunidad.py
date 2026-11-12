@@ -110,9 +110,9 @@ por separado. Esta matriz indica, por ejemplo, qué especies de la comunidad pue
 
     st.markdown(
         """
-**Comparación entre muestras.** CSM5MCY2 está dominada por *Eubacterium siraeum* (≈ 79 %) y CSM67UB9 por
+**Comparación entre muestras.** P2 está dominada por *Eubacterium siraeum* (≈ 79 %) y P5 por
 *Blautia torques* (≈ 79 %).
-- **Butirato:** ≈ 315 mmol/día en CSM5MCY2 frente a ≈ 4 en CSM67UB9. La diferencia corresponde a la abundancia del
+- **Butirato:** ≈ 315 mmol/día en P2 frente a ≈ 4 en P5. La diferencia corresponde a la abundancia del
   único productor relevante, *E. siraeum* (79 % frente a 1 %).
 - **H₂S:** ambas muestras obtienen prácticamente el mismo valor (≈ 18,5 mmol/día). Las dos contienen productores
   abundantes, de modo que el factor limitante no es la microbiota sino la dieta (aminoácidos azufrados disponibles).
@@ -178,6 +178,6 @@ La figura relaciona, para el metabolito elegido, la **abundancia conjunta de las
                'Para la interpretación nutricional interesan las diferencias entre individuos y entre dietas.')
 
     nutricion('Interpretación nutricional',
-              '<p>Cada individuo presenta un perfil metabólico propio, determinado por su microbiota. Las muestras CSM5MCXD y CSM67UB9 muestran '
+              '<p>Cada individuo presenta un perfil metabólico propio, determinado por su microbiota. Las muestras P1 y P5 muestran '
               'una capacidad muy baja de producir butirato. Antes de recomendar más fibra conviene preguntarse si el problema '
               'es la dieta o la ausencia de especies productoras; el bloque 8 aborda esta cuestión.</p>')

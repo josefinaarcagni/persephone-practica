@@ -8,7 +8,7 @@ import warnings
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-from common import (concepto,
+from common import (relabel, SAMPLE_LABELS, concepto,
                     load_raw_demo, db_stats, species_label, RES)
 
 def _short(lineage: str) -> str:
@@ -42,8 +42,12 @@ def run_mars(database: str, cutoff: float):
     """Ejecuta MARS si el paquete está instalado; si no, lee el resultado precalculado con los mismos parámetros."""
     if not mars_live_available():
         with open(mars_precomputed(cutoff), 'rb') as f:
-            return pickle.load(f)
-    return compute_mars(database, cutoff)
+            counts, taxa, summ, reads, unmapped, log = pickle.load(f)
+    else:
+        counts, taxa, summ, reads, unmapped, log = compute_mars(database, cutoff)
+    for k, v in SAMPLE_LABELS.items():
+        log = log.replace(k, v)
+    return relabel(counts), taxa, summ, relabel(reads), relabel(unmapped), log
 
 
 def compute_mars(database: str, cutoff: float):

@@ -26,7 +26,17 @@ DIETS = {
 
 PERSEPHONE_URL = 'https://github.com/opencobra/cobratoolbox/tree/master/src/analysis/persephone'
 
-SAMPLES = ['CSM5MCXD', 'CSM5MCY2', 'CSM67U9J', 'CSM67UAW', 'CSM67UB9']
+SAMPLE_IDS = ['CSM5MCXD', 'CSM5MCY2', 'CSM67U9J', 'CSM67UAW', 'CSM67UB9']   # nombres en los ficheros
+SAMPLE_LABELS = {s: f'P{i}' for i, s in enumerate(SAMPLE_IDS, 1)}          # nombres mostrados
+SAMPLES = list(SAMPLE_LABELS.values())
+
+
+def relabel(df):
+    """Sustituye los identificadores de muestra por P1–P5 en índice, columnas y columna «Muestra»."""
+    df = df.rename(index=SAMPLE_LABELS, columns=SAMPLE_LABELS)
+    if 'Muestra' in df.columns:
+        df['Muestra'] = df['Muestra'].replace(SAMPLE_LABELS)
+    return df
 
 # Metabolitos de interés nutricional (ID VMH -> nombre en español, grupo)
 KEY_METS = {
@@ -77,9 +87,111 @@ def vmh_names() -> pd.Series:
     return df.set_index('metID')['metName']
 
 
+# Nombres en español de los componentes de las dietas
+DIET_NAMES = {
+    '10fthf': '10-Formiltetrahidrofolato',
+    '5mthf': '5-Metiltetrahidrofolato',
+    'CE2510': 'Ácido eicosenoico (C20:1)',
+    'CE4843': 'Ácido eicosadienoico (C20:2)',
+    'adpcbl': 'Adenosilcobalamina (vitamina B12)',
+    'adrn': 'Ácido adrénico (C22:4)',
+    'ala_L': 'L-alanina',
+    'arach': 'Araquidato (C20:0)',
+    'arachd': 'Araquidonato (C20:4)',
+    'arg_L': 'L-arginina',
+    'ascb_L': 'L-ascorbato (vitamina C)',
+    'asp_L': 'L-aspartato',
+    'avite1': 'α-tocoferol (vitamina E)',
+    'btn': 'Biotina',
+    'but': 'Butirato',
+    'ca2': 'Calcio',
+    'caro': 'β-caroteno',
+    'cellul': 'Celulosa',
+    'chsterol': 'Colesterol',
+    'cl': 'Cloruro',
+    'clpnd': 'Ácido clupanodónico (C22:5)',
+    'crvnc': 'Ácido cervónico (DHA, C22:6 n-3)',
+    'cu2': 'Cobre',
+    'cys_L': 'L-cisteína',
+    'dca': 'Decanoato (C10:0)',
+    'ddca': 'Laurato (C12:0)',
+    'doco13ac': 'Ácido docosenoico (C22:1)',
+    'docosac': 'Ácido behénico (C22:0)',
+    'etoh': 'Etanol',
+    'fe2': 'Hierro (Fe²⁺)',
+    'fe3': 'Hierro (Fe³⁺)',
+    'fol': 'Folato',
+    'fru': 'D-fructosa',
+    'gal': 'D-galactosa',
+    'glc_D': 'D-glucosa',
+    'glu_L': 'L-glutamato',
+    'gly': 'Glicina',
+    'h2o': 'Agua',
+    'hdca': 'Palmitato (C16:0)',
+    'hdcea': 'Palmitoleato (C16:1)',
+    'his_L': 'L-histidina',
+    'hpdca': 'Margarato (C17:0)',
+    'i': 'Yoduro',
+    'ile_L': 'L-isoleucina',
+    'k': 'Potasio',
+    'lcts': 'Lactosa',
+    'leu_L': 'L-leucina',
+    'lgnc': 'Lignocerato (C24:0)',
+    'lnlc': 'Linoleato (C18:2)',
+    'lnlnca': 'α-linolenato (C18:3)',
+    'lys_L': 'L-lisina',
+    'malt': 'Maltosa',
+    'met_L': 'L-metionina',
+    'mg2': 'Magnesio',
+    'mn2': 'Manganeso',
+    'mnl': 'D-manitol',
+    'na1': 'Sodio',
+    'nac': 'Nicotinato',
+    'ncam': 'Nicotinamida',
+    'ocdca': 'Estearato (C18:0)',
+    'ocdcea': 'Oleato (C18:1)',
+    'octa': 'Octanoato (C8:0)',
+    'phe_L': 'L-fenilalanina',
+    'phyQ': 'Filoquinona (vitamina K1)',
+    'pi': 'Fosfato',
+    'pnto_R': 'Pantotenato',
+    'pro_L': 'L-prolina',
+    'ptdca': 'Pentadecanoato (C15:0)',
+    'pydam': 'Piridoxamina',
+    'pydx': 'Piridoxal',
+    'pydxn': 'Piridoxina',
+    'retinol': 'Retinol (vitamina A)',
+    'ribflv': 'Riboflavina',
+    'sbt_D': 'D-sorbitol',
+    'ser_L': 'L-serina',
+    'starch1200': 'Almidón resistente',
+    'strch1': 'Almidón',
+    'strdnc': 'Ácido estearidónico (C18:4 n-3)',
+    'sucr': 'Sacarosa',
+    'thf': 'Tetrahidrofolato',
+    'thm': 'Tiamina',
+    'thr_L': 'L-treonina',
+    'trp_L': 'L-triptófano',
+    'ttdca': 'Miristato (C14:0)',
+    'ttdcea': 'Miristoleato (C14:1)',
+    'tyr_L': 'L-tirosina',
+    'urate': 'Urato',
+    'val_L': 'L-valina',
+    'vitd3': 'Colecalciferol (vitamina D3)',
+    'xylt': 'Xilitol',
+    'zn2': 'Zinc',
+    'amet': 'S-adenosil-L-metionina',
+    'cgly': 'Cisteinilglicina',
+    'glymet': 'Glicil-metionina',
+    'metsox_S_L': 'L-metionina S-sulfóxido',
+}
+
+
 def met_label(met: str) -> str:
     if met in KEY_METS:
         return KEY_METS[met][0]
+    if met in DIET_NAMES:
+        return DIET_NAMES[met]
     n = vmh_names()
     return str(n.get(met, met))
 
@@ -88,12 +200,12 @@ def met_label(met: str) -> str:
 def load_example():
     counts = pd.read_table(os.path.join(REPO, 'counts.tsv'), index_col=0)
     taxa = pd.read_table(os.path.join(REPO, 'taxa.tsv'), index_col=0)
-    return counts, taxa
+    return relabel(counts), taxa
 
 
 @st.cache_data
 def load_raw_demo():
-    return pd.read_table(os.path.join(DATA, 'raw_counts_demo.tsv'), index_col=0)
+    return relabel(pd.read_table(os.path.join(DATA, 'raw_counts_demo.tsv'), index_col=0))
 
 
 def species_label(pan: str) -> str:
@@ -106,7 +218,7 @@ def load_mgpipe(name: str, diet: str = 'EUAverageDiet') -> pd.DataFrame:
     p = os.path.join(RES, diet, name + '.csv')
     if not os.path.exists(p):
         return None
-    return pd.read_csv(p, index_col=0)
+    return relabel(pd.read_csv(p, index_col=0))
 
 
 @st.cache_data
@@ -115,12 +227,12 @@ def load_profiles() -> pd.DataFrame:
     Secreción = secreción neta máxima; Captación = captación neta máxima (mmol/persona/día)."""
     rows = []
     for d in DIETS:
-        for s in SAMPLES:
+        for s in SAMPLE_IDS:
             f = os.path.join(RES, 'profiles', f'{s}__{d}.csv')
             if not os.path.exists(f):
                 continue
             t = pd.read_csv(f, index_col=0)
-            rows.append(pd.DataFrame({'Dieta': d, 'Muestra': s, 'Metabolito': [met_from_rxn(r) for r in t.index],
+            rows.append(pd.DataFrame({'Dieta': d, 'Muestra': SAMPLE_LABELS[s], 'Metabolito': [met_from_rxn(r) for r in t.index],
                                       'Secreción': t['maximum'].values, 'Captación': t['minimum'].values}))
     if not rows:
         return pd.DataFrame(columns=['Dieta', 'Muestra', 'Metabolito', 'Secreción', 'Captación'])
@@ -135,7 +247,19 @@ def load_intervention() -> pd.DataFrame:
             if f.endswith('.csv')] if os.path.isdir(os.path.join(RES, 'intervention')) else []
     if not rows:
         return pd.DataFrame()
-    return pd.concat(rows, ignore_index=True).rename(columns={'Secrecion': 'Secreción', 'Captacion': 'Captación'})
+    return relabel(pd.concat(rows, ignore_index=True).rename(columns={'Secrecion': 'Secreción', 'Captacion': 'Captación'}))
+
+
+@st.cache_data
+def load_diet_limits() -> pd.DataFrame:
+    """Componentes de la dieta que limitan la secreción neta máxima (dieta europea media), por muestra y metabolito."""
+    d = os.path.join(RES, 'diet_limits')
+    fs = sorted(f for f in os.listdir(d) if f.endswith('.csv')) if os.path.isdir(d) else []
+    if not fs:
+        return pd.DataFrame()
+    df = relabel(pd.concat([pd.read_csv(os.path.join(d, f)) for f in fs], ignore_index=True))
+    df['Aumento'] = df['Secreción neta con el doble'] - df['Secreción neta máxima']
+    return df
 
 
 @st.cache_data
@@ -151,14 +275,14 @@ def load_active_exchanges() -> pd.DataFrame:
 def model_stats() -> pd.DataFrame:
     pre = os.path.join(RES, 'model_stats.csv')
     if os.path.exists(pre):
-        return pd.read_csv(pre, index_col=0)
+        return relabel(pd.read_csv(pre, index_col=0))
     rows = []
-    for s in SAMPLES:
+    for s in SAMPLE_IDS:
         r = os.path.join(RES, 'EUAverageDiet', 'models', s + '.rxnInfo.csv')
         m = os.path.join(RES, 'EUAverageDiet', 'models', s + '.metInfo.csv')
         if os.path.exists(r):
             ri = pd.read_csv(r, usecols=['rxnID'])
-            rows.append({'Muestra': s, 'Reacciones': len(ri), 'Metabolitos': len(pd.read_csv(m, usecols=['metID'])),
+            rows.append({'Muestra': SAMPLE_LABELS[s], 'Reacciones': len(ri), 'Metabolitos': len(pd.read_csv(m, usecols=['metID'])),
                          'Intercambios con la dieta': int(ri['rxnID'].str.startswith('Diet_EX_').sum()),
                          'Secreciones a heces': int((ri['rxnID'].str.startswith('EX_') & ri['rxnID'].str.endswith('_fe')).sum())})
     return pd.DataFrame(rows).set_index('Muestra') if rows else pd.DataFrame()

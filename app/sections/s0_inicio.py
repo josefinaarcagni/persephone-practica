@@ -41,8 +41,7 @@ taxonómica) y **MgPipe** (modelos de comunidad y perfiles metabólicos).
     st.subheader('Datos utilizados')
     st.markdown(
         """
-**Muestras.** Se analizan **5 muestras fecales humanas** (`CSM5MCXD`, `CSM5MCY2`, `CSM67U9J`, `CSM67UAW`,
-`CSM67UB9`). Para cada muestra se dispone de la **abundancia relativa de 12 especies bacterianas** intestinales
+**Muestras.** Se analizan **5 muestras fecales humanas**, denominadas P1 a P5. Para cada muestra se dispone de la **abundancia relativa de 12 especies bacterianas** intestinales
 (en cada muestra suman 1), todas con reconstrucción metabólica en AGORA2-APOLLO:
 
 *Bacteroides pectinophilus*, *Blautia torques*, *Clostridium innocuum*, *Clostridium leptum*,
@@ -53,11 +52,11 @@ Especie dominante en cada muestra:
 
 | Muestra | Especie dominante | Abundancia relativa |
 |---|---|---|
-| `CSM5MCXD` | *Erysipelotrichaceae bacterium* | 59 % |
-| `CSM5MCY2` | *Eubacterium siraeum* | 79 % |
-| `CSM67U9J` | *Erysipelotrichaceae bacterium* | 67 % |
-| `CSM67UAW` | *Clostridium innocuum* | 41 % |
-| `CSM67UB9` | *Blautia torques* | 79 % |
+| P1 | *Erysipelotrichaceae bacterium* | 59 % |
+| P2 | *Eubacterium siraeum* | 79 % |
+| P3 | *Erysipelotrichaceae bacterium* | 67 % |
+| P4 | *Clostridium innocuum* | 41 % |
+| P5 | *Blautia torques* | 79 % |
 """
     )
     st.markdown(

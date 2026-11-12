@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 from common import (concepto, nutricion,
-                    load_profiles, load_intervention, load_diet, met_label, DIETS, SAMPLES, KEY_METS)
+                    load_profiles, load_intervention, load_diet, load_diet_limits, met_label, DIETS, SAMPLES, KEY_METS)
 
 # Agrupación de los componentes de las dietas en categorías nutricionales
 GROUPS = {
@@ -17,7 +17,65 @@ GROUPS = {
     'Colesterol': ['chsterol'],
     'Alcohol': ['etoh'],
 }
+GROUPS_ALL = {**GROUPS,
+    'Vitaminas': ['10fthf', '5mthf', 'adpcbl', 'ascb_L', 'avite1', 'btn', 'caro', 'fol', 'nac', 'ncam', 'phyQ',
+                  'pnto_R', 'pydam', 'pydx', 'pydxn', 'retinol', 'ribflv', 'thf', 'thm', 'vitd3'],
+    'Minerales': ['ca2', 'cl', 'cu2', 'fe2', 'fe3', 'i', 'k', 'mg2', 'mn2', 'na1', 'pi', 'zn2'],
+    'Otros': ['urate'],
+}
+GROUP_OF = {m: g for g, ms in GROUPS_ALL.items() for m in ms}
 FIBRE_DETAIL = {'strch1': 'Almidón', 'starch1200': 'Almidón resistente', 'cellul': 'Celulosa'}
+
+def diet_limits():
+    st.subheader('8.4 Componentes de la dieta que limitan la producción')
+    st.markdown(
+        """
+Para cada individuo y metabolito se ha calculado la **secreción neta máxima** con la dieta europea media, manteniendo
+el crecimiento de la comunidad en su óptimo. Un componente de la dieta es **limitante** si aumentar su cantidad
+aumenta esa secreción máxima (coste reducido distinto de cero en la solución de programación lineal). Para cada
+componente limitante se ha duplicado su cantidad en la dieta y se ha recalculado la secreción.
+
+Si ningún componente es limitante, la capacidad de producción está fijada por la **microbiota** (abundancia de las
+especies productoras y restricciones de acoplamiento), no por la dieta.
+"""
+    )
+    lim = load_diet_limits()
+    if lim.empty:
+        st.warning('Resultados no disponibles todavía.')
+        return
+    mets = [m for m in KEY_METS if m in set(lim['Metabolito'])]
+    real = lim[lim['Componente'].notna() & (lim['Aumento'] > 1e-3)]
+
+    # Resumen: tipo de límite por metabolito e individuo
+    tipo = (lim.groupby(['Metabolito', 'Muestra'])
+            .apply(lambda g: 'Dieta' if ((g['Aumento'] > 1e-3) & g['Componente'].notna()).any() else 'Microbiota')
+            .unstack().reindex(mets))
+    tipo.index = [met_label(m) for m in tipo.index]
+    st.markdown('**Factor que limita la secreción neta máxima** (dieta europea media):')
+    st.dataframe(tipo.style.map(lambda v: 'background-color: rgba(170,60,160,0.15)' if v == 'Dieta' else ''),
+                 use_container_width=True)
+
+    met = st.selectbox('Metabolito', mets, index=mets.index('h2s') if 'h2s' in mets else 0,
+                       format_func=met_label, key='met_lim')
+    sub = real[real['Metabolito'] == met]
+    if sub.empty:
+        st.markdown(f'Ningún componente de la dieta limita la producción de **{met_label(met)}** en estos individuos.')
+        return
+    piv = sub.pivot_table(index='Componente', columns='Muestra', values='Aumento').fillna(0)
+    piv = piv.reindex(columns=[c for c in SAMPLES if c in set(lim['Muestra'])], fill_value=0)
+    piv = piv.loc[piv.max(axis=1).sort_values(ascending=False).index]
+    piv.index = [met_label(c) for c in piv.index]
+    fig = px.imshow(piv, color_continuous_scale='Purples', text_auto='.2f', aspect='auto',
+                    labels=dict(color='mmol/día', x='Individuo', y='Componente de la dieta'))
+    fig.update_layout(height=120 + 32 * len(piv), margin=dict(l=10, r=10, t=10, b=10))
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption(f'Aumento de la secreción neta máxima de {met_label(met)} (mmol/persona/día) al duplicar cada componente '
+               'limitante de la dieta europea media. 0: el componente no es limitante en ese individuo.')
+    with st.expander('Ver la tabla completa'):
+        t = sub[['Muestra', 'Componente', 'Cantidad en la dieta', 'Secreción neta máxima', 'Secreción neta con el doble']].copy()
+        t['Componente'] = t['Componente'].map(met_label)
+        st.dataframe(t.round(2), use_container_width=True, hide_index=True)
+
 
 def page():
     st.title('8 · Aplicaciones en nutrición')
@@ -46,6 +104,29 @@ Antes de llegar a la microbiota, el modelo asume que una parte se absorbe en el 
     if view.startswith('Relativo'):
         fig.add_hline(y=1, line_dash='dot', line_color='grey')
     st.plotly_chart(fig, use_container_width=True)
+
+    st.markdown('**Composición completa de una dieta.**')
+    c1, c2 = st.columns(2)
+    dsel = c1.selectbox('Dieta', list(DIETS), format_func=DIETS.get, key='diet_detail')
+    gsel = c2.selectbox('Grupo de componentes', ['Todos'] + list(GROUPS_ALL), key='diet_group')
+    comp = pd.DataFrame({'Cantidad (mmol/persona/día)': diets[DIETS[dsel]],
+                         '× dieta europea': diets[DIETS[dsel]] / diets[DIETS['EUAverageDiet']].replace(0, np.nan)})
+    comp = comp[(comp.iloc[:, 0] > 0) & (comp.index != 'h2o')]
+    comp.insert(0, 'Grupo', [GROUP_OF.get(m, 'Otros') for m in comp.index])
+    comp.insert(0, 'Componente', [met_label(m) for m in comp.index])
+    if gsel != 'Todos':
+        comp = comp[comp['Grupo'] == gsel]
+    comp = comp.sort_values('Cantidad (mmol/persona/día)', ascending=True)
+    fig = px.bar(comp, x='Cantidad (mmol/persona/día)', y='Componente', color='Grupo', orientation='h', log_x=True,
+                 color_discrete_sequence=px.colors.qualitative.Safe, hover_data={'× dieta europea': ':.2f'})
+    fig.update_layout(height=max(320, 18 * len(comp) + 120), yaxis_title='', margin=dict(l=10, r=10, t=10, b=10),
+                      legend=dict(orientation='h', y=-0.08 if len(comp) > 40 else -0.25))
+    st.plotly_chart(fig, use_container_width=True)
+    st.caption(f'{DIETS[dsel]}: {len(comp)} componentes{"" if gsel == "Todos" else " del grupo seleccionado"}, '
+               'eje horizontal en escala logarítmica. El agua se omite.')
+    with st.expander('Ver la tabla de componentes'):
+        st.dataframe(comp.sort_values('Cantidad (mmol/persona/día)', ascending=False).round(3),
+                     use_container_width=True, hide_index=True)
 
     with st.expander('Ver detalle de carbohidratos complejos (sustratos principales de la fermentación colónica)'):
         st.dataframe(diets.loc[list(FIBRE_DETAIL)].rename(index=FIBRE_DETAIL).round(2), use_container_width=True)
@@ -130,8 +211,11 @@ Antes de llegar a la microbiota, el modelo asume que una parte se absorbe en el 
     fig.update_layout(height=300, margin=dict(l=10, r=10, t=10, b=10))
     st.plotly_chart(fig, use_container_width=True)
 
-    # ------------------------------------------------------------------ 7.4
-    st.subheader('8.4 Simulación de una intervención dietética (dosis–respuesta)')
+    # ------------------------------------------------------------------ 8.4
+    diet_limits()
+
+    # ------------------------------------------------------------------ 8.5
+    st.subheader('8.5 Simulación de una intervención dietética (dosis–respuesta)')
     st.markdown(
         """
 A partir de la dieta europea media se ha multiplicado la cantidad de **fibra y almidón** (celulosa, almidón,
@@ -169,7 +253,7 @@ limitante es otro). Las diferencias de pendiente entre individuos son, de nuevo,
             """
 **Resultados de la simulación.**
 - **Proteína → H₂S:** respuesta lineal en cuatro individuos (de ≈ 1 mmol/día sin proteína a ≈ 73 con el cuádruple).
-  En **CSM5MCXD** la curva se aplana a partir de ×2 (≈ 23 mmol/día): esa microbiota, dominada por una
+  En **P1** la curva se aplana a partir de ×2 (≈ 23 mmol/día): esa microbiota, dominada por una
   *Erysipelotrichaceae* que no produce H₂S, tiene pocos productores y alcanza antes su límite. Es un ejemplo claro de
   cómo un mismo cambio dietético tiene efectos distintos según la microbiota.
 - **Fibra → butirato:** las curvas son planas en todos los individuos. Ninguna de estas comunidades puede convertir
