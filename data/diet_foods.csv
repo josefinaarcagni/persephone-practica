@@ -1,0 +1,91 @@
+Dieta,Comida,Alimento,Cantidad (g),Energía (kcal)
+EUAverageDiet,Desayuno,Baguette,60,145.9
+EUAverageDiet,Desayuno,Huevos cocidos con sal,60,82.3
+EUAverageDiet,Desayuno,Café,500,10.0
+EUAverageDiet,Desayuno,Mantequilla,20,150.8
+EUAverageDiet,Desayuno,Mandarina,35,18.5
+EUAverageDiet,Desayuno,Plátano,150,63.6
+EUAverageDiet,Comida,Refresco de cola,500,212.0
+EUAverageDiet,Comida,Escalope de cerdo empanado,130,206.2
+EUAverageDiet,Comida,Puré de patata,120,111.0
+EUAverageDiet,Comida,Coliflor guisada,80,23.6
+EUAverageDiet,Comida,Sopa de verduras,200,52.2
+EUAverageDiet,Comida,Aceite de girasol,15,134.9
+EUAverageDiet,Comida,Sal yodada,2,0.0
+EUAverageDiet,Comida,Galletas de chocolate,60,260.5
+EUAverageDiet,Cena,Pan moreno con mantequilla,120,346.1
+EUAverageDiet,Cena,Mantequilla con sal,10,70.0
+EUAverageDiet,Cena,Queso brie,110,284.5
+EUAverageDiet,Cena,Agua mineral sin gas,500,0.0
+EUAverageDiet,Cena,Cerveza baja en alcohol,300,117.0
+HighFiberDiet,Desayuno,Pan integral,75,158.6
+HighFiberDiet,Desayuno,Clara de huevo escalfada,65,89.3
+HighFiberDiet,Desayuno,Semillas de chía,15,66.8
+HighFiberDiet,Desayuno,"Batido de manzana, zanahoria y fresa",250,185.2
+HighFiberDiet,Desayuno,Kéfir,210,136.5
+HighFiberDiet,Desayuno,Crema de frutos secos,20,137.1
+HighFiberDiet,Comida,Agua mineral con gas,1000,0.0
+HighFiberDiet,Comida,Ensalada de garbanzos con vinagreta,200,279.0
+HighFiberDiet,Comida,Pechuga de pavo en lonchas con brotes,190,196.5
+HighFiberDiet,Comida,Tirabeques guisados,120,86.0
+HighFiberDiet,Comida,Mezcla de arroz salvaje cocido,150,192.4
+HighFiberDiet,Comida,Sal yodada y fluorada,2.5,0.0
+HighFiberDiet,Comida,Bizcocho de manzana,120,387.8
+HighFiberDiet,Cena,Panecillo integral (Graham),40,121.8
+HighFiberDiet,Cena,Falafel,110,386.5
+HighFiberDiet,Cena,"Setas (armillaria), cocinadas",150,48.5
+HighFiberDiet,Cena,Tomate cherry,120,25.2
+HighFiberDiet,Cena,Agua mineral con gas,1000,0.0
+HighProteinDiet,Desayuno,Pan integral de espelta,110,269.2
+HighProteinDiet,Desayuno,Queso cottage,30,31.1
+HighProteinDiet,Desayuno,Atún en conserva escurrido,80,118.5
+HighProteinDiet,Desayuno,Tomate cherry,160,33.6
+HighProteinDiet,Desayuno,Proteína en polvo enriquecida con vitaminas,30,102.8
+HighProteinDiet,Desayuno,Leche entera,100,45.9
+HighProteinDiet,Desayuno,Agua mineral con gas,500,0.0
+HighProteinDiet,Comida,Pechuga de pollo a la plancha,130,139.4
+HighProteinDiet,Comida,Mezcla de arroz salvaje cocido,100,48.5
+HighProteinDiet,Comida,Ensalada de apio en conserva,150,192.4
+HighProteinDiet,Comida,"Coliflor, brócoli y zanahoria",120,33.0
+HighProteinDiet,Comida,Sal yodada y fluorada,3,0.0
+HighProteinDiet,Comida,Barrita proteica de chocolate,35,118.3
+HighProteinDiet,Comida,Agua mineral con gas,1500,0.0
+HighProteinDiet,Cena,Aceite de oliva virgen extra,15,134.9
+HighProteinDiet,Cena,Huevos escalfados,120,164.3
+HighProteinDiet,Cena,Berenjena guisada con tomate y pimiento verde,250,145.0
+HighProteinDiet,Cena,Panecillo de centeno con pipas de girasol,70,171.0
+HighProteinDiet,Cena,Compota de plátano,150,123.5
+UnhealthyDiet,Cena,Pizza baguette de jamón,350,665.0
+UnhealthyDiet,Cena,Embutido cocido (Jagdwurst),80,163.7
+UnhealthyDiet,Cena,Agua mineral sin gas,500,0.0
+UnhealthyDiet,Cena,Batido de helado,250,93.2
+UnhealthyDiet,Comida,Refresco de cola,500,212.0
+UnhealthyDiet,Comida,Patatas fritas con mayonesa,150,346.6
+UnhealthyDiet,Comida,Hamburguesa con queso,237,507.7
+UnhealthyDiet,Comida,Tarta Selva Negra,120,336.4
+UnhealthyDiet,Comida,Cerveza baja en alcohol,350,136.5
+UnhealthyDiet,Comida,Sal yodada,2,0.0
+UnhealthyDiet,Desayuno,Salchicha cocida,60,197.9
+UnhealthyDiet,Desayuno,Pan de molde tostado,90,237.9
+UnhealthyDiet,Desayuno,Huevos cocidos con sal,60,82.3
+UnhealthyDiet,Desayuno,Café con leche y azúcar,500,57.5
+UnhealthyDiet,Desayuno,Mantequilla,20,150.8
+UnhealthyDiet,Desayuno,Empanadilla de requesón,120,272.5
+UnhealthyDiet,Desayuno,Queso Appenzeller,90,387.1
+VegetarianDiet,Desayuno,Muesli,90,340.9
+VegetarianDiet,Desayuno,Zumo de manzana,125,58.0
+VegetarianDiet,Desayuno,Yogur de soja de vainilla,95,72.4
+VegetarianDiet,Desayuno,Café,500,10.0
+VegetarianDiet,Desayuno,Pera,120,65.9
+VegetarianDiet,Desayuno,Leche entera,50,22.9
+VegetarianDiet,Comida,Agua mineral sin gas,1500,0.0
+VegetarianDiet,Comida,Minestrone,250,94.2
+VegetarianDiet,Comida,Risotto de calabaza,370,368.9
+VegetarianDiet,Comida,Aceite de pepitas de calabaza,20,180.0
+VegetarianDiet,Comida,Ensalada verde con manzana y aceite,200,157.6
+VegetarianDiet,Cena,Crema de aguacate,80,65.4
+VegetarianDiet,Cena,Chapata,90,218.8
+VegetarianDiet,Cena,Queso brie,20,51.7
+VegetarianDiet,Cena,Filete de seitán,35,57.2
+VegetarianDiet,Cena,"Ensalada de pepino, rábano y tomate con salsa de yogur",120,46.0
+VegetarianDiet,Cena,Manzana,150,95.8

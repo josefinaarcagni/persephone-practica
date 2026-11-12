@@ -4,7 +4,7 @@ import plotly.express as px
 import streamlit as st
 from common import (concepto, nutricion,
                     load_example, load_profiles, load_active_exchanges, model_stats, species_label,
-                    met_label, KEY_METS, SAMPLES)
+                    met_label, KEY_METS, SAMPLES, profile_samples)
 
 DOT = r"""
 digraph G {
@@ -46,7 +46,7 @@ Para cada muestra, MgPipe:
     )
     stats = model_stats()
     if len(stats):
-        st.markdown('**Tamaño de los modelos de comunidad generados para las cinco muestras:**')
+        st.markdown('**Tamaño de los modelos de comunidad:**')
         st.dataframe(stats.style.format('{:,.0f}'), use_container_width=True)
         st.caption('Compárese con una bacteria aislada (~1.000–1.500 reacciones): el modelo comunitario de 12 especies '
                    'supera las 14.000 reacciones.')
@@ -152,7 +152,7 @@ La figura relaciona, para el metabolito elegido, la **abundancia conjunta de las
              'abundancia de <i>E. siraeum</i> (≈ 4 mmol/día por cada 1 % de abundancia). Las restricciones de acoplamiento '
              'impiden que una especie poco abundante sostenga flujos elevados, por lo que la capacidad depende de '
              '<b>quién está presente y en qué proporción</b>.</li>'
-             '<li><b>Límite dietético.</b> Para el <b>H₂S</b>, las cinco muestras dan valores parecidos aunque su composición '
+             '<li><b>Límite dietético.</b> Para el <b>H₂S</b>, todas las muestras dan valores parecidos aunque su composición '
              'sea muy distinta: los productores son suficientes y lo que limita es el sustrato que aporta la dieta.</li>'
              '<li><b>Techo del modelo.</b> Algunos metabolitos (acetato, lactato, succinato, amonio) alcanzan valores '
              'cercanos a 400 mmol/día en casi todas las muestras: es el máximo que permiten las restricciones de '
@@ -161,7 +161,7 @@ La figura relaciona, para el metabolito elegido, la **abundancia conjunta de las
 
     st.subheader('7.5 Perfil completo de una muestra')
     c1, c2 = st.columns([1, 3])
-    s = c1.selectbox('Muestra', SAMPLES)
+    s = c1.selectbox('Muestra', profile_samples())
     kind = c1.radio('Tipo de flujo', ['Secreción', 'Captación'])
     n = c1.slider('Nº de metabolitos', 5, 40, 20)
     counts, taxa = load_example()

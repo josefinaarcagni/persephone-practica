@@ -63,13 +63,14 @@ Especie dominante en cada muestra:
         """
 | Datos | Contenido | Bloques |
 |---|---|---|
-| Abundancias relativas | 12 especies × 5 muestras | 5–8 |
+| Abundancias relativas | 12 especies × 5 muestras | 5–7 |
 | Tabla de lecturas (`data/raw_counts_demo.tsv`) | Número de lecturas por taxón y muestra (18.766–38.908 lecturas por muestra), con el linaje taxonómico completo (`k__…; s__…`); incluye tres taxones sin reconstrucción metabólica | 5 |
 | Reconstrucciones metabólicas de especie | Matriz reacción × especie de AGORA2-APOLLO | 6, 7 |
-| Dietas de referencia (5) | Cantidades diarias de ~90 compuestos (mmol/persona/día) | 7, 8 |
-| Abundancias de reacciones y subsistemas; modelos de comunidad | Dieta europea media | 6, 7 |
-| Perfiles de secreción y captación (NMPC) | 5 dietas × 5 muestras | 7, 8 |
-| Intervención dietética | Dieta europea media con la fibra o la proteína multiplicadas por 0–4 | 8 |
+| Dietas de referencia (5) | Menú de un día (alimentos y cantidades) y su equivalente en ~90 compuestos (mmol/persona/día) | 7, 8 |
+| Abundancias de reacciones y subsistemas | 5 muestras | 6 |
+| Modelos de comunidad | 4 muestras (P1, P2, P4, P5), dieta europea media | 7 |
+| Perfiles de secreción y captación (NMPC) | 5 dietas × 4 muestras (P1, P2, P4, P5) | 7, 8 |
+| Intervención dietética | Dieta europea media con la fibra o la proteína multiplicadas por 0–4; 4 muestras | 8 |
 | Modelo de *E. coli* | Modelo e_coli_core y mapa del metabolismo central | 3 |
 """
     )

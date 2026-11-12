@@ -251,6 +251,12 @@ def load_intervention() -> pd.DataFrame:
 
 
 @st.cache_data
+def load_diet_foods() -> pd.DataFrame:
+    """Menú de un día de cada dieta: comida, alimento, cantidad (g) y energía (kcal)."""
+    return pd.read_csv(os.path.join(DATA, 'diet_foods.csv'))
+
+
+@st.cache_data
 def load_diet_limits() -> pd.DataFrame:
     """Componentes de la dieta que limitan la secreción neta máxima (dieta europea media), por muestra y metabolito."""
     d = os.path.join(RES, 'diet_limits')
@@ -259,6 +265,8 @@ def load_diet_limits() -> pd.DataFrame:
         return pd.DataFrame()
     df = relabel(pd.concat([pd.read_csv(os.path.join(d, f)) for f in fs], ignore_index=True))
     df['Aumento'] = df['Secreción neta con el doble'] - df['Secreción neta máxima']
+    # Limitante relevante: duplicar el componente aumenta la secreción más de un 1 % (y más de 0,05 mmol/día)
+    df['Limitante'] = df['Componente'].notna() & (df['Aumento'] > 0.05) & (df['Aumento'] > 0.01 * df['Secreción neta máxima'])
     return df
 
 
@@ -271,8 +279,20 @@ def load_active_exchanges() -> pd.DataFrame:
     return m
 
 
+def profile_samples() -> list:
+    """Muestras con perfiles metabólicos calculados (las que se usan en los bloques 7 y 8)."""
+    d = os.path.join(RES, 'profiles')
+    ids = {f.split('__')[0] for f in os.listdir(d)} if os.path.isdir(d) else set()
+    return [SAMPLE_LABELS[s] for s in SAMPLE_IDS if s in ids]
+
+
 @st.cache_data
 def model_stats() -> pd.DataFrame:
+    df = _model_stats()
+    return df.loc[[s for s in df.index if s in profile_samples()]] if len(df) else df
+
+
+def _model_stats() -> pd.DataFrame:
     pre = os.path.join(RES, 'model_stats.csv')
     if os.path.exists(pre):
         return relabel(pd.read_csv(pre, index_col=0))
