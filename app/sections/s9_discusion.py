@@ -34,16 +34,16 @@ QUIZ = [
      1, 'El FVA calcula el rango de flujo posible de cada reacción; el máximo de secreción neta es la NMPC.'),
     ('Dos personas siguen la misma dieta rica en fibra, pero el modelo predice mucho más butirato en una de ellas. La explicación más directa es...',
      ['Un error del solucionador',
-      'Diferencias en la composición de su microbiota (presencia/abundancia de productores de butirato y de especies con las que intercambian metabolitos)',
+      'Diferencias en su microbiota (abundancia de productores de butirato)',
       'Que la dieta no influye en el butirato',
       'Diferencias en su edad'],
-     1, 'Con la misma dieta, la diferencia procede de la comunidad: es la base de la respuesta individual a la dieta.'),
+     1, 'Con la misma dieta, la diferencia procede de la comunidad.'),
     ('En una muestra, la capacidad de producir butirato no cambia al multiplicar por cuatro la fibra de la dieta. La explicación más probable es...',
      ['La fibra no se fermenta en el colon',
       'La producción está limitada por la baja abundancia de especies productoras (restricciones de acoplamiento)',
       'El modelo no incluye la fibra',
       'El solucionador no ha convergido'],
-     1, 'Las restricciones de acoplamiento limitan los flujos de cada especie según su abundancia: sin productores abundantes, más sustrato no aumenta la producción.'),
+     1, 'Sin productores abundantes, más sustrato no aumenta la producción.'),
 ]
 
 def page():
@@ -52,21 +52,15 @@ def page():
     st.subheader('9.1 Cuestiones para la discusión')
     st.markdown(
         """
-1. **Validación.** Las predicciones de Persephone son *capacidades máximas*, no concentraciones medidas.
-   ¿Qué datos experimentales (metabolómica fecal o plasmática, ensayos *in vitro*) utilizaría para validarlas?
-2. **Cobertura.** Si MARS solo consigue mapear el 60 % de las lecturas de una muestra, ¿qué consecuencias tiene para
-   la interpretación? ¿Afectaría por igual a todas las muestras de un estudio?
-3. **Dieta.** Las dietas del modelo son perfiles estándar. ¿Cómo construiría una dieta personalizada a partir de un
-   registro dietético o un cuestionario de frecuencia de consumo? Considere el *Diet Designer* de la base de datos VMH.
-4. **Causalidad.** Si en un estudio de casos y controles la capacidad de producir butirato es menor en los casos,
-   ¿podemos concluir que el butirato es la causa de la enfermedad?
-5. **Aplicación.** Diseñe, a grandes rasgos, un estudio de intervención dietética en el que Persephone ayude a
-   seleccionar qué participantes se beneficiarían más de un suplemento de fibra.
+1. **Validación.** ¿Qué datos experimentales usaría para validar las capacidades predichas?
+2. **Cobertura.** Si MARS mapea solo el 60 % de las lecturas, ¿cómo afecta a la interpretación?
+3. **Dieta.** ¿Cómo construiría una dieta personalizada a partir de un registro dietético?
+4. **Causalidad.** Si los casos tienen menor capacidad de producir butirato, ¿es el butirato la causa?
+5. **Aplicación.** ¿Cómo usaría Persephone para seleccionar a quién beneficiaría un suplemento de fibra?
 """
     )
 
     st.subheader('9.2 Cuestionario')
-    st.caption('Seleccione una respuesta en cada pregunta y pulse «Corregir».')
     answers = []
     for i, (q, opts, _, _) in enumerate(QUIZ):
         answers.append(st.radio(f'**{i + 1}.** {q}', opts, index=None, key=f'quiz_{i}'))
@@ -85,11 +79,11 @@ def page():
     st.subheader('9.3 Limitaciones del modelado')
     st.markdown(
         """
-- **Calidad de las reconstrucciones**: los modelos derivan de genomas y anotaciones; pueden faltar o sobrar reacciones.
-- **Resolución taxonómica**: el 16S rara vez distingue cepas; se usan pan-modelos de especie.
-- **Estado estacionario**: no se modela la dinámica temporal ni la regulación génica.
-- **Capacidades máximas**: el FVA da cotas superiores, no valores medidos; se interpretan de forma comparativa entre individuos o dietas.
-- **Dietas estándar**: la composición real de la dieta y su digestión en el intestino delgado varían entre personas.
+- **Reconstrucciones**: pueden faltar o sobrar reacciones.
+- **Resolución**: pan-modelos de especie, no cepas.
+- **Estado estacionario**: sin dinámica ni regulación.
+- **Capacidades máximas**: cotas superiores, no valores medidos.
+- **Dietas estándar**: no reflejan la dieta ni la digestión de cada persona.
 """
     )
 
@@ -97,7 +91,7 @@ def page():
     st.markdown(
         f"""
 - Persephone (COBRA Toolbox): [código fuente]({PERSEPHONE_URL}).
-- Base de datos **Virtual Metabolic Human (VMH)**: metabolitos, reacciones, modelos AGORA2 y el diseñador de dietas — [vmh.life](https://www.vmh.life).
+- Virtual Metabolic Human (VMH): [vmh.life](https://www.vmh.life).
 - Heinken A. *et al.* (2023). Genome-scale metabolic reconstruction of 7,302 human microorganisms for personalized medicine (AGORA2). *Nature Biotechnology*.
 - Orth J. D., Thiele I., Palsson B. Ø. (2010). What is flux balance analysis? *Nature Biotechnology*.
 - Orth J. D., Fleming R. M. T., Palsson B. Ø. (2010). Reconstruction and use of microbial metabolic networks: the core *Escherichia coli* metabolic model as an educational guide. *EcoSal Plus*.

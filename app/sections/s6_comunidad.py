@@ -32,30 +32,23 @@ def page():
     st.graphviz_chart(DOT, use_container_width=True)
     st.markdown(
         """
-Para cada muestra, MgPipe:
-
-1. **Toma las reconstrucciones** de todas las especies presentes (tras MARS) y las une en un único modelo.
-   Cada especie conserva su metabolismo interno, con sus reacciones etiquetadas con el nombre de la especie.
-2. **Conecta las especies a un lumen compartido** [u], donde pueden captar y liberar metabolitos. Así surge la
-   **alimentación cruzada**: lo que una especie secreta lo puede consumir otra.
-3. **Añade un compartimento de dieta** [d] (entrada) y otro de **heces** [fe] (salida).
-4. Define una **reacción de biomasa comunitaria** en la que cada especie contribuye en proporción a su abundancia relativa.
-5. Añade **restricciones de acoplamiento**: los flujos de cada especie quedan limitados por su propia biomasa,
-   de forma que una especie poco abundante no pueda sostener flujos desproporcionados.
+1. Une las reconstrucciones de las especies de la muestra.
+2. Las conecta a un **lumen compartido** [u]: lo que una secreta, otra puede consumirlo (**alimentación cruzada**).
+3. Añade **dieta** [d] (entrada) y **heces** [fe] (salida).
+4. **Biomasa comunitaria**: cada especie aporta según su abundancia.
+5. **Restricciones de acoplamiento**: los flujos de cada especie quedan limitados por su biomasa.
 """
     )
     stats = model_stats()
     if len(stats):
         st.markdown('**Tamaño de los modelos de comunidad:**')
         st.dataframe(stats.style.format('{:,.0f}'), use_container_width=True)
-        st.caption('Compárese con una bacteria aislada (~1.000–1.500 reacciones): el modelo comunitario de 12 especies '
-                   'supera las 14.000 reacciones.')
+        st.caption('Una bacteria aislada: ~1.000–1.500 reacciones.')
 
     st.subheader('7.2 Capacidad de intercambio de metabolitos por especie')
     st.markdown(
         """
-Antes de construir los modelos, MgPipe determina mediante FVA qué metabolitos puede **captar o secretar** cada especie
-por separado. Esta matriz indica, por ejemplo, qué especies de la comunidad pueden producir butirato.
+Metabolitos que cada especie puede **captar o secretar** (FVA por especie).
 """
     )
     try:
@@ -72,16 +65,14 @@ por separado. Esta matriz indica, por ejemplo, qué especies de la comunidad pue
             fig.update_layout(height=60 + 34 * len(mets), margin=dict(l=10, r=10, t=10, b=10))
             fig.update_xaxes(tickangle=-40)
             st.plotly_chart(fig, use_container_width=True)
-            st.caption('Verde: la especie posee una reacción de intercambio activa (puede captar y/o secretar el metabolito).')
+            st.caption('Verde: intercambio activo.')
     except FileNotFoundError:
         st.warning('Matriz de intercambios no disponible.')
 
     st.subheader('7.3 Perfiles metabólicos por individuo (dieta europea media)')
     concepto('Capacidad neta máxima de producción (NMPC)',
-             '<p>Aplicada la dieta, MgPipe fija la biomasa comunitaria cerca de su valor óptimo y calcula con FVA, '
-             'para cada metabolito, el <b>flujo máximo de salida hacia las heces</b> y el de <b>entrada desde la dieta</b>. '
-             'Combinándolos se obtiene la <b>secreción neta máxima</b> (lo que la comunidad puede producir por encima de lo '
-             'que aporta la dieta) y la <b>captación neta máxima</b>. Unidades: mmol/persona/día.</p>')
+             '<p>Con la dieta aplicada y la biomasa cerca del óptimo, FVA da la <b>secreción neta máxima</b> (producción '
+             'por encima de lo que aporta la dieta) y la <b>captación neta máxima</b> de cada metabolito (mmol/persona/día).</p>')
 
     prof = load_profiles()
     eu = prof[prof['Dieta'] == 'EUAverageDiet']
@@ -104,26 +95,19 @@ por separado. Esta matriz indica, por ejemplo, qué especies de la comunidad pue
                         labels=dict(color='mmol/persona/día' if not scale.startswith('N') else 'relativo'))
         fig.update_layout(height=80 + 36 * len(sel), margin=dict(l=10, r=10, t=10, b=10))
         st.plotly_chart(fig, use_container_width=True)
-        st.caption('Secreción neta máxima por muestra con la dieta europea media.')
-        st.caption('Fuente: perfiles NMPC calculados con MgPipe para cada muestra (dieta europea media, FVA al 99,99 % '
-                   'del óptimo, biomasa comunitaria entre 0,4 y 1, solucionador GLPK).')
+        st.caption('Secreción neta máxima con la dieta europea media.')
 
     st.markdown(
         """
-**Comparación entre muestras.** P2 está dominada por *Eubacterium siraeum* (≈ 79 %) y P5 por
-*Blautia torques* (≈ 79 %).
-- **Butirato:** ≈ 315 mmol/día en P2 frente a ≈ 4 en P5. La diferencia corresponde a la abundancia del
-  único productor relevante, *E. siraeum* (79 % frente a 1 %).
-- **H₂S:** ambas muestras obtienen prácticamente el mismo valor (≈ 18,5 mmol/día). Las dos contienen productores
-  abundantes, de modo que el factor limitante no es la microbiota sino la dieta (aminoácidos azufrados disponibles).
+- **Butirato:** ≈ 315 mmol/día en P2 (*E. siraeum* 79 %) frente a ≈ 4 en P5 (*E. siraeum* 1 %).
+- **H₂S:** ≈ 18,5 en ambas; lo limita la dieta (aminoácidos azufrados), no la microbiota.
 """
     )
 
     st.subheader('7.4 Factores que limitan la capacidad de producción')
     st.markdown(
         """
-La figura relaciona, para el metabolito elegido, la **abundancia conjunta de las especies capaces de intercambiarlo**
-(según la matriz del apartado 7.2) con la secreción neta máxima de cada individuo.
+Abundancia de las especies productoras (apartado 7.2) frente a la secreción neta máxima.
 """
     )
     try:
@@ -147,17 +131,11 @@ La figura relaciona, para el metabolito elegido, la **abundancia conjunta de las
     except FileNotFoundError:
         pass
 
-    concepto('Dos tipos de límite',
-             '<ul><li><b>Límite microbiano.</b> Para el <b>butirato</b>, la secreción crece casi linealmente con la '
-             'abundancia de <i>E. siraeum</i> (≈ 4 mmol/día por cada 1 % de abundancia). Las restricciones de acoplamiento '
-             'impiden que una especie poco abundante sostenga flujos elevados, por lo que la capacidad depende de '
-             '<b>quién está presente y en qué proporción</b>.</li>'
-             '<li><b>Límite dietético.</b> Para el <b>H₂S</b>, todas las muestras dan valores parecidos aunque su composición '
-             'sea muy distinta: los productores son suficientes y lo que limita es el sustrato que aporta la dieta.</li>'
-             '<li><b>Techo del modelo.</b> Algunos metabolitos (acetato, lactato, succinato, amonio) alcanzan valores '
-             'cercanos a 400 mmol/día en casi todas las muestras: es el máximo que permiten las restricciones de '
-             'acoplamiento para el conjunto de la comunidad. En esos casos el modelo no discrimina entre individuos ni dietas, '
-             'y conviene no sobreinterpretarlos.</li></ul>')
+    concepto('Tipos de límite',
+             '<ul><li><b>Microbiano</b> (butirato): ≈ 4 mmol/día por cada 1 % de <i>E. siraeum</i>.</li>'
+             '<li><b>Dietético</b> (H₂S): valores parecidos con composiciones muy distintas.</li>'
+             '<li><b>Techo del modelo</b> (acetato, lactato, succinato, amonio): ≈ 400 mmol/día en casi todas las '
+             'muestras; no discrimina entre individuos.</li></ul>')
 
     st.subheader('7.5 Perfil completo de una muestra')
     c1, c2 = st.columns([1, 3])
@@ -174,10 +152,7 @@ La figura relaciona, para el metabolito elegido, la **abundancia conjunta de las
                  color_discrete_sequence=['#c62828' if kind == 'Secreción' else '#1565c0'])
     fig.update_layout(height=120 + 22 * n, xaxis_title='mmol/persona/día', yaxis_title='', margin=dict(t=10))
     c2.plotly_chart(fig, use_container_width=True)
-    c2.caption('Los primeros puestos suelen ocuparlos productos generales del metabolismo (CO₂, H₂O, H⁺, acetato...). '
-               'Para la interpretación nutricional interesan las diferencias entre individuos y entre dietas.')
+    c2.caption('Los primeros puestos son productos generales (CO₂, H₂O, H⁺, acetato).')
 
     nutricion('Interpretación nutricional',
-              '<p>Cada individuo presenta un perfil metabólico propio, determinado por su microbiota. Las muestras P1 y P5 muestran '
-              'una capacidad muy baja de producir butirato. Antes de recomendar más fibra conviene preguntarse si el problema '
-              'es la dieta o la ausencia de especies productoras; el bloque 8 aborda esta cuestión.</p>')
+              '<p>P1 y P5 apenas pueden producir butirato. ¿Falta fibra o faltan productores? Bloque 8.</p>')

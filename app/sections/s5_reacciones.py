@@ -37,8 +37,7 @@ def page():
              '<p>Para cada reacción <i>r</i> y muestra <i>j</i>:</p>'
              '<p style="text-align:center; font-size:1.1rem"><b>Abundancia(r, j) = Σ<sub>especies i</sub> '
              'Presencia(r, i) × Abundancia relativa(i, j)</b></p>'
-             '<p>Es decir, la <b>fracción de la comunidad</b> que posee los genes para catalizar esa reacción. '
-             'Un valor de 1 indica que todas las especies la poseen; 0, que ninguna.</p>')
+             '<p><b>Fracción de la comunidad</b> que puede catalizar la reacción (0–1).</p>')
 
     sel = st.selectbox('Reacción', list(FEATURED),
                        format_func=lambda r: f'{r} — {FEATURED[r]}')
@@ -67,16 +66,13 @@ def page():
                        ', '.join(f'{s}: {v:.3f}' for s, v in rxnAb.loc[sel].items()))
 
     if rxnPre is not None:
-        st.markdown(f'En total, las cinco comunidades contienen **{len(rxnAb):,} reacciones distintas**; '
-                    'el número de reacciones presentes por muestra es: '.replace(',', '.') +
+        st.markdown(f'**{len(rxnAb):,} reacciones distintas** en total; por muestra: '.replace(',', '.') +
                     ', '.join(f'{s}: **{n:,}**'.replace(',', '.') for s, n in rxnPre.sum().items()) + '.')
 
     st.subheader('6.2 Abundancia de subsistemas (rutas metabólicas)')
     st.markdown(
         """
-Cada reacción pertenece a un **subsistema** (p. ej. «Metabolismo del butanoato», «Degradación de O-glicanos»).
-La abundancia de un subsistema es la **media de las abundancias de sus reacciones**. Esto resume miles de
-reacciones en unas 90 rutas interpretables.
+Abundancia de un **subsistema** (ruta) = media de las abundancias de sus reacciones (≈ 90 rutas).
 """
     )
     if subsAb is None:
@@ -89,8 +85,6 @@ reacciones en unas 90 rutas interpretables.
     fig.update_layout(height=max(380, 18 * n), margin=dict(l=10, r=10, t=30, b=10))
     st.plotly_chart(fig, use_container_width=True)
     st.caption('Subsistemas con mayor varianza entre muestras.')
-    st.caption('Fuente: subsAbundance.csv, calculado con MgPipe a partir de las abundancias de MARS y la matriz '
-               'reacción × especie de AGORA2-APOLLO.')
 
     subs = st.selectbox('Subsistema', subsAb.index.tolist(),
                         index=subsAb.index.tolist().index('Butanoate metabolism') if 'Butanoate metabolism' in subsAb.index else 0)
@@ -100,11 +94,7 @@ reacciones en unas 90 rutas interpretables.
     st.plotly_chart(fig, use_container_width=True)
 
     nutricion('Interpretación nutricional',
-              '<p>Subsistemas como <b>degradación de O-glicanos</b> (consumo de mucinas del hospedador, frecuente cuando '
-              'falta fibra), <b>metabolismo del almidón y la sacarosa</b>, <b>reacción de Stickland</b> '
-              '(fermentación de aminoácidos, típica de dietas ricas en proteína) o <b>metabolismo de ácidos biliares</b> '
-              'tienen interpretación directa en nutrición.</p>')
+              '<p><b>Degradación de O-glicanos</b> (mucinas; falta de fibra), <b>almidón y sacarosa</b>, '
+              '<b>Stickland</b> (fermentación de aminoácidos; exceso de proteína), <b>ácidos biliares</b>.</p>')
 
-    st.warning('**Limitación:** la abundancia de reacciones refleja *potencial genético*, no actividad. '
-               'Una reacción abundante puede no utilizarse si la dieta no aporta el sustrato. La dieta se incorpora '
-               'en los **modelos de comunidad** (bloque 7).')
+    st.warning('**Limitación:** refleja *potencial genético*, no actividad; la dieta se incorpora en el bloque 7.')

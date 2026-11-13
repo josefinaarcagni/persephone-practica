@@ -10,13 +10,9 @@ def page():
 
     st.markdown(
         f"""
-**Persephone** es un flujo de trabajo que transforma datos de composición de la microbiota intestinal
-(secuenciación del gen 16S rRNA o metagenómica) en predicciones sobre su capacidad metabólica: qué nutrientes
-de la dieta consume la comunidad y qué metabolitos produce.
-Forma parte de la [COBRA Toolbox]({PERSEPHONE_URL}) (MATLAB).
-
-En esta práctica se utiliza una implementación en Python de Persephone. La práctica cubre sus dos módulos de análisis de la microbiota: **MARS** (armonización
-taxonómica) y **MgPipe** (modelos de comunidad y perfiles metabólicos).
+**Persephone** ([COBRA Toolbox]({PERSEPHONE_URL})) convierte la composición de la microbiota intestinal en
+predicciones de su capacidad metabólica: qué nutrientes consume y qué metabolitos produce. Se usan sus módulos
+**MARS** (armonización taxonómica) y **MgPipe** (modelos de comunidad y perfiles metabólicos).
 """
     )
 
@@ -41,14 +37,7 @@ taxonómica) y **MgPipe** (modelos de comunidad y perfiles metabólicos).
     st.subheader('Datos utilizados')
     st.markdown(
         """
-**Muestras.** Se analizan **5 muestras fecales humanas**, denominadas P1 a P5. Para cada muestra se dispone de la **abundancia relativa de 12 especies bacterianas** intestinales
-(en cada muestra suman 1), todas con reconstrucción metabólica en AGORA2-APOLLO:
-
-*Bacteroides pectinophilus*, *Blautia torques*, *Clostridium innocuum*, *Clostridium leptum*,
-*Clostridium methylpentosum*, *Erysipelotrichaceae bacterium*, *Eubacterium brachy*, *Eubacterium saphenum*,
-*Eubacterium siraeum*, *Eubacterium sulci*, *Ruminococcus lactaris* y *Tyzzerella nexilis*.
-
-Especie dominante en cada muestra:
+**5 muestras fecales humanas** (P1–P5) con la abundancia relativa de **12 especies bacterianas** intestinales.
 
 | Muestra | Especie dominante | Abundancia relativa |
 |---|---|---|
@@ -63,19 +52,16 @@ Especie dominante en cada muestra:
         """
 | Datos | Contenido | Bloques |
 |---|---|---|
-| Abundancias relativas | 12 especies × 5 muestras | 5–7 |
-| Tabla de lecturas (`data/raw_counts_demo.tsv`) | Número de lecturas por taxón y muestra (18.766–38.908 lecturas por muestra), con el linaje taxonómico completo (`k__…; s__…`); incluye tres taxones sin reconstrucción metabólica | 5 |
-| Reconstrucciones metabólicas de especie | Matriz reacción × especie de AGORA2-APOLLO | 6, 7 |
-| Dietas de referencia (5) | Menú de un día (alimentos y cantidades) y su equivalente en ~90 compuestos (mmol/persona/día) | 7, 8 |
-| Abundancias de reacciones y subsistemas | 5 muestras | 6 |
-| Modelos de comunidad | 4 muestras (P1, P2, P4, P5), dieta europea media | 7 |
-| Perfiles de secreción y captación (NMPC) | 5 dietas × 4 muestras (P1, P2, P4, P5) | 7, 8 |
-| Intervención dietética | Dieta europea media con la fibra o la proteína multiplicadas por 0–4; 4 muestras | 8 |
-| Modelo de *E. coli* | Modelo e_coli_core y mapa del metabolismo central | 3 |
+| Modelo de *E. coli* | e_coli_core y mapa del metabolismo central | 3 |
+| Tabla de lecturas | 15 taxones × 5 muestras, con linaje completo | 5 |
+| Abundancias relativas | 12 especies × 5 muestras | 5, 6 |
+| Reconstrucciones metabólicas | Matriz reacción × especie (AGORA2-APOLLO) | 6, 7 |
+| Dietas (5) | Menú de un día y ~90 compuestos (mmol/persona/día) | 8 |
+| Modelos de comunidad y perfiles | P1, P2, P4, P5 × 5 dietas | 7, 8 |
+| Intervención dietética | Fibra o proteína × 0–4 | 8 |
 """
     )
 
     concepto('Unidades',
-             '<p>Las dietas y los perfiles metabólicos se expresan en <b>mmol/persona/día</b>. Los perfiles son '
-             '<b>capacidades máximas</b> compatibles con el crecimiento de la comunidad, no concentraciones medidas, '
-             'y se interpretan de forma comparativa entre individuos y entre dietas.</p>')
+             '<p>Dietas y perfiles en <b>mmol/persona/día</b>. Los perfiles son <b>capacidades máximas</b>, no '
+             'concentraciones medidas: se comparan entre individuos y dietas.</p>')

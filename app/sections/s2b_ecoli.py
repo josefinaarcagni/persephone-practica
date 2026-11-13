@@ -76,11 +76,8 @@ def page():
     st.subheader('3.1 El modelo e_coli_core')
     st.markdown(
         """
-**e_coli_core** es un modelo reducido del metabolismo central de *Escherichia coli* K-12 MG1655, derivado de la
-reconstrucción a escala genómica iJO1366. Incluye la glucólisis, la ruta de las pentosas fosfato, el ciclo de los
-ácidos tricarboxílicos, la cadena respiratoria, la fosforilación oxidativa, las rutas de fermentación y una reacción
-de biomasa que agrupa los precursores necesarios para formar una célula. Es el modelo de referencia en la
-enseñanza del FBA.
+Metabolismo central de *E. coli* K-12: glucólisis, pentosas fosfato, ciclo de Krebs, respiración, fermentación
+y una reacción de biomasa.
 """
     )
     c1, c2, c3 = st.columns(3)
@@ -89,9 +86,8 @@ enseñanza del FBA.
     c3.metric('Genes', len(m.genes))
     st.markdown(
         """
-Las unidades de flujo son **mmol/gPS/h** (milimoles por gramo de peso seco celular y hora) y la tasa de
-crecimiento se expresa en **h⁻¹**. El objetivo del FBA es la reacción de biomasa (`Biomass_Ecoli_core`). La
-reacción `ATPM` impone un consumo mínimo de 8,39 mmol ATP/gPS/h para mantenimiento celular.
+Flujos en **mmol/gPS/h** (por gramo de peso seco y hora); crecimiento en **h⁻¹**. Objetivo: biomasa.
+`ATPM`: mantenimiento mínimo de 8,39 mmol ATP/gPS/h.
 """
     )
     fuente('modelo e_coli_core (BiGG Models), distribuido con COBRApy; mapa «Core metabolism» de Escher.')
@@ -101,9 +97,8 @@ reacción `ATPM` impone un consumo mínimo de 8,39 mmol ATP/gPS/h para mantenimi
     nz = int((S != 0).values.sum())
     st.markdown(
         f"""
-La matriz **S** del modelo tiene **{S.shape[0]} filas (metabolitos) × {S.shape[1]} columnas (reacciones)**. Solo
-{nz} de sus {f'{S.size:,}'.replace(',', '.')} celdas ({f'{100 * nz / S.size:.1f}'.replace('.', ',')} %) son distintas de cero: cada reacción implica pocos
-metabolitos. Los metabolitos llevan un sufijo de compartimento: `_c` (citosol) y `_e` (medio extracelular).
+**S**: {S.shape[0]} metabolitos × {S.shape[1]} reacciones; solo el {f'{100 * nz / S.size:.1f}'.replace('.', ',')} % de las
+celdas es distinto de cero. Sufijos: `_c` citosol, `_e` extracelular.
 """
     )
     rxns = ['GLCpts', 'PGI', 'PFK', 'FBA', 'TPI', 'GAPD', 'PGK', 'PGM', 'ENO', 'PYK', 'PDH', 'CS']
@@ -117,11 +112,8 @@ metabolitos. Los metabolitos llevan un sufijo de compartimento: `_c` (citosol) y
 
     st.markdown(
         """
-Las **reacciones de intercambio** (`EX_`) conectan el modelo con el medio. Tienen un único metabolito
-extracelular y ningún producto: un flujo **negativo** representa **captación** y uno **positivo**, **secreción**.
-Su límite inferior (lb) fija la captación máxima de cada nutriente, es decir, **define el medio de cultivo**.
-En Persephone, la dieta se introduce exactamente así: cada componente de la dieta fija el límite de captación
-de su reacción de intercambio.
+Las **reacciones de intercambio** (`EX_`) conectan el modelo con el medio: flujo **negativo** = captación,
+**positivo** = secreción. Su límite inferior (lb) **define el medio**. Persephone introduce la dieta del mismo modo.
 """
     )
     ex = pd.DataFrame([{'Reacción': r.id, 'Metabolito': next(iter(r.metabolites)).name,
@@ -130,11 +122,9 @@ de su reacción de intercambio.
                         ('Captación libre' if r.lower_bound <= -1000 else 'Solo secreción')}
                        for r in m.exchanges]).set_index('Reacción')
     st.dataframe(ex, use_container_width=True, height=300)
-    st.caption('lb = −1000 equivale a captación sin límite; lb = 0 impide la captación. '
-               'En el medio por defecto la glucosa es la única fuente de carbono (lb = −10).')
+    st.caption('lb = −1000: sin límite; lb = 0: sin captación. Fuente de carbono por defecto: glucosa (lb = −10).')
 
     st.subheader('3.3 Simulación del crecimiento')
-    st.markdown('**Condiciones del medio.** El resto de nutrientes (NH₄⁺, fosfato, agua, H⁺, CO₂) no está limitado.')
     c1, c2, c3 = st.columns(3)
     nombre_c = c1.selectbox('Fuente de carbono', list(FUENTES_C))
     captacion = c2.slider('Captación máxima de la fuente de carbono (mmol/gPS/h)', 0.0, 20.0, 10.0, 0.5)
@@ -147,8 +137,7 @@ de su reacción de intercambio.
 
     f = simulate(FUENTES_C[nombre_c], captacion, o2, tuple(ko))
     if f is None or f['Biomass_Ecoli_core'] < 1e-6:
-        st.error('En estas condiciones el modelo **no puede crecer**: no existe ninguna distribución de flujos que '
-                 'produzca biomasa y cubra el mantenimiento con los nutrientes y reacciones disponibles.')
+        st.error('En estas condiciones el modelo **no puede crecer**.')
         if f is None:
             return
 
@@ -163,9 +152,7 @@ de su reacción de intercambio.
     st.markdown('**Productos secretados (mmol/gPS/h):** ' +
                 (', '.join(f'{k} {v}' for k, v in sec.items()) if sec else 'ninguno'))
 
-    st.markdown('**Mapa del metabolismo central.** Color y grosor de cada reacción proporcionales al valor absoluto '
-                'de su flujo; las flechas indican el sentido. Gris claro: flujo nulo. Use los botones de la izquierda '
-                'para ampliar.')
+    st.markdown('**Mapa del metabolismo central.** Color y grosor ∝ flujo; gris: flujo nulo.')
     escher(f)
     fuente('solución FBA calculada en directo con COBRApy (solucionador GLPK); visualización con Escher.')
 
@@ -180,26 +167,21 @@ de su reacción de intercambio.
 
 | Condición | Crecimiento (h⁻¹) | Resultado |
 |---|---|---|
-| Aerobiosis | 0,874 | Oxidación completa a CO₂; no se secretan productos de fermentación |
-| O₂ limitado a 5 | 0,392 | Respiración parcial y secreción de acetato, formiato y etanol |
-| Anaerobiosis | 0,212 | Fermentación ácido-mixta: acetato (8,5), etanol (8,3) y formiato (17,8) |
-| Anaerobiosis, sin `PFL` (piruvato formiato liasa) | 0,180 | El carbono se desvía a etanol (16,6) |
-| Sin `PGI` (fosfoglucosa isomerasa) | 0,863 | La glucosa se desvía por la ruta de las pentosas fosfato |
-| Sin `CS` (citrato sintasa) o sin `ENO` (enolasa) | 0 | Deleciones letales: no se forman precursores esenciales |
-| Sin `CYTBD` (citocromo oxidasa) | 0,212 | Equivale a la anaerobiosis: sin respiración el O₂ no puede utilizarse |
-| Acetato como fuente de carbono | 0,173 | Crece solo en aerobiosis; en anaerobiosis el problema es infactible |
+| Aerobiosis | 0,874 | Oxidación completa a CO₂ |
+| O₂ = 5 | 0,392 | Acetato, formiato y etanol |
+| Anaerobiosis | 0,212 | Fermentación ácido-mixta: acetato 8,5; etanol 8,3; formiato 17,8 |
+| Anaerobiosis, sin `PFL` | 0,180 | Etanol 16,6 |
+| Sin `PGI` | 0,863 | Desvío por las pentosas fosfato |
+| Sin `CS` o sin `ENO` | 0 | Letal |
+| Sin `CYTBD` | 0,212 | Igual que anaerobiosis |
+| Acetato como fuente de carbono | 0,173 | Solo en aerobiosis |
 """
     )
 
     concepto('Deleciones génicas',
-             '<p>Eliminar un gen equivale a fijar a cero el flujo de las reacciones que dependen de él. Si el modelo '
-             'deja de crecer, el gen es <b>esencial</b> en esas condiciones; si crece con una distribución de flujos '
-             'distinta, existen <b>rutas alternativas</b>. Este análisis se utiliza para identificar dianas '
-             'antimicrobianas y para diseñar cepas productoras.</p>')
+             '<p>Eliminar un gen fija a cero sus reacciones. Si el modelo no crece, el gen es <b>esencial</b>; si '
+             'crece con otros flujos, hay <b>rutas alternativas</b>.</p>')
 
     nutricion('Relación con la microbiota intestinal',
-              '<p><i>E. coli</i> es un anaerobio facultativo presente en el intestino. En el colon, donde el O₂ es '
-              'escaso, el modelo predice fermentación ácido-mixta con secreción de acetato, formiato y etanol, '
-              'metabolitos que pueden utilizar otros miembros de la comunidad. Persephone aplica el mismo tipo de '
-              'cálculo a cientos de modelos de especies intestinales combinados en un modelo de comunidad, con la '
-              'dieta como medio de cultivo.</p>')
+              '<p>En el colon, sin O₂, <i>E. coli</i> fermenta a acetato, formiato y etanol, que otras especies '
+              'pueden consumir. Persephone hace este cálculo con muchas especies a la vez y la dieta como medio.</p>')

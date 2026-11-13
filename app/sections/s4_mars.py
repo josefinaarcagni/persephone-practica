@@ -76,20 +76,15 @@ def page():
     st.subheader('5.1 Los datos de partida')
     st.markdown(
         """
-Tras el procesamiento bioinformático habitual (p. ej. QIIME 2 con DADA2 y asignación taxonómica con SILVA)
-se obtiene una **tabla de lecturas** por variante de secuencia (ASV) y muestra, junto con el **linaje taxonómico**
-de cada ASV. Esta es la entrada de MARS.
-
-**Contenido de la tabla.** 15 ASV × 5 muestras. Los ASV 1–12 corresponden a las 12 especies descritas en la
-presentación; los ASV 13–15 representan casos habituales en datos reales que no pueden modelarse.
+Entrada de MARS: **lecturas por variante de secuencia (ASV) y muestra**, con el **linaje taxonómico** de cada ASV.
+ASV 1–12: las 12 especies de las muestras. ASV 13–15: casos que no pueden modelarse.
 """
     )
     raw = load_raw_demo()
     show = raw.copy()
     show.insert(0, 'Especie (resumen)', show['Taxon'].map(_short))
     st.dataframe(show, use_container_width=True, height=330)
-    st.caption('15 ASV × 5 muestras (número de lecturas). La columna «Taxon» contiene el linaje completo, de reino '
-               '(k__) a especie (s__).')
+    st.caption('Número de lecturas. «Taxon»: linaje de reino (k__) a especie (s__).')
 
     rel = raw.drop(columns='Taxon')
     rel.index = raw['Taxon'].map(_short)
@@ -98,30 +93,26 @@ presentación; los ASV 13–15 representan casos habituales en datos reales que 
 
     st.markdown(
         """
-Los tres ASV añadidos no pueden modelarse:
-- **ASV_13** (*Prevotella*) solo está clasificado hasta **género**: no sabemos qué especie es.
-- **ASV_14** es una «bacteria no cultivada» de un grupo de *Lachnospiraceae* sin nombre formal.
-- **ASV_15** (*Candidatus* Fakeibacter intestinalis) no figura en ninguna base de datos de referencia.
+- **ASV_13** (*Prevotella*): clasificado solo hasta género.
+- **ASV_14**: *Lachnospiraceae* no cultivada, sin nombre formal.
+- **ASV_15** (*Candidatus* Fakeibacter intestinalis): sin reconstrucción en ninguna base de datos.
 """
     )
 
     st.subheader('5.2 Ejecución de MARS')
     concepto('Qué hace MARS (Microbial Abundances Retrieved from Sequencing data)',
-             '<ol><li>Estandariza el formato de los linajes y los prefijos taxonómicos.</li>'
-             '<li>Corrige nombres: elimina sufijos de clado, prefijos <i>Candidatus</i>, aplica sinónimos y '
-             'reclasificaciones taxonómicas para coincidir con la nomenclatura de la base de datos.</li>'
-             '<li>Descarta taxones sin resolución de especie y aplica un umbral de abundancia mínima.</li>'
-             '<li>Comprueba qué especies tienen reconstrucción en AGORA2 / APOLLO.</li>'
-             '<li><b>Renormaliza</b> las abundancias de las especies mapeadas para que sumen 1 en cada muestra.</li></ol>')
+             '<ol><li>Armoniza nombres (sinónimos, reclasificaciones, <i>Candidatus</i>).</li>'
+             '<li>Descarta taxones sin especie o por debajo del umbral de abundancia.</li>'
+             '<li>Busca cada especie en AGORA2 / APOLLO.</li>'
+             '<li><b>Renormaliza</b> las especies mapeadas para que sumen 1.</li></ol>')
 
     database = 'AGORA2-APOLLO'
     c1, c2 = st.columns(2)
-    c1.markdown('**Base de datos:** AGORA2-APOLLO (combinación de ambas; opción por defecto y recomendada)')
+    c1.markdown('**Base de datos:** AGORA2-APOLLO')
     cutoff = c2.select_slider('Umbral de abundancia relativa mínima', options=CUTOFFS,
                               value=1e-6, format_func=lambda x: f'{x:.0e}')
     n_rec, n_sp = db_stats()
-    st.caption(f'La base de datos seleccionada contiene {n_rec:,} reconstrucciones '
-               f'({n_sp:,} especies distintas).'.replace(',', '.'))
+    st.caption(f'{n_rec:,} reconstrucciones ({n_sp:,} especies).'.replace(',', '.'))
 
     if st.button('▶ Ejecutar MARS', type='primary'):
         st.session_state['mars_params'] = (database, cutoff)
@@ -153,7 +144,6 @@ Los tres ASV añadidos no pueden modelarse:
         if len(unmapped):
             st.dataframe(unmapped.mean(axis=1).rename('Abundancia media').to_frame().style.format('{:.2%}'),
                          use_container_width=True)
-        st.markdown('*Prevotella* sin especie se descarta antes de la comprobación, por carecer de nivel de especie.')
 
     cm = counts.copy()
     cm.index = taxa['Taxon'].map(species_label)
@@ -167,13 +157,7 @@ Los tres ASV añadidos no pueden modelarse:
 
     st.markdown(
         """
-**Interpretación.** Las especies que permanecen ganan peso relativo tras la renormalización, porque el modelo de
-comunidad solo puede representar lo que tiene reconstrucción. Por ello, **la cobertura del mapeo es un control de
-calidad esencial**: si una fracción importante de la microbiota no se mapea, las predicciones metabólicas
-serán menos representativas.
-
-**Efecto del umbral.** Con el umbral por defecto (1e-6) se conservan las 12 especies. Con 1e-3 se eliminan las
-especies minoritarias (*Eubacterium brachy*, *E. saphenum*) y el resto se renormaliza: un umbral alto reduce el ruido
-a costa de perder especies poco abundantes que pueden ser metabólicamente relevantes.
+- Tras renormalizar, las especies mapeadas ganan peso: **la cobertura del mapeo es un control de calidad**.
+- **Umbral:** con 1e-6 se conservan las 12 especies; con 1e-3 se pierden *E. brachy* y *E. saphenum*.
 """
     )

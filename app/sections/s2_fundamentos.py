@@ -57,40 +57,26 @@ def page():
     st.subheader('2.1 Reconstrucción metabólica y matriz estequiométrica')
     st.markdown(
         """
-Una **reconstrucción metabólica a escala genómica** (GEM, *genome-scale metabolic model*) es una
-lista estructurada de **todas las reacciones bioquímicas** que el genoma de un organismo permite
-realizar, con sus metabolitos, estequiometría y genes asociados. Por ejemplo, una bacteria intestinal
-típica de AGORA2 contiene del orden de 1.000–1.500 reacciones y 900–1.200 metabolitos.
-
-El conjunto de reacciones se representa como una **matriz estequiométrica S**: cada fila es un
-metabolito, cada columna una reacción, y cada celda el coeficiente estequiométrico
-(negativo = consumido, positivo = producido).
+Una **reconstrucción metabólica a escala genómica** (GEM) reúne todas las reacciones que permite el genoma de un
+organismo (≈ 1.000–1.500 en una bacteria intestinal). Se representa como una **matriz estequiométrica S**:
+filas = metabolitos, columnas = reacciones, celdas = coeficientes (negativo = consumo, positivo = producción).
 """
     )
 
     concepto('Modelado basado en restricciones (CBM)',
-             '<p>No conocemos las constantes cinéticas de miles de enzimas, pero sí podemos imponer '
-             '<b>restricciones</b> que cualquier estado metabólico debe cumplir:</p><ol>'
-             '<li><b>Balance de masas en estado estacionario</b>: S·v = 0 (ningún metabolito interno se acumula).</li>'
-             '<li><b>Límites de flujo</b>: lb ≤ v ≤ ub (irreversibilidad termodinámica, capacidad enzimática y '
-             '<b>disponibilidad de nutrientes en la dieta</b>).</li></ol>'
-             '<p>El conjunto de flujos v que cumplen ambas condiciones es el <b>espacio de soluciones</b>. '
-             'El <b>FBA</b> (<i>Flux Balance Analysis</i>) busca, mediante programación lineal, el punto de ese '
-             'espacio que maximiza un objetivo biológico, habitualmente el <b>crecimiento (biomasa)</b>.</p>')
+             '<ol><li><b>Estado estacionario</b>: S·v = 0.</li>'
+             '<li><b>Límites de flujo</b>: lb ≤ v ≤ ub (reversibilidad, capacidad, <b>nutrientes de la dieta</b>).</li></ol>'
+             '<p>El <b>FBA</b> busca, por programación lineal, los flujos que cumplen ambas restricciones y '
+             'maximizan un objetivo, normalmente el <b>crecimiento</b>.</p>')
 
     st.subheader('2.2 Modelo simplificado de una bacteria fermentadora')
     st.markdown(
         """
-El siguiente modelo representa una bacteria ficticia con 9 metabolitos y 13 reacciones. Puede obtener glucosa directamente de la dieta o **hidrolizar fibra** (si posee la enzima).
-La glucosa se convierte en acetil-CoA, que puede destinarse a **crecer** o a **fermentarse**:
+Bacteria ficticia (9 metabolitos, 13 reacciones) que toma glucosa de la dieta o **hidroliza fibra**, y destina el
+acetil-CoA a **crecer** o **fermentar**:
 
-- **Acetato**: rinde más ATP, pero deja NADH sin reoxidar; la célula solo puede deshacerse de ese
-  exceso de poder reductor liberando **H₂**, lo que exige que otros microorganismos
-  (metanógenos, bacterias sulfatorreductoras, acetógenas) **consuman ese H₂**.
-- **Butirato**: rinde menos ATP, pero **reoxida NADH**, por lo que no depende de la eliminación de H₂.
-
-Este compromiso entre rendimiento energético (ATP) y balance redox (NADH) existe en las bacterias intestinales
-y explica, en parte, que la producción de butirato dependa de la comunidad y no solo de una especie.
+- **Acetato**: más ATP, pero libera **H₂**, que otros microorganismos deben consumir.
+- **Butirato**: menos ATP, pero **reoxida NADH** y no depende del H₂.
 """
     )
     with st.expander('Ver la matriz estequiométrica S del modelo de juguete', expanded=False):
@@ -112,9 +98,8 @@ y explica, en parte, que la producción de butirato dependa de la comunidad y no
     m = build_toy(fibra, glc, atpm, enzima, h2)
     sol = m.optimize()
     if sol.status != 'optimal':
-        st.error('El problema es **infactible**: no existe ninguna distribución de flujos que cumpla todas las '
-                 'restricciones (p. ej., la demanda de mantenimiento no puede cubrirse con los nutrientes disponibles). '
-                 'Biológicamente: la bacteria no sobrevive en estas condiciones.')
+        st.error('Problema **infactible**: ninguna distribución de flujos cumple las restricciones; '
+                 'la bacteria no sobrevive en estas condiciones.')
         return
 
     fva = flux_variability_analysis(m, ['EX_ac', 'EX_but'], fraction_of_optimum=0.9)
@@ -147,7 +132,7 @@ y explica, en parte, que la producción de butirato dependa de la comunidad y no
 
     st.markdown(
         """
-**Comportamiento del modelo** (resto de parámetros en sus valores por defecto):
+**Comportamiento del modelo** (resto de parámetros por defecto):
 
 | Cambio | Resultado |
 |---|---|
@@ -157,7 +142,6 @@ y explica, en parte, que la producción de butirato dependa de la comunidad y no
 | Eliminación de H₂ = 0 | Todo el carbono fermentado se secreta como butirato |
 | Mantenimiento = 10 | Menor crecimiento y mayor fermentación |
 
-El rango del FVA muestra que un mismo crecimiento es compatible con cantidades distintas de butirato.
 """
     )
 
@@ -166,13 +150,10 @@ El rango del FVA muestra que un mismo crecimiento es compatible con cantidades d
                                   index=sol.fluxes.index).round(3), use_container_width=True)
 
     concepto('Análisis de variabilidad de flujos (FVA)',
-             '<p>La solución del FBA no suele ser única: muchas distribuciones de flujo alcanzan el mismo '
-             'crecimiento. El <b>FVA</b> calcula, para cada reacción, el <b>mínimo y el máximo</b> flujo posible '
-             'manteniendo el objetivo cerca de su óptimo. Persephone utiliza precisamente el FVA para estimar la '
-             '<b>capacidad máxima de secreción y captación</b> de cada metabolito por la comunidad.</p>')
+             '<p>Muchas distribuciones de flujo alcanzan el mismo crecimiento. El <b>FVA</b> calcula el <b>mínimo y '
+             'el máximo</b> de cada flujo con el objetivo cerca de su óptimo. Persephone lo usa para obtener la '
+             '<b>capacidad máxima de secreción y captación</b> de cada metabolito.</p>')
 
     nutricion('La dieta en el modelo',
-              '<p>Los parámetros «Fibra» y «Glucosa» equivalen a lo que Persephone hace con una dieta real: cada '
-              'componente (unos 90 metabolitos: azúcares, almidón, fibra, aminoácidos, lípidos, vitaminas, minerales) '
-              'fija el <b>límite superior de captación</b> de su reacción de intercambio. Una dieta distinta modifica '
-              'las restricciones y, con ellas, las predicciones.</p>')
+              '<p>«Fibra» y «Glucosa» funcionan como una dieta real: cada componente fija el <b>límite de captación</b> '
+              'de su reacción de intercambio. Otra dieta, otras restricciones, otras predicciones.</p>')

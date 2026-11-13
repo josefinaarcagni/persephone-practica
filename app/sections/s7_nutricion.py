@@ -25,21 +25,15 @@ GROUPS_ALL = {**GROUPS,
 }
 GROUP_OF = {m: g for g, ms in GROUPS_ALL.items() for m in ms}
 DIET_DESC = {
-    'EUAverageDiet': '**Dieta europea media.** Patrón de consumo habitual: pan blanco, carne empanada, patata, '
-                     'lácteos grasos, bollería y bebidas azucaradas o alcohólicas. Es la dieta de referencia con la '
-                     'que se comparan las demás.',
-    'HighFiberDiet': '**Dieta rica en fibra.** Cereales integrales, legumbres (garbanzos, falafel), semillas, setas, '
-                     'verduras y fruta. Respecto a la europea: 1,4 veces más almidón y fibra, 1,4 veces más proteína, '
-                     'una quinta parte de las grasas saturadas y casi sin alcohol.',
-    'HighProteinDiet': '**Dieta hiperproteica.** Atún, pollo, huevos, queso fresco, proteína en polvo y barritas '
-                       'proteicas. Respecto a la europea: 1,8 veces más aminoácidos, menos azúcares (0,6) y grasas '
-                       'saturadas (0,3), y sin alcohol.',
-    'UnhealthyDiet': '**Dieta poco saludable (occidental).** Comida rápida y procesada: pizza, hamburguesa, patatas '
-                     'fritas, embutidos, tarta, batido de helado, refresco y cerveza. Respecto a la europea: 1,7 veces '
-                     'más energía, el doble de proteína, grasas y colesterol, y más alcohol.',
-    'VegetarianDiet': '**Dieta vegetariana.** Muesli, fruta, verduras, risotto, seitán, yogur de soja y algo de '
-                      'lácteos, sin carne ni pescado. Respecto a la europea: 0,7 veces la proteína, un tercio de las '
-                      'grasas saturadas, casi sin colesterol y más polioles y almidón.',
+    'EUAverageDiet': '**Europea media.** Pan blanco, carne empanada, patata, lácteos grasos, bollería, refresco y cerveza. Referencia.',
+    'HighFiberDiet': '**Rica en fibra.** Integrales, legumbres, semillas, setas, verdura y fruta. Frente a la europea: '
+                     'almidón y fibra ×1,4; proteína ×1,4; grasas saturadas ×0,2; casi sin alcohol.',
+    'HighProteinDiet': '**Hiperproteica.** Atún, pollo, huevos, queso fresco y proteína en polvo. Aminoácidos ×1,8; '
+                       'azúcares ×0,6; grasas saturadas ×0,3; sin alcohol.',
+    'UnhealthyDiet': '**Poco saludable.** Pizza, hamburguesa, patatas fritas, embutido, tarta, refresco y cerveza. '
+                     'Energía ×1,7; proteína, grasas y colesterol ×2.',
+    'VegetarianDiet': '**Vegetariana.** Muesli, fruta, verdura, risotto, seitán y yogur de soja. Proteína ×0,7; '
+                      'grasas saturadas ×0,3; casi sin colesterol.',
 }
 FIBRE_DETAIL = {'strch1': 'Almidón', 'starch1200': 'Almidón resistente', 'cellul': 'Celulosa'}
 
@@ -47,13 +41,9 @@ def diet_limits():
     st.subheader('8.4 Componentes de la dieta que limitan la producción')
     st.markdown(
         """
-Para cada individuo y metabolito se ha calculado la **secreción neta máxima** con la dieta europea media, manteniendo
-el crecimiento de la comunidad en su óptimo. Un componente de la dieta es **limitante** si aumentar su cantidad
-aumenta esa secreción máxima (coste reducido distinto de cero en la solución de programación lineal). Para cada
-componente limitante se ha duplicado su cantidad en la dieta y se ha recalculado la secreción. Se consideran\nlimitantes los componentes cuya duplicación aumenta la secreción más de un 1 %.
-
-Si ningún componente es limitante, la capacidad de producción está fijada por la **microbiota** (abundancia de las
-especies productoras y restricciones de acoplamiento), no por la dieta.
+Se calcula la secreción neta máxima con la dieta europea media y se duplica cada componente de la dieta.
+Un componente es **limitante** si duplicarlo aumenta la secreción más de un 1 %. Si ninguno lo es, el límite es
+la **microbiota**.
 """
     )
     lim = load_diet_limits()
@@ -74,15 +64,10 @@ especies productoras y restricciones de acoplamiento), no por la dieta.
 
     st.markdown(
         """
-**Resultados.** Con la dieta europea media, el único metabolito cuya producción está limitada por la dieta es el
-**H₂S**, y lo está por los dos aminoácidos azufrados, **L-cisteína** y **L-metionina**: cada mmol adicional de
-cualquiera de ellos se convierte en 1 mmol más de H₂S en P2, P4 y P5. En **P1** duplicarlos solo añade ≈ 1 mmol/día:
-su microbiota está cerca de su capacidad máxima de producción de H₂S. Esto explica la respuesta lineal del H₂S a la
-proteína en P2, P4 y P5, y la meseta de P1 (apartado 8.5).
-
-El resto de metabolitos, incluido el butirato, está limitado por la **microbiota**: la abundancia de las especies
-productoras o el techo de las restricciones de acoplamiento (≈ 400 mmol/día en acetato, formiato, succinato o
-amonio). Aumentar cualquier componente de la dieta no modifica su producción.
+**Resultados.**
+- **H₂S**: único metabolito limitado por la dieta, por **L-cisteína** y **L-metionina**. Cada mmol adicional da
+  1 mmol más de H₂S en P2, P4 y P5; en P1, solo ≈ 1 mmol/día en total (microbiota cerca de su máximo).
+- **Resto, incluido el butirato**: limitado por la microbiota o por el techo del modelo (≈ 400 mmol/día).
 """
     )
     met = st.selectbox('Metabolito', mets, index=mets.index('h2s') if 'h2s' in mets else 0,
@@ -99,8 +84,7 @@ amonio). Aumentar cualquier componente de la dieta no modifica su producción.
                     labels=dict(color='mmol/día', x='Individuo', y='Componente de la dieta'))
     fig.update_layout(height=120 + 32 * len(piv), margin=dict(l=10, r=10, t=10, b=10))
     st.plotly_chart(fig, use_container_width=True)
-    st.caption(f'Aumento de la secreción neta máxima de {met_label(met)} (mmol/persona/día) al duplicar cada componente '
-               'limitante de la dieta europea media. 0: el componente no es limitante en ese individuo.')
+    st.caption(f'Aumento de la secreción de {met_label(met)} (mmol/persona/día) al duplicar cada componente.')
     with st.expander('Ver la tabla completa'):
         t = sub[['Muestra', 'Componente', 'Cantidad en la dieta', 'Secreción neta máxima', 'Secreción neta con el doble']].copy()
         t['Componente'] = t['Componente'].map(met_label)
@@ -114,11 +98,8 @@ def page():
     st.subheader('8.1 Dietas de referencia')
     st.markdown(
         """
-Se utilizan cinco dietas de referencia. Cada una es el menú de un día (desayuno, comida y cena) formado por
-alimentos concretos en cantidades definidas. El menú se traduce a la **cantidad diaria de unos 90 compuestos**
-(azúcares, almidón, fibra, aminoácidos, ácidos grasos, vitaminas y minerales, en mmol/persona/día), que es lo que
-recibe el modelo de comunidad. Como una parte de la dieta se absorbe en el intestino delgado, la captación por la
-microbiota se limita al 80 % de cada compuesto y se añaden cantidades mínimas de micronutrientes esenciales.
+Cinco dietas, cada una el menú de un día. El modelo recibe su equivalente en **~90 compuestos** (mmol/persona/día).
+La captación por la microbiota se limita al 80 % de cada compuesto, por la absorción en el intestino delgado.
 """
     )
     foods = load_diet_foods()
@@ -174,16 +155,13 @@ microbiota se limita al 80 % de cada compuesto y se añaden cantidades mínimas 
     fig.update_layout(height=max(320, 18 * len(comp) + 120), yaxis_title='', margin=dict(l=10, r=10, t=10, b=10),
                       legend=dict(orientation='h', y=-0.08 if len(comp) > 40 else -0.25))
     st.plotly_chart(fig, use_container_width=True)
-    st.caption(f'{DIETS[dsel]}: {len(comp)} componentes{"" if gsel == "Todos" else " del grupo seleccionado"}, '
-               'eje horizontal en escala logarítmica. El agua se omite.')
+    st.caption(f'{len(comp)} componentes; escala logarítmica; sin agua.')
     with st.expander('Ver la tabla de componentes'):
         st.dataframe(comp.sort_values('Cantidad (mmol/persona/día)', ascending=False).round(3),
                      use_container_width=True, hide_index=True)
 
-    with st.expander('Ver detalle de carbohidratos complejos (sustratos principales de la fermentación colónica)'):
+    with st.expander('Ver carbohidratos complejos'):
         st.dataframe(diets.loc[list(FIBRE_DETAIL)].rename(index=FIBRE_DETAIL).round(2), use_container_width=True)
-        st.caption('Las dietas de referencia representan la fibra principalmente como celulosa y almidón resistente. '
-                   'En análisis más detallados pueden añadirse otras fibras (pectina, inulina, xilano...).')
 
 
     prof = load_profiles()
@@ -207,7 +185,7 @@ microbiota se limita al 80 % de cada compuesto y se añaden cantidades mínimas 
                       legend=dict(orientation='h', y=-0.2))
     st.plotly_chart(fig, use_container_width=True)
 
-    st.markdown('**Visión de conjunto: cambio respecto a la dieta europea media (media de las muestras)**')
+    st.markdown('**Cambio respecto a la dieta europea media** (media de las muestras)')
     sel = [m for m in ['ac', 'ppa', 'but', 'isobut', 'isoval', 'lac_L', 'succ', 'for', 'h2', 'h2s', 'nh4', 'indole',
                        'pcresol', 'phenol', 'etoh'] if m in keys]
     mean = prof[prof['Metabolito'].isin(sel)].groupby(['Metabolito', 'Dieta'])['Secreción'].mean().unstack()
@@ -220,26 +198,17 @@ microbiota se limita al 80 % de cada compuesto y se añaden cantidades mínimas 
                     labels=dict(color='log₂(cambio)'))
     fig.update_layout(height=80 + 32 * len(sel), margin=dict(l=10, r=10, t=10, b=10))
     st.plotly_chart(fig, use_container_width=True)
-    st.caption('Rojo: mayor capacidad de producción que con la dieta europea; azul: menor. log₂ = 1 equivale al doble.')
-    st.caption('Fuente: perfiles NMPC calculados con MgPipe para las muestras P1, P2, P4 y P5 y las 5 dietas de referencia.')
+    st.caption('Rojo: más que con la dieta europea; azul: menos. log₂ = 1: el doble.')
     nutricion('Resultados',
-              '<ul><li><b>Butirato:</b> idéntico con las cinco dietas en cada individuo. Su producción está limitada por la '
-              'abundancia de <i>E. siraeum</i> (bloque 7), no por el sustrato: cambiar la dieta no la modifica.</li>'
-              '<li><b>H₂S:</b> es el metabolito más sensible a la dieta. Aumenta con la dieta poco saludable (hasta ≈ ×2,3) y la '
-              'hiperproteica, y disminuye con la vegetariana (≈ −30 %), en paralelo al aporte de aminoácidos azufrados.</li>'
-              '<li><b>Amonio y succinato</b> varían ligeramente; acetato y lactato permanecen en el techo del modelo.</li>'
-              '<li><b>Isovalerato y p-cresol</b> son prácticamente nulos con todas las dietas: ninguna de las 12 especies '
-              'fermenta aminoácidos ramificados ni aromáticos. El modelo solo predice lo que permiten las reconstrucciones '
-              'presentes.</li></ul>'
-              '<p>Conclusión: en esta comunidad la dieta modula sobre todo los productos de la <b>fermentación proteica</b>, '
-              'mientras que la capacidad de producir AGCC está fijada por la composición de la microbiota.</p>')
+              '<ul><li><b>Butirato:</b> igual con las cinco dietas; lo limita <i>E. siraeum</i>.</li>'
+              '<li><b>H₂S:</b> el más sensible: hasta ×2,3 con la dieta poco saludable, −30 % con la vegetariana.</li>'
+              '<li><b>Acetato y lactato:</b> en el techo del modelo.</li>'
+              '<li><b>Isovalerato y p-cresol:</b> ≈ 0; ninguna especie fermenta aminoácidos ramificados ni aromáticos.</li></ul>')
 
     # ------------------------------------------------------------------ 7.3
     st.subheader('8.3 Variabilidad interindividual de la respuesta')
     concepto('Mejor dieta por individuo',
-             '<p>La tabla muestra, para cada individuo, <b>qué dieta maximiza</b> la capacidad de producir el metabolito '
-             'seleccionado y cuánto aumenta respecto a la dieta europea. Si las mejores dietas difieren entre individuos, '
-             'el modelo sugiere que las recomendaciones dietéticas podrían personalizarse según la microbiota.</p>')
+             '<p>Dieta que maximiza (o minimiza) el metabolito en cada individuo y cambio respecto a la dieta europea.</p>')
     met2 = st.selectbox('Metabolito objetivo', keys, index=keys.index('but') if 'but' in keys else 0,
                         format_func=met_label, key='met_precision')
     goal = st.radio('Objetivo', ['Maximizar (metabolito beneficioso)', 'Minimizar (metabolito perjudicial)'], horizontal=True)
@@ -265,10 +234,7 @@ microbiota se limita al 80 % de cada compuesto y se añaden cantidades mínimas 
     st.subheader('8.5 Simulación de una intervención dietética (dosis–respuesta)')
     st.markdown(
         """
-A partir de la dieta europea media se ha multiplicado la cantidad de **fibra y almidón** (celulosa, almidón,
-almidón resistente) o de **proteína** (los 18 aminoácidos) por un factor entre 0 y 4, manteniendo el resto de
-componentes, y se ha recalculado la capacidad de producción de cada metabolito para cada individuo. Esto equivale a
-un experimento de **dosis–respuesta** *in silico*.
+Dieta europea media con la **fibra y almidón** o la **proteína** (18 aminoácidos) multiplicadas por 0–4.
 """
     )
     iv = load_intervention()
@@ -291,30 +257,18 @@ un experimento de **dosis–respuesta** *in silico*.
         st.plotly_chart(fig, use_container_width=True)
         st.markdown(
             """
-**Lectura de la figura.** Una curva creciente indica que la producción está **limitada por el sustrato** de la dieta;
-una curva plana indica que la comunidad **no puede aprovechar** el aumento (faltan especies o rutas, o el factor
-limitante es otro). Las diferencias de pendiente entre individuos son, de nuevo, respuestas personalizadas.
+Curva creciente: limitada por la dieta. Curva plana: limitada por la microbiota.
 """
         )
         st.markdown(
             """
-**Resultados de la simulación.**
-- **Proteína → H₂S:** respuesta lineal en P2, P4 y P5 (de ≈ 1 mmol/día sin proteína a ≈ 73 con el cuádruple).
-  En **P1** la curva se aplana a partir de ×2 (≈ 23 mmol/día): esa microbiota, dominada por una
-  *Erysipelotrichaceae* que no produce H₂S, tiene pocos productores y alcanza antes su límite. Es un ejemplo claro de
-  cómo un mismo cambio dietético tiene efectos distintos según la microbiota.
-- **Fibra → butirato:** las curvas son planas en todos los individuos. Ninguna de estas comunidades puede convertir
-  más fibra en más butirato, porque su capacidad está limitada por la abundancia de productores. En la práctica, estos
-  individuos serían **«no respondedores»** a una intervención con fibra; la alternativa sería modificar la propia
-  microbiota (p. ej. con probióticos o prebióticos específicos), hipótesis que el modelo permite evaluar.
+**Resultados.**
+- **Proteína → H₂S:** lineal en P2, P4 y P5 (≈ 1 → 73 mmol/día); en P1 se estanca en ≈ 23 a partir de ×2.
+- **Fibra → butirato:** plano en todos: **no respondedores** a una intervención con fibra.
 """
         )
 
-    nutricion('Casos de interés nutricional',
-              '<ul><li><b>Fibra → AGCC.</b> En la literatura, más fibra fermentable suele aumentar acetato, propionato y '
-              'butirato. El modelo matiza esta expectativa: solo ocurre si la microbiota contiene productores suficientes, '
-              'condición que no se cumple en estas muestras.</li>'
-              '<li><b>Proteína → AGCR, amonio, H₂S, fenoles e indoles.</b> El exceso de proteína que llega al colon se fermenta '
-              'a isobutirato, isovalerato, amonio, p-cresol o indol, metabolitos asociados a efectos negativos sobre el epitelio.</li>'
-              '<li><b>Respuesta individual.</b> Aunque la dieta sea idéntica, el resultado depende de qué especies estén presentes: '
-              'el modelo ayuda a identificar «respondedores» y «no respondedores» antes de una intervención.</li></ul>')
+    nutricion('Interpretación nutricional',
+              '<ul><li><b>Fibra → AGCC</b> solo si hay especies productoras suficientes.</li>'
+              '<li><b>Exceso de proteína</b> → H₂S, amonio, AGCR, fenoles e indoles.</li>'
+              '<li>Con la misma dieta, la respuesta depende de la microbiota.</li></ul>')

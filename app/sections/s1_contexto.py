@@ -7,11 +7,8 @@ def page():
     st.subheader('1.1 Función metabólica de la microbiota intestinal')
     st.markdown(
         """
-El colon humano alberga del orden de 10¹³ células bacterianas pertenecientes a cientos de especies.
-Una parte importante de los componentes de la dieta —en particular la **fibra dietética**, el
-**almidón resistente** y las **proteínas no digeridas**— no se absorbe en el intestino delgado y llega
-al colon, donde es fermentada por la microbiota. Como resultado se producen metabolitos con efectos
-directos sobre el hospedador:
+La **fibra**, el **almidón resistente** y la **proteína no digerida** llegan al colon, donde la microbiota los
+fermenta y produce metabolitos con efectos sobre el hospedador:
 """
     )
     c1, c2 = st.columns(2)
@@ -19,33 +16,31 @@ directos sobre el hospedador:
         st.markdown(
             """
 **Metabolitos generalmente beneficiosos**
-- **Butirato**: principal fuente de energía del colonocito; antiinflamatorio; refuerza la barrera intestinal.
-- **Propionato**: sustrato gluconeogénico hepático; implicado en saciedad.
-- **Acetato**: el más abundante; llega a la circulación sistémica.
-- **Vitaminas** del grupo B y K₂.
+- **Butirato**: energía del colonocito; antiinflamatorio.
+- **Propionato**: gluconeogénesis hepática; saciedad.
+- **Acetato**: el más abundante; pasa a la circulación.
+- **Vitaminas** B y K₂.
 """
         )
     with c2:
         st.markdown(
             """
 **Metabolitos potencialmente perjudiciales**
-- **Sulfuro de hidrógeno (H₂S)**: genotóxico en concentraciones elevadas.
-- **Trimetilamina (TMA)**: se oxida en el hígado a **TMAO**, asociado a riesgo cardiovascular.
-- **p-Cresol, fenol, indol, amonio**: productos de la fermentación proteica.
+- **H₂S**: genotóxico a concentraciones elevadas.
+- **TMA** → **TMAO** hepático: riesgo cardiovascular.
+- **p-Cresol, fenol, indol, amonio**: fermentación proteica.
 - **Aminas biógenas** (histamina, putrescina).
 """
         )
 
     nutricion('Relación con la nutrición',
-              '<p>La dieta determina <b>qué sustratos</b> llegan al colon y la microbiota determina <b>cómo se '
-              'transforman</b>. Dos personas con la misma dieta pueden producir cantidades muy distintas de '
-              'butirato si su microbiota difiere; esta variabilidad es la base de la <b>nutrición de precisión</b>.</p>')
+              '<p>La dieta determina <b>qué sustratos</b> llegan al colon; la microbiota, <b>cómo se transforman</b>. '
+              'Con la misma dieta, dos personas pueden producir cantidades muy distintas de butirato.</p>')
 
     st.subheader('1.2 De la composición taxonómica a la función')
     st.markdown(
         """
-La secuenciación del gen 16S rRNA informa de **qué taxones están presentes y en qué proporción**, pero no
-de **qué funciones metabólicas** realizan. Las principales aproximaciones para inferir la función son:
+La secuenciación (16S rRNA o metagenómica) indica **qué taxones hay y en qué proporción**, no **qué hacen**:
 
 | Aproximación | Qué ofrece | Limitación |
 |---|---|---|
@@ -56,7 +51,6 @@ de **qué funciones metabólicas** realizan. Las principales aproximaciones para
     )
 
     concepto('Fundamento de Persephone',
-             '<p>Para cada especie detectada existe una <b>reconstrucción metabólica</b> curada (bases de datos '
-             '<b>AGORA2</b> y <b>APOLLO</b>). Persephone combina las reconstrucciones de las especies presentes en '
-             'cada muestra, ponderadas por su abundancia, en un <b>modelo de comunidad personalizado</b>; le aplica '
-             'una <b>dieta</b> y calcula qué metabolitos puede producir y consumir esa comunidad.</p>')
+             '<p>Persephone combina las <b>reconstrucciones metabólicas</b> (AGORA2, APOLLO) de las especies de cada '
+             'muestra, ponderadas por su abundancia, en un <b>modelo de comunidad</b>; le aplica una <b>dieta</b> y '
+             'calcula qué metabolitos puede producir y consumir.</p>')

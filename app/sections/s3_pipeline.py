@@ -36,45 +36,38 @@ def page():
     with tabs[0]:
         st.markdown(
             """
-**Pregunta:** ¿qué especies de mi muestra tienen un modelo metabólico disponible, y en qué proporción?
+**¿Qué especies tienen modelo metabólico y en qué proporción?**
 
-- **Entradas:** tabla de abundancias (lecturas por taxón y muestra) + asignación taxonómica.
-- **Qué hace:** normaliza nombres (sinónimos, reclasificaciones, prefijos como *Candidatus*), descarta taxones
-  sin resolución de especie, comprueba su presencia en la base de datos elegida y **renormaliza** las
-  abundancias relativas solo con las especies modelables.
-- **Parámetros clave:** base de datos (`AGORA2`, `APOLLO`, `AGORA2-APOLLO`), umbral de abundancia mínima (`cutoff`).
-- **Salidas:** abundancias relativas mapeadas, taxonomía mapeada, métricas de cobertura del mapeo.
+- **Entrada:** lecturas por taxón y muestra, con su taxonomía.
+- **Proceso:** armoniza nombres, descarta taxones sin especie, busca cada especie en la base de datos y
+  **renormaliza** las abundancias con las especies modelables.
+- **Parámetros:** base de datos, umbral de abundancia (`cutoff`).
+- **Salida:** abundancias relativas mapeadas y métricas de cobertura.
 """
         )
     with tabs[1]:
         st.markdown(
             """
-**Pregunta:** ¿qué potencial metabólico tiene la comunidad y qué puede producir con una dieta dada?
+**¿Qué puede producir la comunidad con una dieta dada?**
 
-- **Entradas:** salidas de MARS.
-- **Qué hace:**
-  1. Calcula la **abundancia de cada reacción** y de cada **subsistema** (ruta) en cada muestra.
-  2. Construye un **modelo de comunidad personalizado** por muestra, con compartimentos de dieta,
-     lumen intestinal y heces, y la biomasa de cada especie ponderada por su abundancia.
-  3. (Opcional) Aplica una **dieta** y calcula por FVA la **secreción y captación netas máximas** de cada metabolito
-     (*net maximal production capacity*, NMPC).
-- **Parámetros clave:** dieta, solucionador (`glpk`, `cplex`, `gurobi`), número de hilos.
-- **Salidas:** `rxnAbundance`, `rxnPresence`, `subsAbundance`, modelos por muestra, `netSecretionFluxes`, `netUptakeFluxes`.
+- **Entrada:** salida de MARS.
+- **Proceso:**
+  1. Abundancia de cada **reacción** y **subsistema** por muestra.
+  2. **Modelo de comunidad** por muestra (dieta → lumen → heces; biomasa ponderada por abundancia).
+  3. Con una **dieta**, **secreción y captación netas máximas** de cada metabolito por FVA (NMPC).
+- **Parámetros:** dieta, solucionador.
+- **Salida:** abundancias de reacciones y subsistemas, modelos, perfiles NMPC.
 """
         )
     concepto('Bases de datos de reconstrucciones',
-             '<ul><li><b>AGORA2</b>: 7.302 reconstrucciones curadas de cepas de microorganismos intestinales humanos, '
-             'incluidas capacidades de degradación de fármacos.</li>'
-             '<li><b>APOLLO</b>: reconstrucciones generadas a partir de cientos de miles de genomas ensamblados de '
-             'metagenomas (MAGs) de distintas poblaciones y localizaciones corporales.</li>'
-             '<li>Persephone utiliza <b>pan-modelos</b> por especie (prefijo <code>pan</code>): la unión de las '
-             'reacciones de todas las cepas de una especie, de modo que basta con resolución a nivel de especie.</li></ul>')
+             '<ul><li><b>AGORA2</b>: 7.302 reconstrucciones curadas de cepas intestinales humanas.</li>'
+             '<li><b>APOLLO</b>: reconstrucciones de genomas ensamblados de metagenomas (MAGs).</li>'
+             '<li><b>Pan-modelos</b> (prefijo <code>pan</code>): unión de las reacciones de todas las cepas de una especie.</li></ul>')
 
     st.subheader('Configuración del flujo completo')
     st.markdown(
         """
-El flujo completo se lanza con una única llamada que lee un **fichero de configuración JSON**,
-donde se activan o desactivan los módulos y se fijan sus parámetros. Un extracto ilustrativo:
+El flujo completo se lanza con un **fichero de configuración JSON** que activa los módulos y fija sus parámetros:
 """
     )
     st.code(
@@ -87,5 +80,3 @@ donde se activan o desactivan los módulos y se fijan sus parámetros. Un extrac
   "micro_flagMicro": true,    "micro_computeProfiles": true,
   "results_path": "resultados/"
 }""", language='json')
-    st.caption('Cada clave corresponde a una decisión del análisis: base de datos, dieta, solucionador, módulos '
-               'activados y sus parámetros.')
